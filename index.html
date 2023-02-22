@@ -1,336 +1,1079 @@
 <!DOCTYPE html>
 <html>
 <style>
-table, th, td {
-  border: 1px solid DarkOliveGreen;
-  border-collapse: collapse;
-}
+  table,
+  th,
+  td {
+    border: 1px solid DarkOliveGreen;
+    border-collapse: collapse;
+  }
 
-table.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 </style>
 
 <head>
-<title>102 Etiquetas HTML</title>
+  <title>102 Etiquetas HTML</title>
 </head>
+
 <body>
 
-<table>
-  <tr>
-    <th>No.</th>
-    <th>Nombre</th>
-    <th>Descripcion</th>
-    <th>Ejemplo</th>
-  </tr>
-<tr><td>001	</td>	<td>&lt;P&gt;</td>	<td>sirve para volver un bloque de texto un parrafo.</td>										<td><p>Este es un parrafo de un texto bastante importante, no debes saltarte ninguna linea!</p></td></tr>
-<tr><td>002	</td>	<td>&lt;B&gt;</td>	<td>sirve para mostrar un bloque de texto en negritas</td>										<td><b>Este es un parrafo de un texto bastante importante, no debes saltarte ninguna linea!</b></td></tr>
-<tr><td>003	</td>	<td>&lt;S&gt;</td>	<td>tacha un texto.</td>														<td><s>los libros se encuentran en la cocina</s></td></tr>
-<tr><td>004	</td>	<td>&lt;A&gt;</td>	<td>muestra un enlance con un texto personalizado</td>											<td><a href="https://www.twitter.com">En este sitio hay mucha gente tonta!</a></td></tr>
-<tr><td>005	</td>	<td>&lt;u&gt;</td>	<td>muestra un texto con subrayado</td>													<td><u>esto es importante</u></td></tr>
-<tr><td>006	</td>	<td>&lt;q&gt;</td>	<td>encierra el texto entre comillas</td>												<td><q>No se porque existe si tenemos teclas para esto.</q></td></tr>
-<tr><td>007	</td>	<td>&lt;i&gt;</td>	<td>el texto encerrado en esta etiqueta se mostrara en cursiva</td>									<td><i>la cancion se llamaba te amo</i></td></tr>
-<tr><td>008	</td>	<td>&lt;Small&gt;</td>	<td>el texto encerrado en esta etiqueta se mostrara mas pequeño</td>									<td><small>Este texto es muy timido</small></td></tr>
-<tr><td>009	</td>	<td>&lt;ul&gt;</td>	<td>Muestra una lista desordenada de elementos en formato de texto</td>									<td><ul>  <li>Comida</li>  <li>Bebida</li>  <li>Postre</li> </ul></td></tr>
-<tr><td>010	</td>	<td>&lt;sub&gt;</td>	<td>el texto será un subindice,  se mostrara mas pequeño y un poco mas abajo</td>							<td><p>X<sub>1</sub> y X<sub>2</sub></td></tr>
-<tr><td>011	</td>	<td>&lt;Table&gt;</td>	<td>Formara una tabla simple</td>													<td><table>  <tr>    <th>Materia</th>    <th>creditos</th>    <th>hora</th>  </tr> <tr>    <td>programacion 3</td>    <td>4</td>    <td>08:30</td>  </tr>  <tr>    <td>matematica financiera</td>    <td>5</td>    <td>04:30</td>  </tr>  <tr>   <td>metodologia de la investigacion</td>    <td>3</td>    <td>7:30</td>  </tr> </table></td></tr>
-<tr><td>012	</td>	<td>&lt;td&gt;</td>	<td>es una casilla de una tabla</td>													<td>revisar el ejemplo anterior</td></tr>
-<tr><td>013	</td>	<td>&lt;th&gt;</td>	<td>es una casilla de cabecera en una tabla, por defecto se presentan centralizada y negrita</td>					<td>revisar el ejemplo anterior</td></tr>
-<tr><td>014	</td>	<td>&lt;tr&gt;</td>	<td>define una fila en una tabla</td>													<td>revisar el ejemplo anterior</td></tr>
-<tr><td>015	</td>	<td>&lt;Title&gt;</td>	<td>Decide el titulo de la pagina en los navegadores web</td>										<td><title>Mi tiendita feliz</title></td></tr>
-<tr><td>016	</td>	<td>&lt;!--&gt;</td>	<td>es el equivalente a los comentarios en cualquier otro lenguaje de programacion</td>							<td><!-- Hola compañero programador, espero tenga un buen dia --></td></tr>
-<tr><td>017	</td>	<td>&lt;abbr&gt;</td>	<td>permite abreviar un texto de forma que cuando se coloque el cursor encima del texto diga su significado real</td>			<td><abbr title="Consejo Estatal de Azucar">CEA</abbr></td></tr>
-<tr><td>018	</td>	<td>&lt;article&gt;</td><td>permite seleccionar un texto y convertirlo en un articulo, no tiene muchas diferencias con el &lt;p&gt;</td>			<td><article>Hola mi nombre es gonzalos un gusto</article></td></tr>
-<tr><td>019	</td>	<td>&lt;aside&gt;</td>	<td>el contenido que contenga este bloque será separado del resto de contenido de la pagina</td>					<td><p>Este es un parrafo</p> <aside> Este es un parrafo aislado</aside></td></tr>
-<tr><td>020	</td>	<td>&lt;Canvas&gt;</td>	<td>por medio de un script de java permite generar un rectangulo de un color especifico con transparencia donde colocar imagenes</td>	<td><canvas id="myCanvas">Your browser does not support the canvas tag.</canvas> <script> var c = document.getElementById("myCanvas"); var ctx = c.getContext("2d"); ctx.fillStyle = "#FFa177"; ctx.fillRect(00, 20, 80, 100); </script></td></tr>
-<tr><td>021	</td>	<td>&lt;footer&gt;</td>	<td>determina una seccion de pie de pagina</td>												<td><footer>  <p>Esta pagina es patrocinada por claro</p></footer></td></tr>
-<tr><td>022	</td>	<td>&lt;html&gt;</td>	<td>Es la etiqueta que es la raiz de la pagina web</td>											<td><html lang="en"> <p>Texto</p> </html></td></tr>
-<tr><td>023	</td>	<td>&lt;sup&gt;</td>	<td>el texto sera un superindice de forma que se posicionara por encima del texto</td>							<td><p>X<sup>22</sup>  + X<sup>3</sup></td></tr> 
-<tr><td>024	</td>	<td>&lt;svg&gt;</td>	<td>dibujara un vector con los parametros indicados, forma, color, borde, etc…</td>							<td><svg width="300" height="300"> <rect x="50" y="20" rx="20" ry="20" width="150" height="150" style="fill:green;stroke:blue;stroke-width:5;opacity:0.7"/></svg></td></tr>
-<tr><td>025	</td>	<td>&lt;wbr&gt;</td>	<td>a veces el ordenador corta una palabra cuando es muy larga, con este comando se podria evitar</td>					<td><p>Quiero ir a un doctor pero no se a cual, le pregunte a mi padre y me dijo que deberia de ir al <wbr>otorrinonaringologo</p></td></tr>
-<tr><td>026	</td>	<td>&lt;button&gt;</td>	<td>crea un boton y usando javascript se realiza una funcion</td>									<td><button type="button" onclick="alert('Eres un rebelde')">No me toques!</button></td></tr>
-<tr><td>027	</td>	<td>&lt;caption&gt;</td><td>crea una descripción de la tabla.</td>												<td><table>
-  <caption>Ahorros mensuales</caption>
-  <tr>    <th>mes</th>    <th>cantidad</th>  </tr>
-  <tr>    <td>octubre</td>   <td>$100</td>  </tr>
-  <tr>    <td>noviembre</td>    <td>$50</td>  </tr>
-</table></td></tr>
-<tr><td>028	</td>	<td>&lt;col&gt;</td>	<td>determina el color de fondo de las tablas</td>											<td><table>  <colgroup>  <col span="1" style="background-color:BlanchedAlmond"> <col style="background-color:LightSteelBlue">  <col style="background-color:LightSteelBlue">  </colgroup>
-  <tr>    <th>Mes</th> <td>abril</td> <td>mayo</td> </tr>
-  <tr>    <th>cantidad</th> <td>30</td> <td>55</td></tr> </table></td></tr>
-<tr><td>029	</td>	<td>&lt;ol&gt;</td>	<td>crea una lista contada</td>														<td><ol>  <li>Tomate</li>  <li>Lechuga</li>  <li>Aguacate</li> </ol></td></tr>
-<tr><td>030	</td>	<td>&lt;pre&gt;</td>	<td>Muestra un texto con un formato determinado fijo el cual se presentará sin saltos de linea</td>					<td><pre>No doubt the feat was easy to Mr. Utterson; for he was undemonstrative at the best, and even his friendship seemed to be founded in a similar catholicity of good-nature. It is the mark of a modest man to accept his friendly circle ready-made from the hands of opportunity; and that was the lawyer's way. </pre></td></tr>
-<tr><td>031	</td>	<td>&lt;BR&gt;</td>	<td>fuerza un salto de linea</td>													<td><p>aqui la frase<br> estaria completa<br> pero <br> se salta<br> por el comando br</p></td></tr>
-<tr><td>032	</td>	<td>&lt;mark&gt;</td>	<td>Marca una parte de un texto</td>													<td><p>la palabra clave es <mark>Rosa</mark> entendido?.</p></td></tr>
-<tr><td>033	</td>	<td>&lt;Strong&gt;</td>	<td>hace el texto encerrado en esta etiqueta tener un tamaño ligeramente mas grande y en negrita</td>					<td><p><strong>Noticia de ultimo minuto!</strong></p></td></tr>
-<tr><td>034	</td>	<td>&lt;del&gt;</td>	<td>marca un texto por la mitad para marcar que ha sido borrado</td>									<td><p>quiero jugo de <del>pera</del>!</p></td></tr>
-<tr><td>035	</td>	<td>&lt;ins&gt;</td>	<td>coloca un texto con un subrayado para inferir que ha sido agregado</td>								<td><p>quiero jugo de <del>pera</del> <ins>manzana</ins>!</p></td></tr>
-<tr><td>036	</td>	<td>&lt;input&gt;</td>	<td>Crea una peticion al usuario para introducir datos</td>										<td><form action="/action_page.php">
-  <label for="fname">Digite su edad:</label>
-  <input type="text" id="edad" name="edad"><br><br>
-  <input type="submit" value="Submit">
-</form></td></tr>
-<tr><td>037	</td>	<td>&lt;img&gt;</td>		<td>Inserta una imagen</td>													<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdT9Bv1_8TwQBwcM5bPOYud4ChHPdRxW-85-iaf9_x9_SjmVVYwmbs8yu3tnf4uyNglRk&usqp=CAU" alt="Aqui hay un sombrero"></td></tr>
-<tr><td>038	</td>	<td>&lt;span&gt;</td>		<td>sirve para dar formato a la parte de un texto</td>										<td><p> mi animal favorito es la <span style="color:ForestGreen;font-weight:bold">rana arborea</span>.</p></td></tr>
-<tr><td>039	</td>	<td>&lt;em&gt;</td>		<td>sirve para hacer una parte de un texto mas importante, mostrandolo en cursiva</td>						<td><p>Matilda necesito que me des un <em>abrazo</em> antes de irme</p></td></tr>
-<tr><td>040	</td>	<td>&lt;embed&gt;</td>		<td>sirve para colocar un recurso externo, ya sea un programa, reproductor multimedia, imagen, video.</td>			<td><embed type="image/jpg" src="https://us.123rf.com/450wm/alesika/alesika2008/alesika200800022/153783385-.jpg?ver=6" width="300" height="200"></td></tr>
-<tr><td>041	</td>	<td>&lt;output&gt;</td>		<td>Muestra los resultados de algun calculo</td>										<td><p>Calcula la multiplicacion de dos numeros</p>   <form oninput="res.value=parseInt(a.value)*parseInt(b.value);">  
-    <label>primer numero</label><br>     <input type="number" name="a" value=""/><br>      *    <br/>  
-    <label>segundo numero</label><br>       <input type="number" name="b" value=""><br>      =   <br>  
-    la salida es:<output name="res"></output>   </form></td></tr>
-<tr><td>042	</td>	<td>&lt;param&gt;</td>		<td>decide el parametro para un objeto</td>											<td><object data="https://www.youtube.com/embed/J---aiyznGQ">
-<param name="controller" value="true">
-</object></td></tr>
+  <table>
+    <tr>
+      <th>No.</th>
+      <th>Nombre</th>
+      <th>Descripcion</th>
+      <th>Ejemplo</th>
+    </tr>
+    <tr>
+      <td>001 </td>
+      <td>&lt;P&gt;</td>
+      <td>sirve para volver un bloque de texto un parrafo.</td>
+      <td>
+        <p>Este es un parrafo de un texto bastante importante, no debes saltarte ninguna linea!</p>
+      </td>
+    </tr>
+    <tr>
+      <td>002 </td>
+      <td>&lt;B&gt;</td>
+      <td>sirve para mostrar un bloque de texto en negritas</td>
+      <td><b>Este es un parrafo de un texto bastante importante, no debes saltarte ninguna linea!</b></td>
+    </tr>
+    <tr>
+      <td>003 </td>
+      <td>&lt;S&gt;</td>
+      <td>tacha un texto.</td>
+      <td><s>los libros se encuentran en la cocina</s></td>
+    </tr>
+    <tr>
+      <td>004 </td>
+      <td>&lt;A&gt;</td>
+      <td>muestra un enlance con un texto personalizado</td>
+      <td><a href="https://www.twitter.com">En este sitio hay mucha gente tonta!</a></td>
+    </tr>
+    <tr>
+      <td>005 </td>
+      <td>&lt;u&gt;</td>
+      <td>muestra un texto con subrayado</td>
+      <td><u>esto es importante</u></td>
+    </tr>
+    <tr>
+      <td>006 </td>
+      <td>&lt;q&gt;</td>
+      <td>encierra el texto entre comillas</td>
+      <td><q>No se porque existe si tenemos teclas para esto.</q></td>
+    </tr>
+    <tr>
+      <td>007 </td>
+      <td>&lt;i&gt;</td>
+      <td>el texto encerrado en esta etiqueta se mostrara en cursiva</td>
+      <td><i>la cancion se llamaba te amo</i></td>
+    </tr>
+    <tr>
+      <td>008 </td>
+      <td>&lt;Small&gt;</td>
+      <td>el texto encerrado en esta etiqueta se mostrara mas pequeño</td>
+      <td><small>Este texto es muy timido</small></td>
+    </tr>
+    <tr>
+      <td>009 </td>
+      <td>&lt;ul&gt;</td>
+      <td>Muestra una lista desordenada de elementos en formato de texto</td>
+      <td>
+        <ul>
+          <li>Comida</li>
+          <li>Bebida</li>
+          <li>Postre</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>010 </td>
+      <td>&lt;sub&gt;</td>
+      <td>el texto será un subindice, se mostrara mas pequeño y un poco mas abajo</td>
+      <td>
+        <p>X<sub>1</sub> y X<sub>2</sub>
+      </td>
+    </tr>
+    <tr>
+      <td>011 </td>
+      <td>&lt;Table&gt;</td>
+      <td>Formara una tabla simple</td>
+      <td>
+        <table>
+          <tr>
+            <th>Materia</th>
+            <th>creditos</th>
+            <th>hora</th>
+          </tr>
+          <tr>
+            <td>programacion 3</td>
+            <td>4</td>
+            <td>08:30</td>
+          </tr>
+          <tr>
+            <td>matematica financiera</td>
+            <td>5</td>
+            <td>04:30</td>
+          </tr>
+          <tr>
+            <td>metodologia de la investigacion</td>
+            <td>3</td>
+            <td>7:30</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>012 </td>
+      <td>&lt;td&gt;</td>
+      <td>es una casilla de una tabla</td>
+      <td>revisar el ejemplo anterior</td>
+    </tr>
+    <tr>
+      <td>013 </td>
+      <td>&lt;th&gt;</td>
+      <td>es una casilla de cabecera en una tabla, por defecto se presentan centralizada y negrita</td>
+      <td>revisar el ejemplo anterior</td>
+    </tr>
+    <tr>
+      <td>014 </td>
+      <td>&lt;tr&gt;</td>
+      <td>define una fila en una tabla</td>
+      <td>revisar el ejemplo anterior</td>
+    </tr>
+    <tr>
+      <td>015 </td>
+      <td>&lt;Title&gt;</td>
+      <td>Decide el titulo de la pagina en los navegadores web</td>
+      <td>
+        <title>Mi tiendita feliz</title>
+      </td>
+    </tr>
+    <tr>
+      <td>016 </td>
+      <td>&lt;!--&gt;</td>
+      <td>es el equivalente a los comentarios en cualquier otro lenguaje de programacion</td>
+      <td>
+        <!-- Hola compañero programador, espero tenga un buen dia -->
+      </td>
+    </tr>
+    <tr>
+      <td>017 </td>
+      <td>&lt;abbr&gt;</td>
+      <td>permite abreviar un texto de forma que cuando se coloque el cursor encima del texto diga su significado real
+      </td>
+      <td><abbr title="Consejo Estatal de Azucar">CEA</abbr></td>
+    </tr>
+    <tr>
+      <td>018 </td>
+      <td>&lt;article&gt;</td>
+      <td>permite seleccionar un texto y convertirlo en un articulo, no tiene muchas diferencias con el &lt;p&gt;</td>
+      <td>
+        <article>Hola mi nombre es gonzalos un gusto</article>
+      </td>
+    </tr>
+    <tr>
+      <td>019 </td>
+      <td>&lt;aside&gt;</td>
+      <td>el contenido que contenga este bloque será separado del resto de contenido de la pagina</td>
+      <td>
+        <p>Este es un parrafo</p>
+        <aside> Este es un parrafo aislado</aside>
+      </td>
+    </tr>
+    <tr>
+      <td>020 </td>
+      <td>&lt;Canvas&gt;</td>
+      <td>por medio de un script de java permite generar un rectangulo de un color especifico con transparencia donde
+        colocar imagenes</td>
+      <td><canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+        <script> var c = document.getElementById("myCanvas"); var ctx = c.getContext("2d"); ctx.fillStyle = "#FFa177"; ctx.fillRect(00, 20, 80, 100); </script>
+      </td>
+    </tr>
+    <tr>
+      <td>021 </td>
+      <td>&lt;footer&gt;</td>
+      <td>determina una seccion de pie de pagina</td>
+      <td>
+        <footer>
+          <p>Esta pagina es patrocinada por claro</p>
+        </footer>
+      </td>
+    </tr>
+    <tr>
+      <td>022 </td>
+      <td>&lt;html&gt;</td>
+      <td>Es la etiqueta que es la raiz de la pagina web</td>
+      <td>
+        <html lang="en">
+        <p>Texto</p>
 
-<tr><td>043	</td>	<td>&lt;progress&gt;</td>	<td>Representa el progreso de una tarea</td>											<td><progress></progress>  </td></tr>
-<tr><td>044	</td>	<td>&lt;label&gt;</td>		<td>crea una seccion donde se puede introducir datos</td>									<td><label for=""Nombre"">   
-Nombre</label> <input type=""text"" id=""Nombre"" name=""el nombre"" placeholder= ""Nombre"" size=""20"" required /></td></tr>
-<tr><td>045	</td>	<td>&lt;kbd&gt;</td>		<td>marca un texto para señalar que con el teclado se puede realizar una accion determinada</td>				<td><p>Presione <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar (Windows).</p></td></tr>
-<tr><td>046	</td>	<td>&lt;bdo&gt;</td>		<td>cambia la direccion del texto</td>												<td><p>Si esto fuera un palindromo se pudiera leer al reves</p>  
-<p><bdo dir=""rtl"">Si esto fuera un palindromo se pudiera leer al reves</bdo></p>"</td></tr>
-<tr><td>047	</td>	<td>&lt;bdi&gt;</td>		<td>separa un elemento del texto para evitar que se cambie</td>									<td><p>El Usuario <bdi>إيان</bdi> dijo: cenaremos ensalada</p></td></tr>
-<tr><td>048	</td>	<td>&lt;code&gt;</td>		<td>Señala una pieza de codigo dandole un  formato especifico</td>								<td><p>En C++ <code>"cout << "hola mundo"; "</code> muestra como salida: "hola mundo"</p></td></tr>
-<tr><td>049	</td>	<td>&lt;cite&gt;</td>		<td>Señala el nombre de una pieza de contenido mostrandola en cursiva</td>							<td>"<img src=""img_the_scream.jpg"" width=""220"" height=""277"" alt=""The Scream""></td></tr>
-<p><cite>El grito</cite> de Edward Munch. 1893.</p>"</td></tr>
-<tr><td>050	</td>	<td>&lt;hr&gt;</td>		<td>crea una linea con fin de separar un texto de otro</td>									<td><p>Hola soy Elena</p></td>    <hr><p>Quiero que llegue el verano</p></td></tr>
-<tr><td>051	</td>	<td>&lt;address&gt;</td>	<td>determina informacion de contacto</td>											<td><address> Avenida abraham lincoln, calle Simon bolivar </address></td></tr>
-<tr><td>052	</td>	<td>&lt;area&gt;</td>		<td>sirve para colocar contenido dentro de una imagen por medio de clicks</td>							<td><img src=""workplace.jpg"" alt=""Workplace"" usemap=""#workmap"" width=""400"" height=""379"">
-<map name=""workmap"">
-  <area shape=""rect"" coords=""34,44,270,350"" alt=""Computer"" href=""computer.htm"">
-  <area shape=""rect"" coords=""290,172,333,250"" alt=""Phone"" href=""phone.htm"">
-  <area shape=""circle"" coords=""337,300,44"" alt=""Cup of coffee"" href=""coffee.htm"">   </map></td></tr>
-<tr><td>053	</td>	<td>&lt;base&gt;</td>		<td>Indica cual es el url base que contiene los contenidos de una pagina web</td>						<td><base href="https://www.w3schools.com/" target="_blank"></td></tr>
-<tr><td>054	</td>	<td>&lt;blockquote&gt;</td>	<td>aparta un texto para señalar que es una cita</td>										<td><blockquote cite=""https://es.wikipedia.org/wiki/Aleatoriedad"">
-En tiempos históricos, la contraposición entre libre albedrío y determinismo ha sido una cuestión ampliamente discutida en la filosofía y la teología desde hace milenios, y documentada desde muy antiguamente en numerosas culturas.</blockquote></td></tr>
-<tr><td>055	</td>	<td>&lt;body&gt;</td>		<td>contiene todo el contenido de una pagina web</td>										<td><body>  <p>Aqui puede haber de todo.</p></body></td></tr>
-<tr><td>056	</td>	<td>&lt;colgroup&gt;</td>	<td>determina un grupo de una o mas columnas de una tabla para ponerles un mismo color</td>					<td><colgroup>    <col span="2" style="background-color:LightCoral">
-    <col style=""background-color:yellow"">   </colgroup>"</td></tr></td></tr>
-<tr><td>057	</td>	<td>&lt;data&gt;</td>		<td>agrega informacion leida por maquina al mismo tiempo que es leida por humanos</td>						<td><p>La cajera necesita el codigo de los productos:</p>
-<ul>  <li><data value=""21053"">Tomate Cherry</data></li>
-  <li><data value=""21054"">Papitas </data></li>
-  <li><data value=""21055"">Pan de leche</data></li> </ul></td></tr>
-<tr><td>058	</td>	<td>&lt;datalist&gt;</td>	<td>provee de una lista predeterminada de opciones que el usuario puede introducir</td>						<td><form action=""/action_page.php"" method=""get"">
-  <label for=""Color"">Choose your browser from the list:</label>
-  <input list=""Colores"" name=""Color"" id=""Color"">  <datalist id=""Colores"">
-    <option value=""Rojo"">    <option value=""Azul"">    <option value=""Verde"">    <option value=""Amarillo"">    <option value=""Naranja"">
-  </datalist>  <input type=""submit"">   </form></td></tr>
-<tr><td>059	</td>	<td>&lt;dd&gt;</td>		<td>Sirve para describir un elemento de una lista</td>										<td><dl>  <dt>Computadora de escritorio</dt>
-  <dd>Potente aunque algo pesada</dd>
-  <dt>Laptop</dt>
-  <dd>No es tan potente pero puedes llevarla a todos lados</dd>   </dl></td></tr>
-<tr><td>060	</td>	<td>&lt;details&gt;</td>	<td>crea una flecha que al hacer click despliega un trozo de texto o contenido</td>						<td><details>  <summary>Una foto mia</summary>
-  <p>no quiero mostrarla soy timida - dijo lucy.</p>   </details></td></tr>
-<tr><td>061	</td>	<td>&lt;dfn&gt;</td>		<td>Especifica un termino que sera definido a traves del contenido de la pagina</td>						<td><p><dfn>HTML</dfn> Es un lenguaje de etiquetado de paginas web.</p></td></tr>
-<tr><td>062	</td>	<td>&lt;dialog&gt;</td>		<td>Crea una caja de dialogo</td>												<td><dialog open>Aqui pondré la publicidad</dialog></td></tr>
-<tr><td>063	</td>	<td>&lt;div&gt;</td>		<td>Determina una seccion de division en la pagina web</td>									<td><div>  <h2>Esta es una seccion</h2> </div>
-  <p>esta es otra seccion</p></td></tr>
-<tr><td>064	</td>	<td>&lt;dl&gt;</td>		<td>Es solo una lista descriptiva</td>												<td><dl>  <dt>Computadora de escritorio</dt>
-  <dd>Potente aunque algo pesada</dd>
-  <dt>Laptop</dt>
-  <dd>No es tan potente pero puedes llevarla a todos lados</dd>   </dl></td></tr>
-<tr><td>065	</td>	<td>&lt;dt&gt;</td>		<td>describe el nombre de un elemento de la lista</td>										<td><dl>  <dt>Computadora de escritorio</dt>
-  <dd>Potente aunque algo pesada</dd>
-  <dt>Laptop</dt>
-  <dd>No es tan potente pero puedes llevarla a todos lados</dd>   </dl></td></tr>
-<tr><td>066	</td>	<td>&lt;fieldset&gt;</td>	<td>agrupa elementos de un formulario</td>											<td><fieldset>
-  <legend>Informacion personal:</legend>
-  <label for=""minombre"">nombre:</label>
-  <input type=""text"" id=""minombre"" name=""minombre""><br><br>
-  <input type=""submit"" value=""Submit"">
- </fieldset></td></tr>
-<tr><td>067	</td>	<td>&lt;form&gt;</td>	<td>sirve para crear una forma de introduccion de datos para el usuario</td>								<td><form action=""/action_page.php""> <fieldset> 
-  <legend>Informacion personal:</legend>
-  <label for=""minombre"">nombre:</label>
-  <input type=""text"" id=""minombre"" name=""minombre""><br><br>
-  <input type=""submit"" value=""Submit"">
- </fieldset></form></td></tr>
-<tr><td>068	</td>	<td>&lt;h1&gt; A &lt;h6&gt;</td>	<td>Son diferentes formas de crear encabezados mientras mas grandes mas pequeños son</td>				<td><h1>Bienvenidos estudiantes</h1>
-<h2>a este nuevo semestre</h2></td></tr>
-<tr><td>069	</td>	<td>&lt;head&gt;</td>	<td>es un contenedor de metadata y se coloca dentro de la etiqueta html</td>								<td><html lang=""en""> <head>
-  <title>Nombre de la pagina web</title>
-</head> </html></td></tr>
-<tr><td>070	</td>	<td>&lt;header&gt;</td>	<td>sirve como contenedor de contenido que se quiere mostrar al entrar a la pagina web</td>						<td><header>     <h1>Bienvenidos estudiantes</h1>
-    <p>a este nuevo semestre</p>  </header></td></tr>
-<tr><td>071	</td>	<td>&lt;iframe&gt;</td>	<td>sirve para introducir otro documento a la pagina actual</td>									<td><iframe src=""https://www.w3schools.com"" title=""W3Schools Free Online Web Tutorials"">
-</iframe></td></tr>
-<tr><td>072	</td>	<td>&lt;li&gt;</td>	<td>crea un elemento de una lista</td>													<td><p>lista de compras</p>
-<ol>  <li>tomates</li>   </ol></td></tr>
-<tr><td>073	</td>	<td>&lt;link&gt;</td>	<td>determina la relacion entre el documento actual y una fuente externa</td>								<td><link rel="stylesheet" href="styles.css"></td></tr>
-<tr><td>074	</td>	<td>&lt;main&gt;</td>	<td>Es el equivalente al main de otros lenguajes de programacion</td>									<td><main>  <h1>Hola Mundo</h1> </main></td></tr>
-<tr><td>075	</td>	<td>&lt;map&gt;</td>	<td>asigna elementos que pueden ser clickeados en una imagen.</td>									<td><map name=""workmap""><img src=""workplace.jpg"" alt=""Workplace"" usemap=""#workmap"" width=""400"" height=""379"">
-<map name=""workmap"">
-  <area shape=""rect"" coords=""34,44,270,350"" alt=""Computer"" href=""computer.htm"">
-  <area shape=""rect"" coords=""290,172,333,250"" alt=""Phone"" href=""phone.htm"">
-  <area shape=""circle"" coords=""337,300,44"" alt=""Cup of coffee"" href=""coffee.htm"">
-</map>
-  <area shape=""rect"" coords=""34,44,270,350"" alt=""Computer"" href=""computer.htm"">
-  <area shape=""rect"" coords=""290,172,333,250"" alt=""Phone"" href=""phone.htm"">
-  <area shape=""circle"" coords=""337,300,44"" alt=""Cup of coffee"" href=""coffee.htm"">
-</map></td></tr>
-<tr><td>076	</td>	<td>&lt;meta&gt;</td>	<td>define la metadata del sitio</td>													<td><meta charset=""UTF-8"">
-  <meta name=""description"" content=""Free Web tutorials"">
-  <meta name=""keywords"" content=""HTML,CSS,XML,JavaScript"">
-  <meta name=""author"" content=""John Doe"">
-  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""></td></tr>
-<tr><td>077	</td>	<td>&lt;meter&gt;</td>	<td>permite mostrar una barra de carga que se rellena con el dato en funcion de un intervalo</td>					<td><label for=""disk_d"">cuanto tiempo ha pasado en este año</label>
-<meter id=""disk_d"" value=""59"" min=""1"" max=""365"">59 dias</meter>"
-<tr><td>078	</td>	<td>&lt;nav&gt;</td>	<td>define un conjunto de enlances de navegacion</td>											<td><nav>
-<a href=""https://uasd.edu.do/"">UASD</a>
-</nav>"
-<tr><td>079	</td>	<td>&lt;noscript&gt;</td>	<td>Define el contenido que se mostrara en caso de que el usuario no pueda usar scripts</td>					<td><noscript>Lo lamentamos :( no podemos ayudarle!</noscript>
-<tr><td>080	</td>	<td>&lt;object&gt;</td>		<td>define un contenedor para una fuente externa</td>										<td><object data="https://upload.wikimedia.org/wikipedia/commons/d/d4/American-Automobile-Association-Logo.svg" width="300" height="200"></object>
-<tr><td>081	</td>	<td>&lt;optgroup&gt;</td>	<td>sirve para agrupar opciones</td>												<td><label for=""bebida"">Elija una bebida</label>
-  <select name=""bebida"" id=""bebida"">
-    <optgroup label=""alcohol"">
-      <option value=""Cerveza"">Cerveza</option>
-      <option value=""Whiskey"">Whiskey</option>
-    </optgroup>
-    <optgroup label=""dulce"">
-      <option value=""Jugo"">Jugo</option>
-      <option value=""Refresco"">Refresco</option>
-    </optgroup>
-  </select>"
-<tr><td>082	</td>	<td>&lt;option&gt;</td>		<td>define una opcion de una lista</td>												<td><select id=""bebibdas"">
-  <option value=""agua"">agua</option>
-  <option value=""cerveza"">cerveza</option>
-  <option value=""jugo"">jugo</option>
-  <option value=""refresco"">refresco</option>
-</select>"
-<tr><td>083	</td>	<td>&lt;picture&gt;</td>	<td>permite usar imágenes de formas mas variadas</td>										<td><picture>
-  <source media=""(min-width:650px)"" srcset=""img_pink_flowers.jpg"">
-  <source media=""(min-width:465px)"" srcset=""img_white_flower.jpg"">
-  <img src=""img_orange_flowers.jpg"" alt=""Flowers"" style=""width:auto;"">
-</picture>"
-<tr><td>084	</td>	<td>&lt;rp&gt;</td>	<td>sirve para mostrar caracteres ruby</td>												<td><ruby>
-漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
-</ruby>"
-<tr><td>085	</td>	<td>&lt;samp&gt;</td>	<td>muestra una salida de prueba de un programa</td>											<td><p><samp>File not found.<br>Press F1 to continue</samp></p>
-<tr><td>086	</td>	<td>&lt;script&gt;</td>	<td>es usado para introducir elementos programados en java</td>										<td><script>    document.getElementById("demo").innerHTML = "Hello JavaScript!";    </script> 
-<tr><td>087	</td>	<td>&lt;source&gt;</td>	<td>sirve para recurrir a elementos multimedia que se encuentren en el servidor</td>							<td><audio controls>
-  <source src=""horse.ogg"" type=""audio/ogg"">
-  <source src=""horse.mp3"" type=""audio/mpeg"">
-  Your browser does not support the audio element.
-</audio>"
-<tr><td>088	</td>	<td>&lt;style&gt;</td>	<td>sirve para decorar ciertos elementos y aspectos del sitio web</td>									<td><style>
-h1 {color:brown;}
-p {color:green;}
-</style>
-</head>
-<body>
+        </html>
+      </td>
+    </tr>
+    <tr>
+      <td>023 </td>
+      <td>&lt;sup&gt;</td>
+      <td>el texto sera un superindice de forma que se posicionara por encima del texto</td>
+      <td>
+        <p>X<sup>22</sup> + X<sup>3</sup>
+      </td>
+    </tr>
+    <tr>
+      <td>024 </td>
+      <td>&lt;svg&gt;</td>
+      <td>dibujara un vector con los parametros indicados, forma, color, borde, etc…</td>
+      <td><svg width="300" height="300">
+          <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+            style="fill:green;stroke:blue;stroke-width:5;opacity:0.7" />
+        </svg></td>
+    </tr>
+    <tr>
+      <td>025 </td>
+      <td>&lt;wbr&gt;</td>
+      <td>a veces el ordenador corta una palabra cuando es muy larga, con este comando se podria evitar</td>
+      <td>
+        <p>Quiero ir a un doctor pero no se a cual, le pregunte a mi padre y me dijo que deberia de ir al <wbr>otorrinonaringologo
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>026 </td>
+      <td>&lt;button&gt;</td>
+      <td>crea un boton y usando javascript se realiza una funcion</td>
+      <td><button type="button" onclick="alert('Eres un rebelde')">No me toques!</button></td>
+    </tr>
+    <tr>
+      <td>027 </td>
+      <td>&lt;caption&gt;</td>
+      <td>crea una descripción de la tabla.</td>
+      <td>
+        <table>
+          <caption>Ahorros mensuales</caption>
+          <tr>
+            <th>mes</th>
+            <th>cantidad</th>
+          </tr>
+          <tr>
+            <td>octubre</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>noviembre</td>
+            <td>$50</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>028 </td>
+      <td>&lt;col&gt;</td>
+      <td>determina el color de fondo de las tablas</td>
+      <td>
+        <table>
+          <colgroup>
+            <col span="1" style="background-color:BlanchedAlmond">
+            <col style="background-color:LightSteelBlue">
+            <col style="background-color:LightSteelBlue">
+          </colgroup>
+          <tr>
+            <th>Mes</th>
+            <td>abril</td>
+            <td>mayo</td>
+          </tr>
+          <tr>
+            <th>cantidad</th>
+            <td>30</td>
+            <td>55</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>029 </td>
+      <td>&lt;ol&gt;</td>
+      <td>crea una lista contada</td>
+      <td>
+        <ol>
+          <li>Tomate</li>
+          <li>Lechuga</li>
+          <li>Aguacate</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>030 </td>
+      <td>&lt;pre&gt;</td>
+      <td>Muestra un texto con un formato determinado fijo el cual se presentará sin saltos de linea</td>
+      <td>
+        <pre>No doubt the feat was easy to Mr. Utterson; for he was undemonstrative at the best, and even his friendship seemed to be founded in a similar catholicity of good-nature. It is the mark of a modest man to accept his friendly circle ready-made from the hands of opportunity; and that was the lawyer's way. </pre>
+      </td>
+    </tr>
+    <tr>
+      <td>031 </td>
+      <td>&lt;BR&gt;</td>
+      <td>fuerza un salto de linea</td>
+      <td>
+        <p>aqui la frase<br> estaria completa<br> pero <br> se salta<br> por el comando br</p>
+      </td>
+    </tr>
+    <tr>
+      <td>032 </td>
+      <td>&lt;mark&gt;</td>
+      <td>Marca una parte de un texto</td>
+      <td>
+        <p>la palabra clave es <mark>Rosa</mark> entendido?.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>033 </td>
+      <td>&lt;Strong&gt;</td>
+      <td>hace el texto encerrado en esta etiqueta tener un tamaño ligeramente mas grande y en negrita</td>
+      <td>
+        <p><strong>Noticia de ultimo minuto!</strong></p>
+      </td>
+    </tr>
+    <tr>
+      <td>034 </td>
+      <td>&lt;del&gt;</td>
+      <td>marca un texto por la mitad para marcar que ha sido borrado</td>
+      <td>
+        <p>quiero jugo de <del>pera</del>!</p>
+      </td>
+    </tr>
+    <tr>
+      <td>035 </td>
+      <td>&lt;ins&gt;</td>
+      <td>coloca un texto con un subrayado para inferir que ha sido agregado</td>
+      <td>
+        <p>quiero jugo de <del>pera</del> <ins>manzana</ins>!</p>
+      </td>
+    </tr>
+    <tr>
+      <td>036 </td>
+      <td>&lt;input&gt;</td>
+      <td>Crea una peticion al usuario para introducir datos</td>
+      <td>
+        <form action="/action_page.php">
+          <label for="fname">Digite su edad:</label>
+          <input type="text" id="edad" name="edad"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td>037 </td>
+      <td>&lt;img&gt;</td>
+      <td>Inserta una imagen</td>
+      <td><img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdT9Bv1_8TwQBwcM5bPOYud4ChHPdRxW-85-iaf9_x9_SjmVVYwmbs8yu3tnf4uyNglRk&usqp=CAU"
+          alt="Aqui hay un sombrero"></td>
+    </tr>
+    <tr>
+      <td>038 </td>
+      <td>&lt;span&gt;</td>
+      <td>sirve para dar formato a la parte de un texto</td>
+      <td>
+        <p> mi animal favorito es la <span style="color:ForestGreen;font-weight:bold">rana arborea</span>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>039 </td>
+      <td>&lt;em&gt;</td>
+      <td>sirve para hacer una parte de un texto mas importante, mostrandolo en cursiva</td>
+      <td>
+        <p>Matilda necesito que me des un <em>abrazo</em> antes de irme</p>
+      </td>
+    </tr>
+    <tr>
+      <td>040 </td>
+      <td>&lt;embed&gt;</td>
+      <td>sirve para colocar un recurso externo, ya sea un programa, reproductor multimedia, imagen, video.</td>
+      <td><embed type="image/jpg"
+          src="https://us.123rf.com/450wm/alesika/alesika2008/alesika200800022/153783385-.jpg?ver=6" width="300"
+          height="200"></td>
+    </tr>
+    <tr>
+      <td>041 </td>
+      <td>&lt;output&gt;</td>
+      <td>Muestra los resultados de algun calculo</td>
+      <td>
+        <p>Calcula la multiplicacion de dos numeros</p>
+        <form oninput="res.value=parseInt(a.value)*parseInt(b.value);">
+          <label>primer numero</label><br> <input type="number" name="a" value="" /><br> * <br />
+          <label>segundo numero</label><br> <input type="number" name="b" value=""><br> = <br>
+          la salida es:<output name="res"></output>
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td>042 </td>
+      <td>&lt;param&gt;</td>
+      <td>decide el parametro para un objeto</td>
+      <td><object data="https://www.youtube.com/embed/J---aiyznGQ">
+          <param name="controller" value="true">
+        </object></td>
+    </tr>
 
-<h1>Encabezado</h1>
-<p>parrafo</p>
+    <tr>
+      <td>043 </td>
+      <td>&lt;progress&gt;</td>
+      <td>Representa el progreso de una tarea</td>
+      <td><progress></progress> </td>
+    </tr>
+    <tr>
+      <td>044 </td>
+      <td>&lt;label&gt;</td>
+      <td>crea una seccion donde se puede introducir datos</td>
+      <td><label for="" Nombre"">
+          Nombre</label> <input type="" text"" id="" Nombre"" name="" el nombre"" placeholder="" Nombre"" size="" 20""
+          required /></td>
+    </tr>
+    <tr>
+      <td>045 </td>
+      <td>&lt;kbd&gt;</td>
+      <td>marca un texto para señalar que con el teclado se puede realizar una accion determinada</td>
+      <td>
+        <p>Presione <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar (Windows).</p>
+      </td>
+    </tr>
+    <tr>
+      <td>046 </td>
+      <td>&lt;bdo&gt;</td>
+      <td>cambia la direccion del texto</td>
+      <td>
+        <p>Si esto fuera un palindromo se pudiera leer al reves</p>
+        <p><bdo dir="" rtl"">Si esto fuera un palindromo se pudiera leer al reves</bdo></p>"
+      </td>
+    </tr>
+    <tr>
+      <td>047 </td>
+      <td>&lt;bdi&gt;</td>
+      <td>separa un elemento del texto para evitar que se cambie</td>
+      <td>
+        <p>El Usuario <bdi>إيان</bdi> dijo: cenaremos ensalada</p>
+      </td>
+    </tr>
+    <tr>
+      <td>048 </td>
+      <td>&lt;code&gt;</td>
+      <td>Señala una pieza de codigo dandole un formato especifico</td>
+      <td>
+        <p>En C++ <code>"cout << "hola mundo"; "</code> muestra como salida: "hola mundo"</p>
+      </td>
+    </tr>
+    <tr>
+      <td>049 </td>
+      <td>&lt;cite&gt;</td>
+      <td>Señala el nombre de una pieza de contenido mostrandola en cursiva</td>
+      <td>"<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream"></td>
+    </tr>
+    <p><cite>El grito</cite> de Edward Munch. 1893.</p>"</td>
+    </tr>
+    <tr>
+      <td>050 </td>
+      <td>&lt;hr&gt;</td>
+      <td>crea una linea con fin de separar un texto de otro</td>
+      <td>
+        <p>Hola soy Elena</p>
+      </td>
+      <hr>
+      <p>Quiero que llegue el verano</p>
+      </td>
+    </tr>
+    <tr>
+      <td>051 </td>
+      <td>&lt;address&gt;</td>
+      <td>determina informacion de contacto</td>
+      <td>
+        <address> Avenida abraham lincoln, calle Simon bolivar </address>
+      </td>
+    </tr>
+    <tr>
+      <td>052 </td>
+      <td>&lt;area&gt;</td>
+      <td>sirve para colocar contenido dentro de una imagen por medio de clicks</td>
+      <td><img src="workplace.jpg" alt=" Workplace" usemap="#workmap" width="400" height="379">
+        <map name=" workmap">
+          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+          <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+          <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"> </map>
+      </td>
+    </tr>
+    <tr>
+      <td>053 </td>
+      <td>&lt;base&gt;</td>
+      <td>Indica cual es el url base que contiene los contenidos de una pagina web</td>
+      <td>
+        <base href="https://www.w3schools.com/" target="_blank">
+      </td>
+    </tr>
+    <tr>
+      <td>054 </td>
+      <td>&lt;blockquote&gt;</td>
+      <td>aparta un texto para señalar que es una cita</td>
+      <td>
+        <blockquote cite=" https://es.wikipedia.org/wiki/Aleatoriedad">
+          En tiempos históricos, la contraposición entre libre albedrío y determinismo ha sido una cuestión ampliamente
+          discutida en la filosofía y la teología desde hace milenios, y documentada desde muy antiguamente en numerosas
+          culturas.</blockquote>
+      </td>
+    </tr>
+    <tr>
+      <td>055 </td>
+      <td>&lt;body&gt;</td>
+      <td>contiene todo el contenido de una pagina web</td>
+      <td>
 
-</body>"
-<tr><td>089	</td>	<td>&lt;summary&gt;</td>	<td>Demuestra un texto que resume o sirve de encabezado de otro</td>								<td><details>
-  <summary>Tomate</summary>
-  <p>El tomate o jitomate es el fruto de la planta Solanum lycopersicum, el cual tiene importancia culinaria y es utilizado como verdura.</p>
-</details>
-<tr><td>090	</td>	<td>&lt;tbody&gt;</td>		<td>agrupa el contenido central de una tabla</td>										<td><table>
-  <thead>
-    <tr>
-      <th>Comida</th>
-      <th>Costo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Camarones al ajillo</td>
-      <td>$1000</td>
+        <body>
+          <p>Aqui puede haber de todo.</p>
+        </body>
+      </td>
     </tr>
     <tr>
-      <td>Tostones</td>
-      <td>$200</td>
+      <td>056 </td>
+      <td>&lt;colgroup&gt;</td>
+      <td>determina un grupo de una o mas columnas de una tabla para ponerles un mismo color</td>
+      <td>
+        <colgroup>
+          <col span="2" style="background-color:LightCoral">
+          <col style="background-color:yellow">
+        </colgroup>"
+      </td>
     </tr>
-  </tbody>
-  <tfoot>
+    </td>
+    </tr>
     <tr>
-      <td>total</td>
-      <td>$1200</td>
+      <td>057 </td>
+      <td>&lt;data&gt;</td>
+      <td>agrega informacion leida por maquina al mismo tiempo que es leida por humanos</td>
+      <td>
+        <p>La cajera necesita el codigo de los productos:</p>
+        <ul>
+          <li><data value="" 21053"">Tomate Cherry</data></li>
+          <li><data value="" 21054"">Papitas </data></li>
+          <li><data value="" 21055"">Pan de leche</data></li>
+        </ul>
+      </td>
     </tr>
-  </tfoot>
-</table>"
-<tr><td>091	</td>	<td>&lt;template&gt;</td>	<td>siirve para mantener oculto ciertos elementos de la pagina mientras esta carga</td>						<td><template>
-  <h2>Flower</h2>
-  <img src=""img_white_flower.jpg"" width=""214"" height=""204"">
-</template>
-<tr><td>092	</td>	<td>&lt;textarea&gt;</td>	<td>es un area donde se puede escribir un texto de multiples lineas</td>							<td><textarea id=""123"" name=""inserte texto"" rows=""5"" cols=""50"">
+    <tr>
+      <td>058 </td>
+      <td>&lt;datalist&gt;</td>
+      <td>provee de una lista predeterminada de opciones que el usuario puede introducir</td>
+      <td>
+        <form action="/action_page.php" method="get">
+          <label for="Color">Choose your browser from the list:</label>
+          <input list="Colores" name="Color" id="Color"> <datalist id="Colores">
+            <option value="Rojo">
+            <option value="Azul">
+            <option value="Verde">
+            <option value="Amarillo">
+            <option value="Naranja">
+          </datalist> <input type="submit">
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td>059 </td>
+      <td>&lt;dd&gt;</td>
+      <td>Sirve para describir un elemento de una lista</td>
+      <td>
+        <dl>
+          <dt>Computadora de escritorio</dt>
+          <dd>Potente aunque algo pesada</dd>
+          <dt>Laptop</dt>
+          <dd>No es tan potente pero puedes llevarla a todos lados</dd>
+        </dl>
+      </td>
+    </tr>
+    <tr>
+      <td>060 </td>
+      <td>&lt;details&gt;</td>
+      <td>crea una flecha que al hacer click despliega un trozo de texto o contenido</td>
+      <td>
+        <details>
+          <summary>Una foto mia</summary>
+          <p>no quiero mostrarla soy timida - dijo lucy.</p>
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td>061 </td>
+      <td>&lt;dfn&gt;</td>
+      <td>Especifica un termino que sera definido a traves del contenido de la pagina</td>
+      <td>
+        <p><dfn>HTML</dfn> Es un lenguaje de etiquetado de paginas web.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>062 </td>
+      <td>&lt;dialog&gt;</td>
+      <td>Crea una caja de dialogo</td>
+      <td>
+        <dialog open>Aqui pondré la publicidad</dialog>
+      </td>
+    </tr>
+    <tr>
+      <td>063 </td>
+      <td>&lt;div&gt;</td>
+      <td>Determina una seccion de division en la pagina web</td>
+      <td>
+        <div>
+          <h2>Esta es una seccion</h2>
+        </div>
+        <p>esta es otra seccion</p>
+      </td>
+    </tr>
+    <tr>
+      <td>064 </td>
+      <td>&lt;dl&gt;</td>
+      <td>Es solo una lista descriptiva</td>
+      <td>
+        <dl>
+          <dt>Computadora de escritorio</dt>
+          <dd>Potente aunque algo pesada</dd>
+          <dt>Laptop</dt>
+          <dd>No es tan potente pero puedes llevarla a todos lados</dd>
+        </dl>
+      </td>
+    </tr>
+    <tr>
+      <td>065 </td>
+      <td>&lt;dt&gt;</td>
+      <td>describe el nombre de un elemento de la lista</td>
+      <td>
+        <dl>
+          <dt>Computadora de escritorio</dt>
+          <dd>Potente aunque algo pesada</dd>
+          <dt>Laptop</dt>
+          <dd>No es tan potente pero puedes llevarla a todos lados</dd>
+        </dl>
+      </td>
+    </tr>
+    <tr>
+      <td>066 </td>
+      <td>&lt;fieldset&gt;</td>
+      <td>agrupa elementos de un formulario</td>
+      <td>
+        <fieldset>
+          <legend>Informacion personal:</legend>
+          <label for="" minombre"">nombre:</label>
+          <input type="" text"" id="" minombre"" name="" minombre""><br><br>
+          <input type="" submit"" value="" Submit"">
+        </fieldset>
+      </td>
+    </tr>
+    <tr>
+      <td>067 </td>
+      <td>&lt;form&gt;</td>
+      <td>sirve para crear una forma de introduccion de datos para el usuario</td>
+      <td>
+        <form action="" /action_page.php"">
+          <fieldset>
+            <legend>Informacion personal:</legend>
+            <label for="" minombre"">nombre:</label>
+            <input type="" text"" id="" minombre"" name="" minombre""><br><br>
+            <input type="" submit"" value="" Submit"">
+          </fieldset>
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td>068 </td>
+      <td>&lt;h1&gt; A &lt;h6&gt;</td>
+      <td>Son diferentes formas de crear encabezados mientras mas grandes mas pequeños son</td>
+      <td>
+        <h1>Bienvenidos estudiantes</h1>
+        <h2>a este nuevo semestre</h2>
+      </td>
+    </tr>
+    <tr>
+      <td>069 </td>
+      <td>&lt;head&gt;</td>
+      <td>es un contenedor de metadata y se coloca dentro de la etiqueta html</td>
+      <td>
+        <html lang="" en"">
+
+        <head>
+          <title>Nombre de la pagina web</title>
+        </head>
+
+        </html>
+      </td>
+    </tr>
+    <tr>
+      <td>070 </td>
+      <td>&lt;header&gt;</td>
+      <td>sirve como contenedor de contenido que se quiere mostrar al entrar a la pagina web</td>
+      <td>
+        <header>
+          <h1>Bienvenidos estudiantes</h1>
+          <p>a este nuevo semestre</p>
+        </header>
+      </td>
+    </tr>
+    <tr>
+      <td>071 </td>
+      <td>&lt;iframe&gt;</td>
+      <td>sirve para introducir otro documento a la pagina actual</td>
+      <td><iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+        </iframe></td>
+    </tr>
+    <tr>
+      <td>072 </td>
+      <td>&lt;li&gt;</td>
+      <td>crea un elemento de una lista</td>
+      <td>
+        <p>lista de compras</p>
+        <ol>
+          <li>tomates</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>073 </td>
+      <td>&lt;link&gt;</td>
+      <td>determina la relacion entre el documento actual y una fuente externa</td>
+      <td>
+        <link rel="stylesheet" href="styles.css">
+      </td>
+    </tr>
+    <tr>
+      <td>074 </td>
+      <td>&lt;main&gt;</td>
+      <td>Es el equivalente al main de otros lenguajes de programacion</td>
+      <td>
+        <main>
+          <h1>Hola Mundo</h1>
+        </main>
+      </td>
+    </tr>
+    <tr>
+      <td>075 </td>
+      <td>&lt;map&gt;</td>
+      <td>asigna elementos que pueden ser clickeados en una imagen.</td>
+      <td><map name="" workmap""><img src="" workplace.jpg"" alt="" Workplace"" usemap="" #workmap"" width="" 400""
+            height="" 379"">
+          <map name="" workmap"">
+            <area shape="" rect"" coords="" 34,44,270,350"" alt="" Computer"" href="" computer.htm"">
+            <area shape="" rect"" coords="" 290,172,333,250"" alt="" Phone"" href="" phone.htm"">
+            <area shape="" circle"" coords="" 337,300,44"" alt="" Cup of coffee"" href="" coffee.htm"">
+          </map>
+          <area shape="" rect"" coords="" 34,44,270,350"" alt="" Computer"" href="" computer.htm"">
+          <area shape="" rect"" coords="" 290,172,333,250"" alt="" Phone"" href="" phone.htm"">
+          <area shape="" circle"" coords="" 337,300,44"" alt="" Cup of coffee"" href="" coffee.htm"">
+        </map></td>
+    </tr>
+    <tr>
+      <td>076 </td>
+      <td>&lt;meta&gt;</td>
+      <td>define la metadata del sitio</td>
+      <td>
+        <meta charset="" UTF-8"">
+        <meta name="" description"" content="" Free Web tutorials"">
+        <meta name="" keywords"" content="" HTML,CSS,XML,JavaScript"">
+        <meta name="" author"" content="" John Doe"">
+        <meta name="" viewport"" content="" width=device-width, initial-scale=1.0"">
+      </td>
+    </tr>
+    <tr>
+      <td>077 </td>
+      <td>&lt;meter&gt;</td>
+      <td>permite mostrar una barra de carga que se rellena con el dato en funcion de un intervalo</td>
+      <td><label for="" disk_d"">cuanto tiempo ha pasado en este año</label>
+        <meter id="" disk_d"" value="" 59"" min="" 1"" max="" 365"">59 dias</meter>"
+    <tr>
+      <td>078 </td>
+      <td>&lt;nav&gt;</td>
+      <td>define un conjunto de enlances de navegacion</td>
+      <td>
+        <nav>
+          <a href="" https://uasd.edu.do/"">UASD</a>
+        </nav>"
+    <tr>
+      <td>079 </td>
+      <td>&lt;noscript&gt;</td>
+      <td>Define el contenido que se mostrara en caso de que el usuario no pueda usar scripts</td>
+      <td><noscript>Lo lamentamos :( no podemos ayudarle!</noscript>
+    <tr>
+      <td>080 </td>
+      <td>&lt;object&gt;</td>
+      <td>define un contenedor para una fuente externa</td>
+      <td><object data="https://upload.wikimedia.org/wikipedia/commons/d/d4/American-Automobile-Association-Logo.svg"
+          width="300" height="200"></object>
+    <tr>
+      <td>081 </td>
+      <td>&lt;optgroup&gt;</td>
+      <td>sirve para agrupar opciones</td>
+      <td><label for="" bebida"">Elija una bebida</label>
+        <select name="" bebida"" id="" bebida"">
+          <optgroup label="" alcohol"">
+            <option value="" Cerveza"">Cerveza</option>
+            <option value="" Whiskey"">Whiskey</option>
+          </optgroup>
+          <optgroup label="" dulce"">
+            <option value="" Jugo"">Jugo</option>
+            <option value="" Refresco"">Refresco</option>
+          </optgroup>
+        </select>"
+    <tr>
+      <td>082 </td>
+      <td>&lt;option&gt;</td>
+      <td>define una opcion de una lista</td>
+      <td><select id="" bebibdas"">
+          <option value="" agua"">agua</option>
+          <option value="" cerveza"">cerveza</option>
+          <option value="" jugo"">jugo</option>
+          <option value="" refresco"">refresco</option>
+        </select>"
+    <tr>
+      <td>083 </td>
+      <td>&lt;picture&gt;</td>
+      <td>permite usar imágenes de formas mas variadas</td>
+      <td>
+        <picture>
+          <source media="" (min-width:650px)"" srcset="" img_pink_flowers.jpg"">
+          <source media="" (min-width:465px)"" srcset="" img_white_flower.jpg"">
+          <img src="" img_orange_flowers.jpg"" alt="" Flowers"" style="" width:auto;"">
+        </picture>"
+    <tr>
+      <td>084 </td>
+      <td>&lt;rp&gt;</td>
+      <td>sirve para mostrar caracteres ruby</td>
+      <td><ruby>
+          漢 <rp>(</rp>
+          <rt>ㄏㄢˋ</rt>
+          <rp>)</rp>
+        </ruby>"
+    <tr>
+      <td>085 </td>
+      <td>&lt;samp&gt;</td>
+      <td>muestra una salida de prueba de un programa</td>
+      <td>
+        <p><samp>File not found.<br>Press F1 to continue</samp></p>
+    <tr>
+      <td>086 </td>
+      <td>&lt;script&gt;</td>
+      <td>es usado para introducir elementos programados en java</td>
+      <td>
+        <script>    document.getElementById("demo").innerHTML = "Hello JavaScript!";    </script>
+    <tr>
+      <td>087 </td>
+      <td>&lt;source&gt;</td>
+      <td>sirve para recurrir a elementos multimedia que se encuentren en el servidor</td>
+      <td><audio controls>
+          <source src="" horse.ogg"" type="" audio/ogg"">
+          <source src="" horse.mp3"" type="" audio/mpeg"">
+          Your browser does not support the audio element.
+        </audio>"
+    <tr>
+      <td>088 </td>
+      <td>&lt;style&gt;</td>
+      <td>sirve para decorar ciertos elementos y aspectos del sitio web</td>
+      <td>
+        <style>
+          h1 {
+            color: brown;
+          }
+
+          p {
+            color: green;
+          }
+        </style>
+        </head>
+
+        <body>
+
+          <h1>Encabezado</h1>
+          <p>parrafo</p>
+
+        </body>"
+    <tr>
+      <td>089 </td>
+      <td>&lt;summary&gt;</td>
+      <td>Demuestra un texto que resume o sirve de encabezado de otro</td>
+      <td>
+        <details>
+          <summary>Tomate</summary>
+          <p>El tomate o jitomate es el fruto de la planta Solanum lycopersicum, el cual tiene importancia culinaria y
+            es utilizado como verdura.</p>
+        </details>
+    <tr>
+      <td>090 </td>
+      <td>&lt;tbody&gt;</td>
+      <td>agrupa el contenido central de una tabla</td>
+      <td>
+        <table>
+          <thead>
+            <tr>
+              <th>Comida</th>
+              <th>Costo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Camarones al ajillo</td>
+              <td>$1000</td>
+            </tr>
+            <tr>
+              <td>Tostones</td>
+              <td>$200</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>total</td>
+              <td>$1200</td>
+            </tr>
+          </tfoot>
+        </table>"
+    <tr>
+      <td>091 </td>
+      <td>&lt;template&gt;</td>
+      <td>siirve para mantener oculto ciertos elementos de la pagina mientras esta carga</td>
+      <td><template>
+          <h2>Flower</h2>
+          <img src="" img_white_flower.jpg"" width="" 214"" height="" 204"">
+        </template>
+    <tr>
+      <td>092 </td>
+      <td>&lt;textarea&gt;</td>
+      <td>es un area donde se puede escribir un texto de multiples lineas</td>
+      <td><textarea id="" 123"" name="" inserte texto"" rows="" 5"" cols="" 50"">
   texto por defecto
   </textarea>"
-<tr><td>093	</td>	<td>&lt;tfoot&gt;</td>	<td>Define el contenido que pertenece al pie/fondo de una tabla</td>									<td><table>
-  <thead>
     <tr>
-      <th>Comida</th>
-      <th>Costo</th>
-    </tr>
-  </thead>
-  <tbody>
+      <td>093 </td>
+      <td>&lt;tfoot&gt;</td>
+      <td>Define el contenido que pertenece al pie/fondo de una tabla</td>
+      <td>
+        <table>
+          <thead>
+            <tr>
+              <th>Comida</th>
+              <th>Costo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Camarones al ajillo</td>
+              <td>$1000</td>
+            </tr>
+            <tr>
+              <td>Tostones</td>
+              <td>$200</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>total</td>
+              <td>$1200</td>
+            </tr>
+          </tfoot>
+        </table>
     <tr>
-      <td>Camarones al ajillo</td>
-      <td>$1000</td>
+      <td>094 </td>
+      <td>&lt;thead&gt;</td>
+      <td>agrupa el encabezado de una tabla</td>
+      <td>
+        <table>
+          <thead>
+            <tr>
+              <th>Comida</th>
+              <th>Costo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Camarones al ajillo</td>
+              <td>$1000</td>
+            </tr>
+            <tr>
+              <td>Tostones</td>
+              <td>$200</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>total</td>
+              <td>$1200</td>
+            </tr>a
+          </tfoot>
+        </table>
+      </td>
     </tr>
     <tr>
-      <td>Tostones</td>
-      <td>$200</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td>total</td>
-      <td>$1200</td>
-    </tr>
-  </tfoot>
-</table>
-<tr><td>094	</td>	<td>&lt;thead&gt;</td>	<td>agrupa el encabezado de una tabla</td>												<td><table>
-  <thead>
-    <tr>
-      <th>Comida</th>
-      <th>Costo</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Camarones al ajillo</td>
-      <td>$1000</td>
+      <td>095 </td>
+      <td>&lt;time&gt;</td>
+      <td>Define una hora especifica</td>
+      <td>
+        <p>el trabajo empieza a las <time>09:00</time> y termina a las <time>17:00</time> todos los dias.</p>
+      </td>
     </tr>
     <tr>
-      <td>Tostones</td>
-      <td>$200</td>
+      <td>096 </td>
+      <td>&lt;track&gt;</td>
+      <td>sirve para colocar texto en un archivo de audio o video -pueden ser letras o subtitulo</td>
+      <td><video width="" 320"" height="" 240"" controls></td>
     </tr>
-  </tbody>
-  <tfoot>
+    <source src="" forrest_gump.mp4"" type="" video/mp4"">
+    <source src="" forrest_gump.ogg"" type="" video/ogg"">
+    <track src="" fgsubtitles_en.vtt"" kind="" subtitles"" srclang="" en"" label="" English"">
+    <track src="" fgsubtitles_no.vtt"" kind="" subtitles"" srclang="" no"" label="" Norwegian"">
+    </video>
     <tr>
-      <td>total</td>
-      <td>$1200</td>
+      <td>097 </td>
+      <td>&lt;var&gt;</td>
+      <td>sirve para denotar una variable ya sea logica o matematica, su texto aparecera en cursiva</td>
+      <td>
+        <p><var>X</var> + <var>Y</var> = <var>Z</var></p>
+      </td>
     </tr>
-  </tfoot>
-</table></td></tr>
-<tr><td>095	</td>	<td>&lt;time&gt;</td>	<td>Define una hora especifica</td>													<td><p>el trabajo empieza a las <time>09:00</time> y termina a las <time>17:00</time> todos los dias.</p></td></tr>
-<tr><td>096	</td>	<td>&lt;track&gt;</td>	<td>sirve para colocar texto en un archivo de audio o video -pueden ser letras o subtitulo</td>						<td><video width=""320"" height=""240"" controls></td></tr>
-  <source src=""forrest_gump.mp4"" type=""video/mp4"">
-  <source src=""forrest_gump.ogg"" type=""video/ogg"">
-  <track src=""fgsubtitles_en.vtt"" kind=""subtitles"" srclang=""en"" label=""English"">
-  <track src=""fgsubtitles_no.vtt"" kind=""subtitles"" srclang=""no"" label=""Norwegian"">
-</video>
-<tr><td>097	</td>	<td>&lt;var&gt;</td>	<td>sirve para denotar una variable ya sea logica o matematica, su texto aparecera en cursiva</td>					<td><p><var>X</var> + <var>Y</var> = <var>Z</var></p></td></tr>
-<tr><td>098	</td>	<td>&lt;video&gt;</td>	<td>sirve para colocar un video en una pagina siguiendo las mismas reglas que una imagen</td>						<td><video width=""320"" height=""240"" controls></td></tr>
-  <source src=""movie.mp4"" type=""video/mp4"">
-</video>
-<tr><td>099	</td>	<td>&lt;section&gt;</td>	<td>determina una seccion para la pagina</td>											<td><section>   <p>aqui deberia poner citas de algo pero estoy cansado </p>   </section></td></tr>
-<tr><td>100	</td>	<td>&lt;select&gt;</td>	<td>crea una lista desplegable</td>													<td><form action=""/action_page.php"">
-  <label for=""frutas"">elija una fruta :</label>  <select name=""frutas"" id=""frutas"">
-    <option value=""tomate"">tomate</option>    <option value=""guayaba"">guayaba</option>
-    <option value=""piña"">piña</option>    <option value=""manzana"">manzana</option>
-  </select>  <br><br>
-  <input type=""submit"" value=""Submit"">   </form></td></tr>
+    <tr>
+      <td>098 </td>
+      <td>&lt;video&gt;</td>
+      <td>sirve para colocar un video en una pagina siguiendo las mismas reglas que una imagen</td>
+      <td><video width="" 320"" height="" 240"" controls></td>
+    </tr>
+    <source src="" movie.mp4"" type="" video/mp4"">
+    </video>
+    <tr>
+      <td>099 </td>
+      <td>&lt;section&gt;</td>
+      <td>determina una seccion para la pagina</td>
+      <td>
+        <section>
+          <p>aqui deberia poner citas de algo pero estoy cansado </p>
+        </section>
+      </td>
+    </tr>
+    <tr>
+      <td>100 </td>
+      <td>&lt;select&gt;</td>
+      <td>crea una lista desplegable</td>
+      <td>
+        <form action="" /action_page.php"">
+          <label for="" frutas"">elija una fruta :</label> <select name="" frutas"" id="" frutas"">
+            <option value="" tomate"">tomate</option>
+            <option value="" guayaba"">guayaba</option>
+            <option value="" piña"">piña</option>
+            <option value="" manzana"">manzana</option>
+          </select> <br><br>
+          <input type="" submit"" value="" Submit"">
+        </form>
+      </td>
+    </tr>
 
-</table>
+  </table>
 </body>
-</html>
 
+</html>
