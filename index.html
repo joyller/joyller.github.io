@@ -1,23 +1,6 @@
 <!DOCTYPE html>
 <html>
 <style>
-  table,
-  th,
-  td {
-    border: 1px solid DarkOliveGreen;
-    border-collapse: collapse;
-  }
-
-  table.center {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 </style>
 
 <head>
@@ -363,7 +346,7 @@
       <td>&lt;input&gt;</td>
       <td>Crea una peticion al usuario para introducir datos</td>
       <td>
-        <form action="/action_page.php">
+        <form action="">
           <label for="fname">Digite su edad:</label>
           <input type="text" id="edad" name="edad"><br><br>
           <input type="submit" value="Submit">
@@ -374,16 +357,15 @@
       <td>037 </td>
       <td>&lt;img&gt;</td>
       <td>Inserta una imagen</td>
-      <td><img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdT9Bv1_8TwQBwcM5bPOYud4ChHPdRxW-85-iaf9_x9_SjmVVYwmbs8yu3tnf4uyNglRk&usqp=CAU"
-          alt="Aqui hay un sombrero"></td>
+      <td><img src="images/sombrero.jpg" alt="mi sombrero">
+      </td>
     </tr>
     <tr>
       <td>038 </td>
       <td>&lt;span&gt;</td>
       <td>sirve para dar formato a la parte de un texto</td>
       <td>
-        <p> mi animal favorito es la <span style="color:ForestGreen;font-weight:bold">rana arborea</span>.</p>
+        <p> mi animal favorito es la <span style="color:rgb(59, 141, 110);font-weight:bold">rana arborea</span>.</p>
       </td>
     </tr>
     <tr>
@@ -435,8 +417,7 @@
       <td>&lt;label&gt;</td>
       <td>crea una seccion donde se puede introducir datos</td>
       <td><label for="Nombre">
-          Nombre</label> <input type="text" id="Nombre" name="el nombre" placeholder="Nombre" size="20"
-          required /></td>
+          Nombre</label> <input type="text" id="Nombre" name="el nombre" placeholder="Nombre" size="20" required /></td>
     </tr>
     <tr>
       <td>045 </td>
@@ -475,19 +456,20 @@
       <td>049 </td>
       <td>&lt;cite&gt;</td>
       <td>Señala el nombre de una pieza de contenido mostrandola en cursiva</td>
-      <td><img src="img_the_scream.jpg" width="220" height="277" alt="The Scream"></td>
+      <td><img src="img/img_the_scream.jpg" width="220" height="277" alt="The Scream"></td>
     </tr>
-    <p><cite>El grito</cite> de Edward Munch. 1893.</p></td>
+    <p><cite>El grito</cite> de Edward Munch. 1893./// arreglar</p>
+    </td>
     </tr>
     <tr>
       <td>050 </td>
       <td>&lt;hr&gt;</td>
       <td>crea una linea con fin de separar un texto de otro</td>
       <td>
-        <p>Hola soy Elena</p>
+        <p>Hola soy Elena /// arreglar</p>
       </td>
       <hr>
-      <p>Quiero que llegue el verano</p>
+      <p>Quiero que llegue el verano </p>
       </td>
     </tr>
     <tr>
@@ -502,7 +484,7 @@
       <td>052 </td>
       <td>&lt;area&gt;</td>
       <td>sirve para colocar contenido dentro de una imagen por medio de clicks</td>
-      <td><img src="workplace.jpg" alt=" Workplace" usemap="#workmap" width="400" height="379">
+      <td> /// arreglar <img src="workplace.jpg" alt=" Workplace" usemap="#workmap" width="400" height="379">
         <map name=" workmap">
           <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
           <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
@@ -545,8 +527,10 @@
       <td>determina un grupo de una o mas columnas de una tabla para ponerles un mismo color</td>
       <td>
         <colgroup>
-          <col span="2" style="background-color:LightCoral">
-          <col style="background-color:yellow">
+          <col span="1" style="background-color:rgb(183, 151, 202)">
+          <col style="background-color:rgb(240, 223, 167)">
+          <col style="background-color:rgb(240, 223, 167)">
+          <col style="background-color:rgb(240, 223, 167)">
         </colgroup>
       </td>
     </tr>
@@ -619,7 +603,7 @@
       <td>&lt;dialog&gt;</td>
       <td>Crea una caja de dialogo</td>
       <td>
-        <dialog open>Aqui pondré la publicidad</dialog>
+        <dialog open>Este sera el dialogo</dialog>
       </td>
     </tr>
     <tr>
@@ -761,8 +745,7 @@
       <td>075 </td>
       <td>&lt;map&gt;</td>
       <td>asigna elementos que pueden ser clickeados en una imagen.</td>
-      <td><map name="workmap"><img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400"
-            height="379">
+      <td><map name="workmap"><img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
           <map name="workmap">
             <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
             <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
@@ -882,11 +865,11 @@
       <td>
         <style>
           h1 {
-            color: brown;
+            color: rgb(94, 64, 26);
           }
 
           p {
-            color: green;
+            color: rgb(31, 44, 10);
           }
         </style>
         </head>
@@ -1025,10 +1008,8 @@
       <td>sirve para colocar texto en un archivo de audio o video -pueden ser letras o subtitulo</td>
       <td><video width="320" height="240" controls></td>
     </tr>
-    <source src="forrest_gump.mp4" type="video/mp4">
-    <source src="forrest_gump.ogg" type="video/ogg">
+    <source src="video/Strawberry_puff.mp4" type="video/mp4">
     <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label=" English">
-    <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label=" Norwegian">
     </video>
     <tr>
       <td>097 </td>
@@ -1044,7 +1025,7 @@
       <td>sirve para colocar un video en una pagina siguiendo las mismas reglas que una imagen</td>
       <td><video width="320" height="240" controls></td>
     </tr>
-    <source src="movie.mp4" type="video/mp4">
+    <source src="video/Strawberry_puff.mp4" type="video/mp4">
     </video>
     <tr>
       <td>099 </td>
@@ -1072,7 +1053,26 @@
         </form>
       </td>
     </tr>
-
+    <td>101 </td>
+    <td>&lt;ruby&gt;</td>
+    <td>define una escritura en ruby</td>
+    <td>
+      <ruby>
+        おはよう
+      </ruby>
+    </td>
+    </tr>
+    <td>102 </td>
+    <td>&lt;audio&gt;</td>
+    <td>coloca archivos de audio </td>
+    <td>
+      <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </td>
+    </tr>
   </table>
 </body>
 
