@@ -475,25 +475,28 @@
         <address> Avenida abraham lincoln, calle Simon bolivar </address>
       </td>
     </tr>
-<!--    <tr>
+    <tr>
       <td>052 </td>
       <td>&lt;area&gt;</td>
       <td>sirve para colocar contenido dentro de una imagen por medio de clicks</td>
-      <td> /// arreglar <img src="workplace.jpg" alt=" Workplace" usemap="#workmap" width="400" height="379">
-        <map name=" workmap">
-          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-          <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-          <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"> </map>
+      <td>><img src="images/thescream.jpg" alt="cuadro embrujado" usemap="#paintmap" width="250" height="400">
+
+        <map name="paintmap">
+          <area shape="circle" coords="125,225,44" alt="Fantasma" href="images/fantasma.jpg">
+        </map>
       </td>
     </tr>
     <tr>
       <td>053 </td>
-      <td>&lt;base&gt;</td>
-      <td>Indica cual es el url base que contiene los contenidos de una pagina web</td>
+      <td>&lt;figcaption&gt;</td>
+      <td>en conjunto al figure sirve para describir la figura creada</td>
       <td>
-        <base href="https://www.w3schools.com/" target="_blank">
+        <figure>
+          <img src="images/fantasma.jpg" alt="fantasma" style="width:30%">
+          <figcaption>Un fantasmita, volvera a aparecer.</figcaption>
+        </figure>
       </td>
-    </tr>--> 
+    </tr>
 
     <tr>
       <td>054 </td>
@@ -698,12 +701,12 @@
       </td>
     </tr>
     <tr>
-<!---      <td>071 </td>
+      <td>071 </td>
       <td>&lt;iframe&gt;</td>
-      <td>sirve para introducir otro documento a la pagina actual</td>
-      <td><iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+      <td>sirve para introducir una ventana con un sitio web a la pagina actual</td>
+      <td><iframe src="Biografia.html" title="Biografia de adrain">
         </iframe></td>
-    </tr>-->
+    </tr>
     <tr>
       <td>072 </td>
       <td>&lt;li&gt;</td>
@@ -736,21 +739,17 @@
         </main>
       </td>
     </tr>
-<!--    <tr>
+    <tr>
       <td>075 </td>
       <td>&lt;map&gt;</td>
       <td>asigna elementos que pueden ser clickeados en una imagen.</td>
-      <td><map name="workmap"><img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
-          <map name="workmap">
-            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-            <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
-          </map>
-          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
-          <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
-          <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
-        </map></td>
-    </tr>-->
+      <td><img src="images/thescream.jpg" alt="cuadro embrujado" usemap="#paintmap" width="250" height="400">
+
+        <map name="paintmap">
+          <area shape="circle" coords="125,225,44" alt="Fantasma" href="images/fantasma.jpg">
+        </map>
+        </td>
+    </tr>
     <tr>
       <td>076 </td>
       <td>&lt;meta&gt;</td>
@@ -813,16 +812,14 @@
           <option value="jugo">jugo</option>
           <option value="refresco">refresco</option>
         </select>
- <!--   <tr>
+      <tr>
       <td>083 </td>
       <td>&lt;picture&gt;</td>
       <td>permite usar imágenes de formas mas variadas</td>
       <td>
         <picture>
-          <source media="(min-width:650px)" srcset="">
-          <source media="(min-width:465px)" srcset="img_white_flower.jpg">
-          <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
-        </picture> </td></tr>-->
+          <img src="images/flower.jpg" alt="Flowers" style="width:auto;">
+        </picture> </td></tr>
     <tr>
       <td>084 </td>
       <td>&lt;rp&gt;</td>
@@ -838,12 +835,13 @@
       <td>muestra una salida de prueba de un programa</td>
       <td>
         <p><samp>File not found.<br>Press F1 to continue</samp></p>
-      <!--    <tr>
+      <tr>
       <td>086 </td>
       <td>&lt;script&gt;</td>
       <td>es usado para introducir elementos programados en java</td>
       <td>
-        <script>    document.getElementById("demo").innerHTML = "Hello JavaScript!";    </script>-->
+        <p id="demostracion"></p>
+        <script>    document.getElementById("demostracion").innerHTML = "Hola, esto es el resultado de un script";    </script>
     <tr>
       <td>087 </td>
       <td>&lt;source&gt;</td>
@@ -1002,8 +1000,7 @@
       <td>sirve para colocar texto en un archivo de audio o video -pueden ser letras o subtitulo</td>
       <td><video controls>
         <source src="videos/Strawberrypuff.mp4" type="video/mp4">
-        </video>
-    <track src="videos/Video.vtt" kind="subtitles" srclang="es" label="Spanish">
+    <track label="Español" kind="subtitles" srclang="es" src="videos/VideoSub.vtt"></video>
     <tr>
       <td>097 </td>
       <td>&lt;var&gt;</td>
