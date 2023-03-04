@@ -1,0 +1,31 @@
+*{
+    background-color: rgb(7, 15, 32);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    color: rgb(219, 172, 109);
+    font-style: italic;
+}
+
+.ValidadorCed {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.boton{
+    background-color: antiquewhite;
+    color: rgb(7, 15, 32);
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 0px;
+}
+
+b{
+    font-size: 30px;
+}
