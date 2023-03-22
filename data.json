@@ -1,0 +1,17 @@
+[
+    {
+        "opcion": "opcion 1",
+        "url": "#",
+        "subOpcion":"1.1"
+    },
+    {
+        "opcion": "opcion 2",
+        "url": "%",
+        "subOpcion":"1.2"
+    },
+    {
+        "opcion": "opcion 3",
+        "url": "@",
+        "subOpcion":"1.3"
+    }
+]
