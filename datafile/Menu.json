@@ -1,0 +1,23 @@
+{
+    "menu": [
+      {
+        "desc": "Menu 1",
+        "id": 1,
+        "hijo": 11
+      },
+      {
+        "desc": "Menu 1.1",
+        "id": 2,
+        "hijo": 111
+      },
+      {
+        "desc": "Menu 1.1.1",
+        "id": 3,
+        "hijo": 111
+      },
+      {
+        "desc": "Menu 2",
+        "id": 2
+      }
+    ]
+  }
