@@ -1,0 +1,40 @@
+{
+    "menu": [
+      {
+        "desc": "Menu 1",
+        "id": 1,
+        "hijo": 11
+      },
+      {
+        "desc": "Menu 1.1",
+        "id": 11,
+        "hijo": 111
+      },
+      {
+        "desc": "Menu 1.1.1",
+        "id": 111      
+      },
+      {
+        "desc": "Menu 2",
+        "id": 2
+      }
+    ],
+
+    "producto": [
+      {
+        "id": 1,
+        "nombre": "tomate",
+        "precio": 30
+      },
+      {
+        "id": 2,
+        "nombre": "brocoli",
+        "precio": 55
+      },
+      {
+        "id": 3,
+        "nombre": "pasta",
+        "precio": 80
+      }
+    ]
+  }
