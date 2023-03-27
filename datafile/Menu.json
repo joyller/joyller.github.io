@@ -1,50 +1,50 @@
 {
-    "menu":[
-        {
-            "ID": 1,
-            "descripcion": "Opcion 1"
-        },
-        {
-            "ID": 11,
-            "descripcion": "Opcion 1.1",
-            "padre": 1
-        },{
-            "ID": 111,
-            "descripcion": "Opcion 1.1.1",
-            "padre": 11
-        },
-        {
-            "ID": 12,
-            "descripcion": "Opcion 1.2",
-            "padre": 1
-        },
-        {
-            "ID": 13,
-            "descripcion": "Opcion 1.3",
-            "padre": 1
-        },
-        {
-            "ID": 1,
-            "descripcion": "Opcion 1.3.1",
-            "padre": 13
-        }
-    ]
-
-    "producto": [
+  "menu":[
       {
-        "id": 1,
-        "nombre": "tomate",
-        "precio": 30
+          "ID": 1,
+          "descripcion": "Opcion 1"
       },
       {
-        "id": 2,
-        "nombre": "brocoli",
-        "precio": 55
+          "ID": 11,
+          "descripcion": "Opcion 1.1",
+          "padre": 1
+      },{
+          "ID": 111,
+          "descripcion": "Opcion 1.1.1",
+          "padre": 11
       },
       {
-        "id": 3,
-        "nombre": "pasta",
-        "precio": 80
+          "ID": 12,
+          "descripcion": "Opcion 1.2",
+          "padre": 1
+      },
+      {
+          "ID": 13,
+          "descripcion": "Opcion 1.3",
+          "padre": 1
+      },
+      {
+          "ID": 1,
+          "descripcion": "Opcion 1.3.1",
+          "padre": 13
       }
-    ]
-  }
+  ],
+
+  "producto": [
+    {
+      "id": 1,
+      "nombre": "tomate",
+      "precio": 30
+    },
+    {
+      "id": 2,
+      "nombre": "brocoli",
+      "precio": 55
+    },
+    {
+      "id": 3,
+      "nombre": "pasta",
+      "precio": 80
+    }
+  ]
+}
