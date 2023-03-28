@@ -1,14 +1,16 @@
-.ul {
+ul {
       list-style: none;
       padding: 0px;
       margin: 0px;
-    }	
-    .ul li {
+}
+
+ul li {
       display: block;
       position: relative;
       float: left;
-    }
-    .a {
+}
+
+a {
       display: block;
       transition: all linear 0.2s;
       padding: 7px 15px;
@@ -17,26 +19,31 @@
       color: #fff;
       background-color: #909eab;
       font-size: 18px;
-    }
-    .a:hover { 
+}
+
+a:hover { 
       background-color: #4b545f;
-    }
-    .ul ul {
+}
+
+ul ul {
       display: none;
       position: absolute;
-    }	
-    .ul li:hover > ul {
+}	
+    
+ul li:hover > ul {
       display:inherit;
-    }	
-    .ul ul li {
+}	
+
+ul ul li {
       width: 200px;
       float: none;
       display: list-item;
       position: relative;
-    }
-    .ul ul ul {
+}
+    
+ul ul ul {
       position: relative;
       top: -36px; 
       left: 200px;
       float: right;
-    }
+}
