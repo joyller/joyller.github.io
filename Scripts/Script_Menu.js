@@ -7,7 +7,7 @@ function crearMenu(){
   
 }*/
 
-$(function () {
+(function () {
 
     var data = fetch('https://joyller.github.io/datafile/Menu.json').then((response) => response.json());
     var getMenuItem = function (itemData) {
