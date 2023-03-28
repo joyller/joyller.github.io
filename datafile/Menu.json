@@ -1,4 +1,5 @@
-"menu":[
+{
+      "menu":[
       {
           "ID": 1,
           "descripcion": "Opcion 1"
@@ -46,3 +47,4 @@
       "precio": 80
     }
   ]
+}
