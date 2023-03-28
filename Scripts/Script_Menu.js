@@ -6,4 +6,3 @@ console.log(almmenu);
 function crearMenu(){
   
 }*/
-
