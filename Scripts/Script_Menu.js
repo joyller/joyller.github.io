@@ -35,3 +35,24 @@ function crearMenu(){
     });
     $menu.menu();
 });
+
+var buildUL = function (parent, items) {
+    $.each(items, function () {
+        if (this.label) {
+            // create LI element and append it to the parent element.
+            var li = $("<li>" + this.label + "</li>");
+            li.appendTo(parent);
+            // if there are sub items, call the buildUL function.
+            if (this.items && this.items.length > 0) {
+                var ul = $("<ul></ul>");
+                ul.appendTo(li);
+                buildUL(ul, this.items);
+            }
+        }
+    });
+}
+var ul = $("<ul></ul>");
+ul.appendTo("#jqxMenu");
+buildUL(ul, source);
+
+$("#jqxMenu").jqxMenu({ width: '600', height: '30px'});
