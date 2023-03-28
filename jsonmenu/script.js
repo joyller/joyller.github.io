@@ -13,7 +13,7 @@
 
     // get data to create ul and li elements for menu and submenu.
     let arrData = [];
-    $.getJSON('https://joyller.github.io/json%20menu/birds.json', function (data) {
+    $.getJSON('https://joyller.github.io/jsonmenu/birds.json', function (data) {
       let typeOfBirds = [];
 
       $.each(data, function (index, value) {
