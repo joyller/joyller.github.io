@@ -7,34 +7,36 @@ function crearMenu(){
   
 }*/
 
-(function () {
+var data = fetch('https://joyller.github.io/datafile/Menu.json').then((response) => response.json());
 
-    var data = fetch('https://joyller.github.io/datafile/Menu.json').then((response) => response.json());
-    var getMenuItem = function (itemData) {
-        var item = $("<li>")
-            .append(
-        $("<a>", {
-            href: '#' + itemData.link,
-            html: itemData.name
-        }));
-        if (itemData.sub) {
-            var subList = $("<ul>");
-            $.each(itemData.sub, function () {
-                subList.append(getMenuItem(this));
-            });
-            item.append(subList);
+var builddata = function () {
+    var source = [];
+    var items = [];
+    // build hierarchical source.
+    for (i = 0; i < data.length; i++) {
+        var item = data[i];
+        var label = item["text"];
+        var parentid = item["parentid"];
+        var id = item["id"];
+
+        if (items[parentid]) {
+            var item = { parentid: parentid, label: label, item: item };
+            if (!items[parentid].items) {
+                items[parentid].items = [];
+            }
+            items[parentid].items[items[parentid].items.length] = item;
+            items[id] = item;
         }
-        return item;
-    };
-    
-    var $menu = $("#menu");
-    $.each(data.menu, function () {
-        $menu.append(
-            getMenuItem(this)
-        );
-    });
-    $menu.menu();
-});
+        else {
+            items[id] = { parentid: parentid, label: label, item: item };
+            source[id] = items[id];
+        }
+    }
+    return source;
+}
+var source = builddata();
+
+//---- 
 
 var buildUL = function (parent, items) {
     $.each(items, function () {
@@ -55,4 +57,6 @@ var ul = $("<ul></ul>");
 ul.appendTo("#jqxMenu");
 buildUL(ul, source);
 
+//---
+  
 $("#jqxMenu").jqxMenu({ width: '600', height: '30px'});
