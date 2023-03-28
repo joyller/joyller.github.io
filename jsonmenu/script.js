@@ -1,4 +1,4 @@
-  $(document).ready(function () {
+  $(document).ready(function() {
     
     // Top (header) list item.
     let li = $('<li/>').appendTo('#menu1');
