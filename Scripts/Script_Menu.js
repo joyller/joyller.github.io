@@ -16,7 +16,7 @@ $(document).ready(function () {
         let typeOfBirds = [];
 
         $.each(data, function (index, value) {
-            typeOfBirds.push(value.Type);
+            typeOfBirds.push(value.Tipo);
             arrData = data;
         });
 
@@ -32,12 +32,12 @@ $(document).ready(function () {
                 .appendTo(sub_li);
 
             $.each(arrData, function (i, v) {
-                if (v.Type === value) {
+                if (v.Tipo === value) {
                     // Create sub ul.
                     let sub_sub_ul = $('<ul/>').appendTo(sub_li);
                     let sub_sub_li = $('<li/>').appendTo(sub_sub_ul);
                     $('<a />')
-                        .text(v.Name)
+                        .text(v.Desc)
                         .attr('href', '#')
                         .appendTo(sub_sub_li);
                 }
