@@ -4,7 +4,7 @@ $(document).ready(function () {
     let li = $('<li/>').appendTo('#menu1');
 
     $('<a />')
-        .text('Birds')
+        .text('Menu del restaurant')
         .attr('href', '#')
         .appendTo(li);     // add the header (<ul>).
 
@@ -43,5 +43,7 @@ $(document).ready(function () {
                 }
             });
         });
+
+
     });
 });
