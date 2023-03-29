@@ -1,0 +1,72 @@
+[
+  {
+    "ID": "001",
+    "Desc": "Eurasian Collared-Entradas",
+    "Tipo": "Entradas"
+  },
+  {
+    "ID": "002",
+    "Desc": "Bald Eagle",
+    "Tipo": "Plato fuerte"
+  },
+  {
+    "ID": "003",
+    "Desc": "Cooper's Plato fuerte",
+    "Tipo": "Plato fuerte"
+  },
+  {
+    "ID": "004",
+    "Desc": "Bell's Postres",
+    "Tipo": "Postres"
+  },
+  {
+    "ID": "005",
+    "Desc": "Mourning Entradas",
+    "Tipo": "Entradas"
+  },
+  {
+    "ID": "006",
+    "Desc": "Rock Pigeon",
+    "Tipo": "Entradas"
+  },
+  {
+    "ID": "007",
+    "Desc": "Abert's Towhee",
+    "Tipo": "Postres"
+  },
+  {
+    "ID": "008",
+    "Desc": "Brewer's Postres",
+    "Tipo": "Postres"
+  },
+  {
+    "ID": "009",
+    "Desc": "Canyon Towhee",
+    "Tipo": "Postres"
+  },
+  {
+    "ID": "010",
+    "Desc": "Black Vulture",
+    "Tipo": "Plato fuerte"
+  },
+  {
+    "ID": "013",
+    "Desc": "Cassin's Postres",
+    "Tipo": "Postres"
+  },
+  {
+    "ID": "014",
+    "Desc": "American Kestrel",
+    "Tipo": "Plato fuerte"
+  },
+  {
+    "ID": "017",
+    "Desc": "Snail Kite",
+    "Tipo": "Plato fuerte"
+  },
+  {
+    "ID": "018",
+    "Desc": "White-tailed Plato fuerte",
+    "Tipo": "Plato fuerte"
+  }
+]
