@@ -12,7 +12,7 @@ $(document).ready(function () {
     let sub_ul = $('<ul/>').appendTo(li);
 
     let arrData = [];
-    $.getJSON('https://joyller.github.io/jsonmenu/birds.json', function (data) {
+    $.getJSON('https://joyller.github.io/datafile/Menu.json', function (data) {
         let typeOfBirds = [];
 
         $.each(data, function (index, value) {
