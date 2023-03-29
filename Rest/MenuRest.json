@@ -1,0 +1,42 @@
+[
+	{
+		"ID": 1,
+		"Desc": "Entradas",
+		"padre": NULL
+	},
+	{
+		"ID": 2,
+		"Desc": "Plato Fuerte",
+		"padre": NULL
+	},
+	{
+		"ID": 3,
+		"Desc": "Ensaladas",
+		"padre": NULL
+	},
+	{
+		"ID": 4,
+		"Desc": "Bebidas",
+		"padre": NULL
+	},
+	{
+		"ID": 5,
+		"Desc": "Postres",
+		"padre": NULL
+	},
+	{
+		"ID": 11,
+		"Desc": "Palitos de pan",
+		"padre": 1
+	},
+	{
+		"ID": 12,
+		"Desc": "Aros de cebolla",
+		"padre": 1
+	},
+	{
+		"ID": 13,
+		"Desc": "Pan de Ajo",
+		"padre": 1
+	}
+]
