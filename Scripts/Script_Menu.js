@@ -8,7 +8,9 @@ function prueba(){
 
     for (var x = 0 ; x < jsonObject.lenght ; x++)
     {
-        console.log(jsonObject[0]);   
+        console.log(jsonObject[x].IDe);   
+        console.log(jsonObject[x].Desc);  
+        console.log(jsonObject[x].Tipo);  
 
         var fila =  '<tr> <td>jsonObject[x].ID</td> <td>jsonObject[x].Desc</td> <td>jsonObject[x].Tipo</td></tr>';
 
