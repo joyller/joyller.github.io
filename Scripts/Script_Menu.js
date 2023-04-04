@@ -2,7 +2,7 @@ function prueba(){
     console.log("hola");
 
     var arreglo = new XMLHttpRequest();
-    arreglo.open("GET",  'https://joyller.github.io/datafile/Menu.json', false);
+    arreglo.open("GET", 'https://joyller.github.io/datafile/Menu.json', false);
     arreglo.send(null);
     var jsonObject = JSON.parse(arreglo.responseText);
 
@@ -11,9 +11,5 @@ function prueba(){
         console.log(jsonObject[x].IDe);   
         console.log(jsonObject[x].Desc);  
         console.log(jsonObject[x].Tipo);  
-
-        var fila =  '<tr> <td>jsonObject[x].ID</td> <td>jsonObject[x].Desc</td> <td>jsonObject[x].Tipo</td></tr>';
-
-        table.innerHTML += fila;
     }
 }
