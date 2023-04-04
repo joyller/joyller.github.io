@@ -1,6 +1,4 @@
-
-         // Load the JSON file
-         fetch('menu.json')
+function prueba(){fetch('menu.json')
             .then(response => response.json())
             .then(data => {
                // Get the menu container
@@ -18,4 +16,6 @@
                   menu.appendChild(listItem);
                });
             })
-            .catch(error => console.error(error));
+            .catch(error => console.error(error));}
+         // Load the JSON file
+         
