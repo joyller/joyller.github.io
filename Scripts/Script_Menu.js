@@ -8,6 +8,6 @@ function prueba(){
 
     for (var x = 3 ; x < 10 ; x++)
     {
-        console.log(jsonObject[x]);   
+        console.log(jsonObject.ID[x]);   
     }
 }
