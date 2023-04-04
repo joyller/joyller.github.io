@@ -1,13 +1,20 @@
-function prueba(){
-    console.log("hola");
+// Load the JSON file
+fetch('Menu.json')
+    .then(response => response.json())
+    .then(data => {
+        // Get the menu container
+        const menu = document.getElementById('menu');
 
-    var arreglo = new XMLHttpRequest();
-    arreglo.open("GET", 'https://joyller.github.io/datafile/Menu.json', false);
-    arreglo.send(null);
-    var jsonObject = JSON.parse(arreglo.responseText);
+        // Create the menu items
+        data.menu.forEach(item => {
+            const link = document.createElement('a');
+            link.href = item.url;
+            link.textContent = item.name;
 
-    for (var x = 0 ; x < jsonObject.lenght ; x++)
-    {
-        console.log(jsonObject[x]);
-    }
-}
+            const listItem = document.createElement('li');
+            listItem.appendChild(link);
+
+            menu.appendChild(listItem);
+        });
+    })
+    .catch(error => console.error(error));

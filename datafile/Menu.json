@@ -1,72 +1,20 @@
-[
-  {
-    "IDe": "001",
-    "Desc": "Eurasian Collared-Entradas",
-    "Tipo": "Entradas"
-  },
-  {
-    "IDe": "002",
-    "Desc": "Bald Eagle",
-    "Tipo": "Plato fuerte"
-  },
-  {
-    "IDe": "003",
-    "Desc": "Cooper's Plato fuerte",
-    "Tipo": "Plato fuerte"
-  },
-  {
-    "IDe": "004",
-    "Desc": "Bell's Postres",
-    "Tipo": "Postres"
-  },
-  {
-    "IDe": "005",
-    "Desc": "Mourning Entradas",
-    "Tipo": "Entradas"
-  },
-  {
-    "IDe": "006",
-    "Desc": "Rock Pigeon",
-    "Tipo": "Entradas"
-  },
-  {
-    "IDe": "007",
-    "Desc": "Abert's Towhee",
-    "Tipo": "Postres"
-  },
-  {
-    "IDe": "008",
-    "Desc": "Brewer's Postres",
-    "Tipo": "Postres"
-  },
-  {
-    "IDe": "009",
-    "Desc": "Canyon Towhee",
-    "Tipo": "Postres"
-  },
-  {
-    "IDe": "010",
-    "Desc": "Black Vulture",
-    "Tipo": "Plato fuerte"
-  },
-  {
-    "IDe": "013",
-    "Desc": "Cassin's Postres",
-    "Tipo": "Postres"
-  },
-  {
-    "IDe": "014",
-    "Desc": "American Kestrel",
-    "Tipo": "Plato fuerte"
-  },
-  {
-    "IDe": "017",
-    "Desc": "Snail Kite",
-    "Tipo": "Plato fuerte"
-  },
-  {
-    "IDe": "018",
-    "Desc": "White-tailed Plato fuerte",
-    "Tipo": "Plato fuerte"
-  }
-]
+{
+  "menu": [
+    {
+      "name": "Home",
+      "url": "index.html"
+    },
+    {
+      "name": "About",
+      "url": "about.html"
+    },
+    {
+      "name": "Services",
+      "url": "services.html"
+    },
+    {
+      "name": "Contact",
+      "url": "contact.html"
+    }
+  ]
+}
