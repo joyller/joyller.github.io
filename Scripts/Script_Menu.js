@@ -1,4 +1,5 @@
-function prueba(){fetch('menu.json')
+function prueba() {
+    fetch('https://joyller.github.io/datafile/Menu.json')
             .then(response => response.json())
             .then(data => {
                // Get the menu container
@@ -16,6 +17,6 @@ function prueba(){fetch('menu.json')
                   menu.appendChild(listItem);
                });
             })
-            .catch(error => console.error(error));}
+            .catch(error => console.error(error));
+}
          // Load the JSON file
-         
