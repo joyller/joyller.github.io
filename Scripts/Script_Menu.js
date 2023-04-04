@@ -1,20 +1,21 @@
-// Load the JSON file
-fetch('Menu.json')
-    .then(response => response.json())
-    .then(data => {
-        // Get the menu container
-        const menu = document.getElementById('menu');
 
-        // Create the menu items
-        data.menu.forEach(item => {
-            const link = document.createElement('a');
-            link.href = item.url;
-            link.textContent = item.name;
+         // Load the JSON file
+         fetch('menu.json')
+            .then(response => response.json())
+            .then(data => {
+               // Get the menu container
+               const menu = document.getElementById('menu');
 
-            const listItem = document.createElement('li');
-            listItem.appendChild(link);
+               // Create the menu items
+               data.menu.forEach(item => {
+                  const link = document.createElement('a');
+                  link.href = item.url;
+                  link.textContent = item.name;
 
-            menu.appendChild(listItem);
-        });
-    })
-    .catch(error => console.error(error));
+                  const listItem = document.createElement('li');
+                  listItem.appendChild(link);
+
+                  menu.appendChild(listItem);
+               });
+            })
+            .catch(error => console.error(error));
