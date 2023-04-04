@@ -8,8 +8,6 @@ function prueba(){
 
     for (var x = 0 ; x < jsonObject.lenght ; x++)
     {
-        console.log(jsonObject[x].IDe);   
-        console.log(jsonObject[x].Desc);  
-        console.log(jsonObject[x].Tipo);  
+        console.log(jsonObject[x]);
     }
 }
