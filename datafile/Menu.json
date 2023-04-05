@@ -1,24 +1,22 @@
-{
-  "menu": [
-    {
-      "father": 0,
-      "ident": 1,
-      "desc": "Entradas"
-    },
-    {
-      "father": 0,
-      "ident": 2,
-      "desc": "Plato fuerte"
-    },
-    {
-      "father": 0,
-      "ident": 3,
-      "desc": "Bebidas"
-    },
-    {
-      "father": 0,
-      "ident": 4,
-      "desc": "Postres"
-    }
-  ]
-}
+[
+  {
+    "father": 0,
+    "ident": 1,
+    "desc": "Entradas"
+  },
+  {
+    "father": 0,
+    "ident": 2,
+    "desc": "Plato fuerte"
+  },
+  {
+    "father": 0,
+    "ident": 3,
+    "desc": "Bebidas"
+  },
+  {
+    "father": 0,
+    "ident": 4,
+    "desc": "Postres"
+  }
+]
