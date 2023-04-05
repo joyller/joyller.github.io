@@ -15,6 +15,12 @@
     {
       "name": "Contact",
       "url": "contact.html"
+      "submenu": [
+        {
+          "name": "fulanito",
+          "url": "aaaa.html"
+        }
+      ]
     }
   ]
 }
