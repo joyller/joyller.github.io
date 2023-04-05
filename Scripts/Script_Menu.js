@@ -1,4 +1,4 @@
-fetch('example.json')
+fetch('https://joyller.github.io/datafile/Menu.json')
   .then(response => response.json())
   .then(data => {
     for (const key in data) {
