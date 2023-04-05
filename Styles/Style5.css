@@ -97,11 +97,11 @@ body {
 
 }
 
-.submenu{
+.subMenu{
   display: none;
 }
 
-.menu_desp ul li:hover .submenu{
+.menu_desp ul li:hover .subMenu{
   display: block;
   position: absolute;
   top: 0;
