@@ -11,8 +11,8 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       const listItem = document.createElement('li');
       listItem.appendChild(link);
     
-        console.log(menu.ident[item]);
-        console.log(menu.desc[item]);
+        console.log(menu.ident);
+        console.log(menu.desc);
       menu.appendChild(listItem);
     });
   })
