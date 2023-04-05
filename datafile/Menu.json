@@ -1,26 +1,24 @@
 {
   "menu": [
     {
-      "name": "Home",
-      "url": "index.html"
+      "father": 0,
+      "ident": 1,
+      "desc": "Entradas"
     },
     {
-      "name": "About",
-      "url": "about.html"
+      "father": 0,
+      "ident": 2,
+      "desc": "Plato fuerte"
     },
     {
-      "name": "Services",
-      "url": "services.html"
+      "father": 0,
+      "ident": 3,
+      "desc": "Bebidas"
     },
     {
-      "name": "Contact",
-      "url": "contact.html"
-      "submenu": [
-        {
-          "name": "fulanito",
-          "url": "aaaa.html"
-        }
-      ]
-    }
+      "father": 0,
+      "ident": 1,
+      "desc": "Postres"
+    },
   ]
 }
