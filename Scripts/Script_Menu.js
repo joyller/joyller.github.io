@@ -16,6 +16,11 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       lista.innerText = Opcion.descripcion;
       list.appendChild(lista);
 
+      if(Opcion.padre == Opcion.identificador){
+        let ulta = document.createElement("ul");
+        ulta.innerHTML = Opcion.descripcion;
+        list.appendChild(ulta);
+      }
       //console.log(Opcion.identificador);
 
     });
