@@ -13,7 +13,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       list.appendChild(lista);
     }
 
-    /*Menu.forEach(Opcion => {
+    Menu.forEach(Opcion => {
       //console.log(Opcion.padre);
       
       if(Opcion.padre != null)
@@ -27,6 +27,6 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       
       //console.log(Opcion.identificador);
 
-    });*/
+    });
   })
   .catch(error => console.error(error));
