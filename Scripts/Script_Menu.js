@@ -7,12 +7,12 @@ fetch('https://joyller.github.io/datafile/Menu.json')
     Menu.forEach(Opcion => {
       //console.log(Opcion.padre);
       
-      if(Opcion.padre == 4)
+      if(Opcion.padre != null)
       {
         console.log(Opcion.descripcion)
       }
 
-      let lista = document.createElement("ul");
+      let lista = document.createElement("li");
       lista.innerText = Opcion.descripcion;
       list.appendChild(lista);
       
