@@ -1,11 +1,10 @@
 fetch('https://joyller.github.io/datafile/Menu.json')
   .then(response => response.json())
   .then(data => {
-    for (const key in data) {
-      if (data.hasOwnProperty(key)) {
-        const value = data[key];
-        console.log(key + ': ' + value);
-      }
-    }
+    // Access the name variable using dot notation
+    console.log(data.name);
+    
+    // Access the name variable using bracket notation
+    console.log(data['name']);
   })
   .catch(error => console.error(error));
