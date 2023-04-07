@@ -28,90 +28,90 @@
     "padre": 1,
     "identificador": 6,
     "descripcion": "Tostones",
-    "url": "#"
+    "url": "images/tostones.jpg"
   },
   {
     "padre": 1,
     "identificador": 7,
     "descripcion": "Aros de cebolla",
-    "url": "#"
+    "url": "images/cebolla.jpg"
   },
   {
     "padre": 1,
     "identificador": 8,
     "descripcion": "Papas fritas",
-    "url": "#"
+    "url": "images/papas.jpg"
   },
   {
     "padre": 2,
     "identificador": 9,
     "descripcion": "Pasta pesto",
-    "url": "#"
+    "url": "images/pesto.jpeg"
   },
   {
     "padre": 2,
     "identificador": 10,
     "descripcion": "Bandera dominicana",
-    "url": "#"
+    "url": "images/bandera.jpg"
   },
   {
     "padre": 2,
     "identificador": 11,
     "descripcion": "Mangu encebollado",
-    "url": "#"
+    "url": "images/mangu.jpg"
   },
   {
     "padre": 3,
     "identificador": 12,
     "descripcion": "Agua",
-    "url": "#"
+    "url": "images/agua.jpg"
   },
   {
     "padre": 3,
     "identificador": 13,
     "descripcion": "Jugo",
-    "url": "#"
+    "url": "images/jugo.jpg"
   },
   {
     "padre": 3,
     "identificador": 14,
     "descripcion": "Cerveza",
-    "url": "#"
+    "url": "images/cerveza.jpeg"
   },
   {
     "padre": 4,
     "identificador": 15,
     "descripcion": "Brownies",
-    "url": "#"
+    "url": "images/brownies.jpg"
   },
   {
     "padre": 4,
     "identificador": 16,
     "descripcion": "3 leches",
-    "url": "#"
+    "url": "images/tresleches.jpg"
   },
   {
     "padre": 4,
     "identificador": 17,
     "descripcion": "Cheesecake",
-    "url": "#"
+    "url": "images/cheesecake.jpg"
   },
   {
     "padre": 5,
     "identificador": 18,
     "descripcion": "Albondigas",
-    "url": "#"
+    "url": "images/albondigas.jpg"
   },
   {
     "padre": 5,
     "identificador": 19,
     "descripcion": "salmon al vapor",
-    "url": "#"
+    "url": "images/salmon.jpg"
   },
   {
     "padre": 5,
     "identificador": 20,
     "descripcion": "filete de ternera",
-    "url": "#"
+    "url": "images/Filete.jpg"
   }
 ]
