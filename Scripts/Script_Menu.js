@@ -1,10 +1,12 @@
 fetch('https://joyller.github.io/datafile/Menu.json')
   .then(response => response.json())
   .then(data => {
-    // Access the name variable using dot notation
-    console.log(data.name);
-    
-    // Access the name variable using bracket notation
-    console.log(data['name']);
+    // Loop through each person in the array
+    data.forEach(person => {
+      // Access each person's data using dot notation or bracket notation
+      console.log(person.name);
+      console.log(person['age']);
+      console.log(person.email);
+    });
   })
   .catch(error => console.error(error));
