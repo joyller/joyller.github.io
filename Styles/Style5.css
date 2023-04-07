@@ -2,6 +2,18 @@ body {
   background-color: #362a44;
 }
 
+.logo img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.logo h1 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
 h1 {
   color: #337465;
   background: #98c7bd;
@@ -38,4 +50,14 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
+}
+
+.El_Menu ul{
+  list-style: none;
+  display: flex;
+}
+
+.El_Menu ul li{
+  padding: 0px 20px;
+  position: relative;
 }
