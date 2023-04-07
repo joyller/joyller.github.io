@@ -42,7 +42,7 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.menu {
+.El_Menu {
   background-color: #f7df94;
   height: 40px;
   width: 100%;
@@ -50,4 +50,14 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
+}
+
+.El_Menu ul{
+  list-style: none;
+  display: flex;
+}
+
+.El_Menu ul li{
+  padding: 0px 20px;
+  position: relative;
 }
