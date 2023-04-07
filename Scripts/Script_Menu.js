@@ -4,7 +4,12 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
     let list = document.getElementById("El_Menu");
 
-    Menu.forEach(Opcion => {
+    for(var x = 0; x < Menu.length; x++)
+    {
+      console.log(Menu[x].descripcion);
+    }
+
+    /*Menu.forEach(Opcion => {
       //console.log(Opcion.padre);
       
       if(Opcion.padre != null)
@@ -16,10 +21,8 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       lista.innerText = Opcion.descripcion;
       list.appendChild(lista);
       
-
-      console.log(Menu[Opcion].identificador);//guardate o voy a llorar
       //console.log(Opcion.identificador);
 
-    });
+    });*/
   })
   .catch(error => console.error(error));
