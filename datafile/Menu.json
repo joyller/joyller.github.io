@@ -2,116 +2,116 @@
   {
     "identificador": 1,
     "descripcion": "Entradas",
-    "Link": "#"
+    "url": "#"
   },
   {
     "identificador": 2,
     "descripcion": "Plato fuerte",
-    "Link": "#"
+    "url": "#"
   },
   {
     "identificador": 3,
     "descripcion": "Bebidas",
-    "Link": "#"
+    "url": "#"
   },
   {
     "identificador": 4,
     "descripcion": "Postres",
-    "Link": "#"
+    "url": "#"
   },
   {
     "identificador": 5,
     "descripcion": "Carnes",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 1,
     "identificador": 6,
     "descripcion": "Tostones",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 1,
     "identificador": 7,
     "descripcion": "Aros de cebolla",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 1,
     "identificador": 8,
     "descripcion": "Papas fritas",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 2,
     "identificador": 9,
     "descripcion": "Pasta pesto",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 2,
     "identificador": 10,
     "descripcion": "Bandera dominicana",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 2,
     "identificador": 11,
     "descripcion": "Mangu encebollado",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 3,
     "identificador": 12,
     "descripcion": "Agua",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 3,
     "identificador": 13,
     "descripcion": "Jugo",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 3,
     "identificador": 14,
     "descripcion": "Cerveza",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 4,
     "identificador": 15,
     "descripcion": "Brownies",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 4,
     "identificador": 16,
     "descripcion": "3 leches",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 4,
     "identificador": 17,
     "descripcion": "Cheesecake",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 5,
     "identificador": 18,
     "descripcion": "Albondigas",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 5,
     "identificador": 19,
     "descripcion": "salmon al vapor",
-    "Link": "#"
+    "url": "#"
   },
   {
     "padre": 5,
     "identificador": 20,
     "descripcion": "filete de ternera",
-    "Link": "#"
+    "url": "#"
   }
 ]

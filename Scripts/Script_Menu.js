@@ -16,7 +16,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       lista.innerText = Opcion.descripcion;
       list.appendChild(lista);
       
-      //console.log(Opcion.identificador);
+      console.log(Opcion.identificador);
 
     });
   })
