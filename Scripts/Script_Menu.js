@@ -10,12 +10,13 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       if(Opcion.padre == 4)
       {
         console.log(Opcion.descripcion)
-
-        let lista = document.createElement("li");
-        lista.innerText = Opcion.descripcion;
-        list.appendChild(lista);
       }
-      console.log(Opcion.identificador);
+
+      let lista = document.createElement("ul");
+      lista.innerText = Opcion.descripcion;
+      list.appendChild(lista);
+      
+      //console.log(Opcion.identificador);
 
     });
   })
