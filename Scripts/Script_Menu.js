@@ -9,7 +9,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       console.log(Menu[x].descripcion);
     }
 
-    /*Menu.forEach(Opcion => {
+    Menu.forEach(Opcion => {
       //console.log(Opcion.padre);
       
       if(Opcion.padre != null)
@@ -23,6 +23,6 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       
       //console.log(Opcion.identificador);
 
-    });*/
+    });
   })
   .catch(error => console.error(error));
