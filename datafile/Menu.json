@@ -1,22 +1,82 @@
 [
   {
-    "father": 0,
-    "ident": 1,
-    "desc": "Entradas"
+    "padre": 0,
+    "identificador": 1,
+    "descripcion": "Entradas"
   },
   {
-    "father": 0,
-    "ident": 2,
-    "desc": "Plato fuerte"
+    "padre": 0,
+    "identificador": 2,
+    "descripcion": "Plato fuerte"
   },
   {
-    "father": 0,
-    "ident": 3,
-    "desc": "Bebidas"
+    "padre": 0,
+    "identificador": 3,
+    "descripcion": "Bebidas"
   },
   {
-    "father": 0,
-    "ident": 4,
-    "desc": "Postres"
+    "padre": 0,
+    "identificador": 4,
+    "descripcion": "Postres"
+  },
+  {
+    "padre": 1,
+    "identificador": 11,
+    "descripcion": "Tostones"
+  },
+  {
+    "padre": 1,
+    "identificador": 12,
+    "descripcion": "Aros de cebolla"
+  },
+  {
+    "padre": 1,
+    "identificador": 13,
+    "descripcion": "Papas fritas"
+  },
+  {
+    "padre": 1,
+    "identificador": 21,
+    "descripcion": "Pasta pesto"
+  },
+  {
+    "padre": 1,
+    "identificador": 22,
+    "descripcion": "Bandera dominicana"
+  },
+  {
+    "padre": 1,
+    "identificador": 23,
+    "descripcion": "Mangu encebollado"
+  },
+  {
+    "padre": 1,
+    "identificador": 31,
+    "descripcion": "Agua"
+  },
+  {
+    "padre": 1,
+    "identificador": 32,
+    "descripcion": "Jugo"
+  },
+  {
+    "padre": 1,
+    "identificador": 33,
+    "descripcion": "Cerveza"
+  },
+  {
+    "padre": 1,
+    "identificador": 41,
+    "descripcion": "Brownies"
+  },
+  {
+    "padre": 1,
+    "identificador": 42,
+    "descripcion": "3 leches"
+  },
+  {
+    "padre": 1,
+    "identificador": 43,
+    "descripcion": "Cheesecake"
   }
 ]
