@@ -1,5 +1,5 @@
 body {
-  background-color: #eaf1cf;
+  background-color: #362a44;
 }
 
 .logo img {
@@ -15,8 +15,8 @@ body {
 }
 
 h1 {
-  color: #851717;
-  background: #f3c294;
+  color: #337465;
+  background: #98c7bd;
   width: 100%;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -29,7 +29,7 @@ h3 {
 }
 
 a:visited {
-  color: rgb(35, 53, 102);
+  color: darkgoldenrod;
 }
 
 *{
@@ -62,7 +62,7 @@ body {
   position: relative;
 }
 .menu ul li a{
-  color:#eaf1cf;
+  color:#2b1f38;
   text-decoration: none;
   font-size: 15px;
 
@@ -70,7 +70,7 @@ body {
 }
 
 .menu ul li a:hover{
-  color: #f3c294;
+  color: #98c7bd;
 
 }
 

@@ -1,23 +1,23 @@
 body {
-  background-color: #362a44;
+  background-color: #c4ffd1;
 }
 
 h1 {
-  color: #337465;
-  background: #98c7bd;
+  color: #741313;
+  background: #c4ffd1;
   width: 100%;
   font-family: 'Times New Roman', Times, serif;
 }
 
 h3 {
-  color: #ffffff;
+  color: #1ea767;
   margin-left: 50px;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
 }
 
 a:visited {
-  color: darkgoldenrod;
+  color: rgb(31, 53, 126);
 }
 
 *{
@@ -31,7 +31,7 @@ body {
 }
 
 .El_Menu {
-  background-color: #f7df94;
+  background-color: #e95f5f;
   height: 40px;
   width: 100%;
   display: flex;
