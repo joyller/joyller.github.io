@@ -1,17 +1,35 @@
 body {
-  background-color: #c4ffd1;
+  background-color: #362a44;
+}
+
+.logo img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.logo h1 {
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
 h1 {
-  color: #741313;
-  background: #c4ffd1;
+  color: #337465;
+  background: #98c7bd;
   width: 100%;
   font-family: 'Times New Roman', Times, serif;
 }
 
+h3 {
+  color: #ffffff;
+  margin-left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
 
 a:visited {
-  color: rgb(31, 53, 126);
+  color: darkgoldenrod;
 }
 
 *{
@@ -21,25 +39,15 @@ a:visited {
 }
 
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.El_Menu {
-  background-color: #e95f5f;
+.menu {
+  background-color: #f7df94;
   height: 40px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
-}
-
-.El_Menu ul{
-  list-style: none;
-  display: flex;
-}
-
-.El_Menu ul li{
-  padding: 0px 20px;
-  position: relative;
 }
