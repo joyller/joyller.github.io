@@ -2,18 +2,6 @@ body {
   background-color: #362a44;
 }
 
-.logo img {
-  float: left;
-  width: 100px;
-  height: 100px;
-}
-
-.logo h1 {
-  position: relative;
-  top: 0px;
-  left: 0px;
-}
-
 h1 {
   color: #337465;
   background: #98c7bd;
@@ -42,7 +30,7 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.menu {
+.El_Menu {
   background-color: #f7df94;
   height: 40px;
   width: 100%;
