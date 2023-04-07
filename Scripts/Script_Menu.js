@@ -16,8 +16,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       lista.innerText = Opcion.descripcion;
       list.appendChild(lista);
       
-
-      console.log(Menu.descripcion[Opcion]);//guardate o voy a llorar
+      
       //console.log(Opcion.identificador);
 
     });
