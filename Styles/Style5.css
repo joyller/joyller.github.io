@@ -30,7 +30,7 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.clasemenu {
+.El_Menu {
   background-color: #f7df94;
   height: 40px;
   width: 100%;
@@ -40,12 +40,12 @@ body {
   padding: 0 5%;
 }
 
-.clasemenu ul{
+.El_Menu ul{
   list-style: none;
   display: flex;
 }
 
-.clasemenu ul li{
+.El_Menu ul li{
   padding: 0px 20px;
   position: relative;
 }
