@@ -8,9 +8,9 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       Menu.forEach(Hijo => {
         if(Father.identificador == Hijo.padre){
           console.log (Father.descripcion + " es el padre de " + Hijo.descripcion); 
-          console.log(Padre.padre);
-          console.log(Padre.descripcion);
-          console.log(Padre.identificador);
+          console.log(Father.padre);
+          console.log(Father.descripcion);
+          console.log(Father.identificador);
         }
       });
     });
