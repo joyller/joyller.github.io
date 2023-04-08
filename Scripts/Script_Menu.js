@@ -7,7 +7,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
     let respaldo = Menu;
     
     respaldo.forEach(respaldo => {
-        Menu.sort((a, b) => a.identificador - b.padre)
+        Menu.sort((a, b) => a.identificador - b.padre);
     });
 
     for(var t = 0 ; t < Menu.length ; x++){
