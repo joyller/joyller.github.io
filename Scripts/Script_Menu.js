@@ -11,10 +11,12 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       if (Opcion.padre != null) {
         console.log(Opcion.descripcion)
       }
-      let enlance = document.createElement('a');
       let link = Opcion.url;
-      enlance.href= link;
-      document.body.appendChild(enlance);
+      let enlance = document.createElement('a');
+      aTag.innerHTML = link.descripcion;
+      aTag.setAttribute('href', link);
+      El_Menu.appendChild(enlance);
+
       //console.log(Menu[x].descripcion);
       let lista = document.createElement("li");
       lista.innerText = Opcion.descripcion;
