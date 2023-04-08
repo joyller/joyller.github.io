@@ -11,7 +11,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
     });
 
     for(var t = 0 ; t < Menu.length ; x++){
-      console.log(Menu[x].descripcion)
+      console.log(Menu[x].descripcion);
     }
     /*Menu.forEach(Opcion => {
       //console.log(Opcion.padre);
