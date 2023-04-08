@@ -117,26 +117,26 @@
   {
     "padre": 6,
     "identificador": 21,
-    "precio": 75
+    "descripcion": "75"
   },
   {
     "padre": 7,
     "identificador": 22,
-    "precio": 100
+    "descripcion": "100"
   },
   {
     "padre": 8,
     "identificador": 23,
-    "precio": 100
+    "descripcion": "100"
   },
   {
     "padre": 9,
     "identificador": 24,
-    "precio": 200
+    "descripcion": "200"
   },
   {
     "padre": 10,
     "identificador": 25,
-    "precio": 175
+    "descripcion": "175"
   }
 ]
