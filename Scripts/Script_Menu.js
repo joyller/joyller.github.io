@@ -4,28 +4,25 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
     let list = document.getElementById("El_Menu");
 
-   
+
     Menu.forEach(Opcion => {
       //console.log(Opcion.padre);
-      
-      if(Opcion.padre != null)
-      {
+
+      if (Opcion.padre != null) {
         console.log(Opcion.descripcion)
       }
 
-        //console.log(Menu[x].descripcion);
-        let lista = document.createElement("li");
-        let site = document.createElement("a")
-        lista.innerText = Opcion.descripcion;
-        site.innerText = Opcion.url;
-        list.appendChild(lista);
-  
+      //console.log(Menu[x].descripcion);
+      let site = document.createElement("a");
+      site.innerText = Opcion.url;
+      list.appendChild(site);
+
       let lista = document.createElement("li");
       lista.innerText = Opcion.descripcion;
       list.appendChild(lista);
-      
+
       //console.log(Opcion.identificador);
 
     });
   })
-  .catch(error => console.error(error));
+  .catch(error => console.error(error))

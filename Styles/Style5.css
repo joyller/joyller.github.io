@@ -20,7 +20,7 @@ a:visited {
   color: darkgoldenrod;
 }*/
 
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -40,12 +40,12 @@ body {
   padding: 0 5%;
 }
 
-.El_Menu ul{
+.El_Menu ul {
   list-style: none;
   display: flex;
 }
 
-.El_Menu ul li{
+.El_Menu ul li {
   padding: 0px 20px;
   position: relative;
 }
