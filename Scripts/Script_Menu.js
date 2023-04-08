@@ -2,18 +2,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   .then(response => response.json())
   .then(Menu => {
 
-    let lista = document.createElement("li");
-
-    for (var pa = 0; pa < Menu.length ; pa++){
-      for(var hi = 0; hi < Menu.length ; hi++){
-        if(Menu[pa].padre == Menu[hi].identificador){
-          lista.innerText = pa.descripcion;
-          list.appendChild(lista)
-        }
-      }
-    }
-
-    /*Menu.forEach(Opcion => {
+    Menu.forEach(Opcion => {
       console.log(Opcion.padre);
       console.log(Opcion.descripcion);
       console.log(Opcion.identificador);
@@ -24,11 +13,12 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       let enlance = document.createElement('a');
       enlance.innerHTML = Opcion.descripcion;
       enlance.setAttribute('href', link);
-      El_Menu.appendChild(enlance);
+      El_Menu.appendChild(enlance);*/
 
+      let lista = document.createElement("li");
       lista.innerText = Opcion.descripcion;
       list.appendChild(lista);
 
-    });*/
+    });
   })
   .catch(error => console.error(error))
