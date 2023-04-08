@@ -14,11 +14,11 @@ h1 {
   margin-left: 50px;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
-}
+}*/
 
 a:visited {
   color: darkgoldenrod;
-}*/
+}
 
 * {
   padding: 0px;
@@ -50,4 +50,50 @@ body {
   position: relative;
 }
 
-/*str*/
+.menu ul li a{
+  color:#2b1f38;
+  text-decoration: none;
+  font-size: 15px;
+
+  transition: all 0.2s;
+}
+
+.menu ul li a:hover{
+  color: #98c7bd;
+
+}
+
+.menu ul li:hover .menu_desp{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #dd422e;
+}
+
+.menu_desp {
+  display: none;
+}
+
+.menu ul li:hover .menu_desp ul{
+  display: block;
+  margin: 7px;
+}
+
+.menu ul li:hover .menu_desp ul li{
+  width: 150px;
+  padding: 10px;
+
+}
+
+.submenu{
+  display: none;
+}
+
+.menu_desp ul li:hover .submenu{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  background-color:  #dd422e;
+}
