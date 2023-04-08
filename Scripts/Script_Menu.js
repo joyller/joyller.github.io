@@ -16,13 +16,11 @@ fetch('https://joyller.github.io/datafile/Menu.json')
         enlance.setAttribute('href', link);
         El_Menu.appendChild(enlance);
 
-        if (Opcion.padre !=null) {
           console.log(Menu.descripcion);
           let lista = document.createElement("li");
           lista.innerText = Opcion.descripcion;
           list.appendChild(lista);
           console.log(Opcion.identificador);
-        }
       }
 
       });
