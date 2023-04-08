@@ -6,8 +6,6 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
     Menu.forEach(Opcion => {
       console.log(Opcion.padre);
-
-      if (Opcion.padre != null) {
         console.log(Opcion.descripcion);
 
         let link = Opcion.url;
@@ -21,7 +19,6 @@ fetch('https://joyller.github.io/datafile/Menu.json')
           lista.innerText = Opcion.descripcion;
           list.appendChild(lista);
           console.log(Opcion.identificador);
-      }
 
       });
   })
