@@ -17,7 +17,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
         El_Menu.appendChild(enlance);
 
         if (Opcion.padre !=null) {
-          console.log(Menu[x].descripcion);
+          console.log(Menu.descripcion);
           let lista = document.createElement("li");
           lista.innerText = Opcion.descripcion;
           list.appendChild(lista);
