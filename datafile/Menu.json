@@ -113,5 +113,30 @@
     "identificador": 20,
     "descripcion": "filete de ternera",
     "url": "images/Filete.jpg"
+  },
+  {
+    "padre": 6,
+    "identificador": 21,
+    "precio": 75
+  },
+  {
+    "padre": 7,
+    "identificador": 22,
+    "precio": 100
+  },
+  {
+    "padre": 8,
+    "identificador": 23,
+    "precio": 100
+  },
+  {
+    "padre": 9,
+    "identificador": 24,
+    "precio": 200
+  },
+  {
+    "padre": 10,
+    "identificador": 25,
+    "precio": 175
   }
 ]
