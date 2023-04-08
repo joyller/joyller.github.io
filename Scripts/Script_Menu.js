@@ -7,7 +7,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
     for (var pa = 0; pa < Menu.length ; pa++){
       for(var hi = 0; hi < Menu.length ; hi++){
         if(Menu[pa].padre == Menu[hi].identificador){
-          lista.innerText = Opcion.descripcion;
+          lista.innerText = pa.descripcion;
           list.appendChild(lista)
         }
       }
