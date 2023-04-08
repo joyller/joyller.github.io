@@ -1,10 +1,10 @@
 body {
-  background-color: #362a44;
+  background-color: #f8d59f;
 }
 
 h1 {
-  color: #337465;
-  background: #98c7bd;
+  color: #108119;
+  background: #dcffbb;
   width: 100%;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .El_Menu {
-  background-color: #f7df94;
+  background-color: #dd422e;
   height: 40px;
   width: 100%;
   display: flex;
