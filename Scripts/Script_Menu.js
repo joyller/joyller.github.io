@@ -13,7 +13,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       }
       let link = Opcion.url;
       let enlance = document.createElement('a');
-      enlance.innerHTML = link.descripcion;
+      enlance.innerHTML = Opcion.descripcion;
       enlance.setAttribute('href', link);
       El_Menu.appendChild(enlance);
 
