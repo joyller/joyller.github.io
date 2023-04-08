@@ -17,6 +17,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       enlance.setAttribute('href', link);
       El_Menu.appendChild(enlance);
 
+      //if(Opcion.padre == Menu[])
       //console.log(Menu[x].descripcion);
       //let lista = document.createElement("li");
       //lista.innerText = Opcion.descripcion;
