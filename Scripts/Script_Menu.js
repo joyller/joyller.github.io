@@ -13,10 +13,6 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       }
 
       //console.log(Menu[x].descripcion);
-      let site = document.createElement("a");
-      site.innerText = Opcion.url;
-      list.appendChild(site);
-
       let lista = document.createElement("li");
       lista.innerText = Opcion.descripcion;
       list.appendChild(lista);
