@@ -18,10 +18,9 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       El_Menu.appendChild(enlance);
 
       //console.log(Menu[x].descripcion);
-      let lista = document.createElement("li");
-      lista.innerText = Opcion.descripcion;
-      list.appendChild(lista);
-
+      //let lista = document.createElement("li");
+      //lista.innerText = Opcion.descripcion;
+      //list.appendChild(lista);
       //console.log(Opcion.identificador);
 
     });
