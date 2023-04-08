@@ -7,17 +7,15 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       console.log(Opcion.descripcion);
       console.log(Opcion.identificador);
 
-
+      /*let lista = document.createElement("li");
+      lista.innerText = Opcion.descripcion;
+      list.appendChild(lista);
 
       /*let link = Opcion.url;
       let enlance = document.createElement('a');
       enlance.innerHTML = Opcion.descripcion;
       enlance.setAttribute('href', link);
       El_Menu.appendChild(enlance);*/
-
-      let lista = document.createElement("li");
-      lista.innerText = Opcion.descripcion;
-      list.appendChild(lista);
 
     });
   })
