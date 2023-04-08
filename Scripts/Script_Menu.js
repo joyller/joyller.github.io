@@ -2,24 +2,6 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   .then(response => response.json())
   .then(Menu => {
 
-    let list = document.createElement("ul");
-
-    function crearmenu(Menu, list){
-      for(x = 0; x < Menu.length ; x++){
-        objmenu = Menu[x];
-        lista = document.createElement("li");
-        if(objmenu.padre === null){
-          enlace = document.createElement("a");
-          enlace.innerHTML = objmenu.descripcion;
-          enlace.href = objmenu.url;
-          li.appendChild(enlace);
-          list.appendChild(li);
-        }
-      }
-
-      return crearmenu;
-    }
-
     Menu.forEach(Opcion => {
       console.log(Opcion.padre);
       console.log(Opcion.descripcion);
@@ -40,8 +22,3 @@ fetch('https://joyller.github.io/datafile/Menu.json')
     });
   })
   .catch(error => console.error(error))
-
-  list = nestItems(objmenu, list);
-
-  let listanavegacion = document.querySelector("#listanavegacion");
-  listanavegacion.appendChild(list);
