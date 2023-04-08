@@ -41,7 +41,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   })
   .catch(error => console.error(error))
 
-  crearmenu = nestItems(objmenu, crearmenu)
+  crearmenu = nestItems(objmenu, crearmenu);
 
   let listanavegacion = document.querySelector("#listanavegacion");
   listanavegacion.appendChild(crearmenu);
