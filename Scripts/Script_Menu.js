@@ -13,7 +13,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
           enlace.innerHTML = objmenu.descripcion;
           enlace.href = objmenu.url;
           li.appendChild(enlace);
-          crearmenu.appendChild(li);
+          list.appendChild(li);
         }
       }
 
@@ -41,7 +41,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   })
   .catch(error => console.error(error))
 
-  crearmenu = nestItems(objmenu, crearmenu);
+  list = nestItems(objmenu, list);
 
   let listanavegacion = document.querySelector("#listanavegacion");
-  listanavegacion.appendChild(crearmenu);
+  listanavegacion.appendChild(list);
