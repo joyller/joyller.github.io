@@ -8,6 +8,15 @@ fetch('https://joyller.github.io/datafile/Menu.json')
         console.log(Opcion.identificador);
     })
 
+    const lista = createList(Menu);
+  
+    document.getElementById('Menuhtml').innerHTML = lista;
+  })
+  .catch(error => console.error(error))
+
+
+
+
 
     /*let lista = document.getElementById("Menuhtml");
     
@@ -27,7 +36,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
           
         }
-      });*/
+      });
   })
   .catch(error => console.error(error))
 
