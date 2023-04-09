@@ -3,16 +3,22 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   .then(Menu => {
 
     let lista = document.getElementById("Menuhtml");
+    
+    var ul = document.createElement('ul');
+		document.getElementById('Menuhtml').appendChild(ul);
 
     Menu.forEach((Father) => {
-      Menu.forEach(Hijo => {
-        let li = document.createElement("li");
-        li.innerText = Father.descripcion;
-        lista.appendChild(li);
+      let li = document.createElement("li");
+      li.innerText = Father.descripcion;
+      ul.appendChild(li);
 
+      
+
+      Menu.forEach(Hijo => {
         if (Father.identificador == Hijo.padre) {
           console.log(Father.descripcion + " es el padre de " + Hijo.descripcion);
 
+          
         }
       });
     });
