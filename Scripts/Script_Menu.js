@@ -1,6 +1,9 @@
 fetch('https://joyller.github.io/datafile/Menu.json')
   .then(response => response.json())
   .then(Menu => {
+    const rootListElement = createNestedListElements(null);
+    document.body.appendChild(rootListElement);
+    
     const parentElements = Menu.filter(element => element.ElementID === Menu.padre);
     if (parentElements.length === 0) {
       return null;
@@ -21,8 +24,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   })
 .catch(error => console.error(error))
 
-const rootListElement = createNestedListElements(null);
-document.body.appendChild(rootListElement);
+
 
 /*fetch('https://joyller.github.io/datafile/Menu.json')
   .then(response => response.json())
