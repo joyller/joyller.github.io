@@ -12,7 +12,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
           let li = document.createElement("li");
           let ul = document.createElement("ul");
           li.innerText = Hijo.descripcion;
-          lista.appendChild(ul)
+          lista.appendChild(ul);
         }else{
           let li = document.createElement("li");
           li.innerText = Father.descripcion;
