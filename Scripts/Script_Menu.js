@@ -4,8 +4,13 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
     var auxiliar = Menu;
     
-    auxiliar.forEach(Hijo => {
-        console.log(Hijo.descripcion);
+    for(var x = 0; x < Menu.length ; x++)
+    {
+      if(auxiliar[x+1].padre == Menu.identificacion){
+        console.log(auxiliar[x+1].descripcion + " es el padre de " + Menu.descripcion)
+      }
+    }
+    
 
 
     /*let lista = document.getElementById("Menuhtml");
@@ -27,7 +32,6 @@ fetch('https://joyller.github.io/datafile/Menu.json')
           
         }
       });*/
-    });
   })
   .catch(error => console.error(error))
 
