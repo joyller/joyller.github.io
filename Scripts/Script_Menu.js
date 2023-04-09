@@ -13,10 +13,6 @@ fetch('https://joyller.github.io/datafile/Menu.json')
           let ul = document.createElement("ul");
           li.innerText = Hijo.descripcion;
           lista.appendChild(ul);
-        }else{
-          let li = document.createElement("li");
-          li.innerText = Hijo.descripcion;
-          lista.appendChild(li);
         }
       });
     });
