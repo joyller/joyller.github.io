@@ -13,11 +13,6 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       Menu.forEach(Hijo => {
         if(Father.identificador == Hijo.padre){
           console.log (Father.descripcion + " es el padre de " + Hijo.descripcion); 
-
-          let ul = document.createElement("ul");
-          lista.appendChild(ul);
-          li.innerText = Hijo.descripcion;
-          lista.appendChild(li);
     
         }
       });
