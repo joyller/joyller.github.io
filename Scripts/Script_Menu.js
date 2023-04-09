@@ -15,8 +15,9 @@ fetch('https://joyller.github.io/datafile/Menu.json')
           console.log (Father.descripcion + " es el padre de " + Hijo.descripcion); 
 
           let ul = document.createElement("ul");
-          ul.innerText = Father.descripcion;
           lista.appendChild(ul);
+          li.innerText = Hijo.descripcion;
+          lista.appendChild(li);
     
         }
       });
