@@ -6,9 +6,6 @@ fetch('https://joyller.github.io/datafile/Menu.json')
     
     for(var x = 0; x < Menu.length ; x++)
     {
-      if(auxiliar[x+1].padre == Menu.identificacion){
-        console.log(auxiliar[x].descripcion + " es el padre de " + Menu[x+1].descripcion)
-      }
     }
     
 
