@@ -8,7 +8,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       Menu.forEach(Hijo => {
 
         let li = document.createElement("li");
-        li.innerText = Father.descripcion;
+        li.innerText = Hijo.descripcion;
         lista.appendChild(li);
 
       if(Father.identificador == Hijo.padre){
