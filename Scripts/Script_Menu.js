@@ -2,7 +2,13 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   .then(response => response.json())
   .then(Menu => {
 
-    let lista = document.getElementById("Menuhtml");
+    var auxiliar = Menu;
+    
+    auxiliar.forEach(Hijo => {
+        console.log(Father.descripcion + " es el padre de " + Hijo.descripcion);
+
+
+    /*let lista = document.getElementById("Menuhtml");
     
     var ul = document.createElement('ul');
 		document.getElementById('Menuhtml').appendChild(ul);
@@ -20,7 +26,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
           
         }
-      });
+      });*/
     });
   })
   .catch(error => console.error(error))
