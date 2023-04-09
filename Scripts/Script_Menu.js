@@ -5,7 +5,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
     var auxiliar = Menu;
     
     auxiliar.forEach(Hijo => {
-        console.log(Father.descripcion + " es el padre de " + Hijo.descripcion);
+        console.log(Hijo.descripcion);
 
 
     /*let lista = document.getElementById("Menuhtml");
