@@ -40,7 +40,7 @@ function CrearMenu(Menu) {
   return listElement;
 }
 
-const rootListElement = CrearMenu(null);
+const rootListElement = CrearMenu(Menu);
 document.body.appendChild(rootListElement);
   
 
