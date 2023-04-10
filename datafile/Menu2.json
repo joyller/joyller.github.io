@@ -1,0 +1,162 @@
+[
+  {
+    "identificador": 1,
+    "descripcion": "Entradas",
+    "url": "#",
+    "subopciones": [
+      {
+        "padre": 1,
+        "identificador": 6,
+        "descripcion": "Tostones",
+        "url": "images/tostones.jpg",
+        "subopciones": [
+          {
+            "padre": 6,
+            "identificador": 21,
+            "descripcion": "75"
+          }
+        ]
+      },
+      {
+        "padre": 1,
+        "identificador": 7,
+        "descripcion": "Aros de cebolla",
+        "url": "images/cebolla.jpg",
+        "subopciones": [
+          {
+            "padre": 7,
+            "identificador": 22,
+            "descripcion": "100"
+          }
+        ]
+      },
+      {
+        "padre": 1,
+        "identificador": 8,
+        "descripcion": "Papas fritas",
+        "url": "images/papas.jpg",
+        "subopciones": [
+          {
+            "padre": 8,
+            "identificador": 23,
+            "descripcion": "100"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identificador": 2,
+    "descripcion": "Plato fuerte",
+    "url": "#",
+    "subopciones": [
+      {
+        "padre": 2,
+        "identificador": 9,
+        "descripcion": "Pasta pesto",
+        "url": "images/pesto.jpeg",
+        "subopciones": [
+          {
+            "padre": 9,
+            "identificador": 24,
+            "descripcion": "200"
+          }
+        ]
+      },
+      {
+        "padre": 2,
+        "identificador": 10,
+        "descripcion": "Bandera dominicana",
+        "url": "images/bandera.jpg",
+        "subopciones": [
+          {
+            "padre": 10,
+            "identificador": 25,
+            "descripcion": "175"
+          }
+        ]
+      },
+      {
+        "padre": 2,
+        "identificador": 11,
+        "descripcion": "Mangu encebollado",
+        "url": "images/mangu.jpg"
+      }
+    ]
+  },
+  {
+    "identificador": 3,
+    "descripcion": "Bebidas",
+    "url": "#",
+    "subopciones": [
+      {
+        "padre": 3,
+        "identificador": 12,
+        "descripcion": "Agua",
+        "url": "images/agua.jpg"
+      },
+      {
+        "padre": 3,
+        "identificador": 13,
+        "descripcion": "Jugo",
+        "url": "images/jugo.jpg"
+      },
+      {
+        "padre": 3,
+        "identificador": 14,
+        "descripcion": "Cerveza",
+        "url": "images/cerveza.jpeg"
+      }
+    ]
+  },
+  {
+    "identificador": 4,
+    "descripcion": "Postres",
+    "url": "#",
+    "subopciones": [
+      {
+        "padre": 4,
+        "identificador": 15,
+        "descripcion": "Brownies",
+        "url": "images/brownies.jpg"
+      },
+      {
+        "padre": 4,
+        "identificador": 16,
+        "descripcion": "3 leches",
+        "url": "images/tresleches.jpg"
+      },
+      {
+        "padre": 4,
+        "identificador": 17,
+        "descripcion": "Cheesecake",
+        "url": "images/cheesecake.jpg"
+      }
+    ]
+  },
+  {
+    "identificador": 5,
+    "descripcion": "Carnes",
+    "url": "#",
+    "subopciones": [
+      {
+        "padre": 5,
+        "identificador": 18,
+        "descripcion": "Albondigas",
+        "url": "images/albondigas.jpg"
+      },
+      {
+        "padre": 5,
+        "identificador": 19,
+        "descripcion": "salmon al vapor",
+        "url": "images/salmon.jpg"
+      },
+      {
+        "padre": 5,
+        "identificador": 20,
+        "descripcion": "filete de ternera",
+        "url": "images/Filete.jpg"
+      }
+    ]
+  }
+]
