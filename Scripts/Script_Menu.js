@@ -19,25 +19,40 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   .catch(error => console.error(error));
 
 // Create the HTML markup for the list
-function CrearMenu(Menu) {
-  // Your code here
-  const parentElements = Menu.filter(element => element.padre === Menu.identificador);
-  if (parentElements.length === 0) {
-    return null;
-  }
-  const parentElement = parentElements[0];
-  const childElements = Menu.filter(element => element.padre === Menu.identificador);
-  const listElement = document.createElement('ul');
-  const listItemElement = document.createElement('li');
-  listItemElement.textContent = parentElement.descripcion;
-  listElement.appendChild(listItemElement);
-  childElements.forEach(childElement => {
-    const childListElement = CrearMenu(childElement.padre);
-    if (childListElement) {
-      listItemElement.appendChild(childListElement);
+function generateList(Menu) {
+  const tree = buildTree(Menu);
+  const rootNodes = getRootNodes(tree);
+  
+  const ul = document.createElement('ul');
+  
+  rootNodes.forEach(root => {
+    const li = document.createElement('li');
+    li.textContent = root.descripcion;
+    ul.appendChild(li);
+    
+    const childUl = buildChildUl(root, tree);
+    li.appendChild(childUl);
+  });
+  
+  return ul;
+}
+
+function buildChildUl(node, tree) {
+  const childUl = document.createElement('ul');
+  const children = getChildren(node, tree);
+  
+  children.forEach(child => {
+    const childLi = document.createElement('li');
+    childLi.textContent = child.descripcion;
+    childUl.appendChild(childLi);
+    
+    if (child.children) {
+      const nestedChildUl = buildChildUl(child, tree);
+      childLi.appendChild(nestedChildUl);
     }
   });
-  return listElement;
+  
+  return childUl;
 }
 
 
