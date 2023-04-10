@@ -15,6 +15,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
     // Add the HTML markup to the page
     document.getElementById('Menuhtml').innerHTML = lista;
+    generateList(Menu);
   })
   .catch(error => console.error(error));
 
@@ -22,41 +23,41 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 function generateList(Menu) {
   const tree = buildTree(Menu);
   const rootNodes = getRootNodes(tree);
-  
+
   const ul = document.createElement('ul');
-  
+
   rootNodes.forEach(root => {
     const li = document.createElement('li');
     li.textContent = root.descripcion;
     ul.appendChild(li);
-    
+
     const childUl = buildChildUl(root, tree);
     li.appendChild(childUl);
   });
-  
+
   return ul;
 }
 
 function buildChildUl(node, tree) {
   const childUl = document.createElement('ul');
   const children = getChildren(node, tree);
-  
+
   children.forEach(child => {
     const childLi = document.createElement('li');
     childLi.textContent = child.descripcion;
     childUl.appendChild(childLi);
-    
+
     if (child.children) {
       const nestedChildUl = buildChildUl(child, tree);
       childLi.appendChild(nestedChildUl);
     }
   });
-  
+
   return childUl;
 }
 
 
-  
+
 
 /*let lista = document.getElementById("Menuhtml");
  
