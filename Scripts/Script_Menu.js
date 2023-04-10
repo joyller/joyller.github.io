@@ -38,10 +38,12 @@ function CrearMenu(Menu) {
     }
   });
   return listElement;
+
+  const rootListElement = CrearMenu(Menu);
+  document.body.appendChild(rootListElement);
 }
 
-const rootListElement = CrearMenu(Menu);
-document.body.appendChild(rootListElement);
+
   
 
 /*let lista = document.getElementById("Menuhtml");
