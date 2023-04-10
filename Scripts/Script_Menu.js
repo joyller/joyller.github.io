@@ -19,7 +19,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   .catch(error => console.error(error));
 
 // Create the HTML markup for the list
-function CrearMenu(data) {
+function CrearMenu(Menu) {
   // Your code here
 }
 
