@@ -32,7 +32,7 @@ function CrearMenu(Menu) {
   listItemElement.textContent = parentElement.descripcion;
   listElement.appendChild(listItemElement);
   childElements.forEach(childElement => {
-    const childListElement = createNestedListElements(childElement.padre);
+    const childListElement = CrearMenu(childElement.padre);
     if (childListElement) {
       listItemElement.appendChild(childListElement);
     }
@@ -40,7 +40,7 @@ function CrearMenu(Menu) {
   return listElement;
 }
 
-const rootListElement = createNestedListElements(null);
+const rootListElement = CrearMenu(null);
 document.body.appendChild(rootListElement);
   
 
