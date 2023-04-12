@@ -1,0 +1,13 @@
+{
+    "usuario":[
+        {
+            "Nombre": "#",
+            "Apellido": "#",
+            "Cedula": "#",
+            "FechaNacimiento": "#",
+            "Genero": "#",
+            "email": "#",
+            "Telefono": "#"
+        } 
+    ]
+}
