@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title>formulario medico</title>
+    <link rel="stylesheet" href="Style/FormMedico.css">
+  </head>
+
+  <body>
+
+    <h2>formulario medico</h2>
+
+    <div class="contenedor">
+      <form id="Parte1">
+        <h3>Datos personales</h3>
+        <input type="text" placeholder="Nombre" required>
+        <input type="text" placeholder="Apellido" required>
+        <input type="text" placeholder="Cedula" required>
+        <label for="FechaNacimiento">Fecha de nacimiento</label><br>
+        <input type="date" placeholder="Fecha de nacimiento" required>
+        <label for="Genero">Genero</label><br>
+        <select name="Genero" placeholder="Genero" required>
+          <option> Masculino </option>
+          <option> Femenino </option>          
+          <option selected> No especifico </option>
+        </select>
+        <input type="email" placeholder="Correo Electronico"> 
+        <input type="text" placeholder="Telefono" required>
+
+        <div class="cajaBoton">
+          <button type="submit">Finalizar</button>
+        </div>
+      </form>
+
+      <!--form id="Parte2">
+        <h3>Familiares</h3>
+        <input type="text" placeholder="Nombre" required>
+        <input type="text" placeholder="Apellido" required>
+        <input type="text" placeholder="Parentezco">
+        <label for="FechaNacimiento">Fecha de nacimiento</label><br>
+        <input type="date" placeholder="Fecha de nacimiento" required>
+        <input type="text" placeholder="Telefono" required>
+
+        <div class="cajaBoton">
+          <button type="button" id="Back1">Retroceder</button>
+          <button type="button" id="Next2">Siguiente</button>
+        </div>
+      </form>
+
+
+      <form id="Parte3">
+        <h3>Condiciones Preexistentes</h3>
+        <input type="text" placeholder="Enfermedad" required>
+        <input type="text" placeholder="Tiempo de la Enfermedad" required>
+        <input type="textbox" placeholder="comentario">
+
+        <div class="cajaBoton">
+          <button type="button" id="Back2">Retroceder</button>
+          <button type="button" id="Next3">Siguiente</button>
+        </div>
+      </form>
+
+      <form id="Parte4">
+        <h3>Historial de internamientos</h3>
+        <input type="date" placeholder="Fecha Internado" required>
+        <input type="text" placeholder="Centro Medico" required>
+        <input type="text" placeholder="Diagnostico">
+
+        <div class="cajaBoton">
+          <button type="button" id="Back3">Retroceder</button>
+          <button type="submit" >Finalizar</button>
+        </div>
+      </form-->
+
+    </div>
+
+    <script src="Scripts/CambioFormulario.js"></script>
+    <script src="Scripts/controlDataForm.js"></script>
+  </body>
+</html>
