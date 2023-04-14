@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "es">
+  <head> 
+    <meta charset="UTF-8">
+    <title>Generador de contactos en codigo QR</title>
+    <script defer src="qrcode.min.js"></script>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+
+    <h1>Formularios de contacto a codigo QR</h1>
+
+    <div id= "FormularioContacto" class="CajaForm">
+      <form action= "" id="formContact" class="formContact">
+        <center>
+          <br><div id= "Etiquetas">
+          </div>
+          <b><label for="Nombre">Nombre Completo:</label></b>
+          <input type="text" id="Nombre"/><br>
+          <b><label for="Correo">E-Mail:</label></b>
+          <input type="text" id="Correo"/> <br>
+          <b><label for="Celular">Celular:</label></b>
+          <input type="text" id="Celular"/><br>
+          <button class="btn">Crear QR</button>
+        </form><br><br>
+        <div id= "zonaQR" class="zonaQR"></div></center>
+      </div>
+    </body>
+    </html>
+
+
