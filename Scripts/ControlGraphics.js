@@ -46,7 +46,7 @@ function drawChart() {
     tablareal.addColumn('string', 'Producto');
     tablareal.addColumn('number', 'ventas');
     
-    for (let x = 0; x < ListProducto.length; x++) {
+    for (var x = 0; x < ListProducto.length; x++) {
         tablareal.addRows([ListProducto[x],ListVentas[x]]);
     }
 
