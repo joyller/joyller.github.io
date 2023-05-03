@@ -61,14 +61,13 @@ function drawChart() {
                    'height':300,
                    'series':{
                     // Gives each series an axis name that matches the Y-axis below.
-          0: {axis: 'Ventas'}
+                            0: {axis: 'Ventas'}
                   },
-        axes: {
+                  'axes': {
           // Adds labels to each axis; they don't have to match the axis names.
-          y: {
-            Ventas: {label: 'Ventas'},
-          } 
-          };
+                    y: {
+                        Ventas: {label: 'Ventas'},
+                    };
 
     // Instantiate and draw our chart, passing in some options.
     var chart = new google.visualization.PieChart(document.getElementById('tabla1'));
