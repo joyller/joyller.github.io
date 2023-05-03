@@ -1,0 +1,113 @@
+{
+    "Year": 2020,
+    "Reporte": [
+        {
+            "Videojuegos": [
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Marzo",
+                    "ventas": 700
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Abril",
+                    "ventas": 430
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Mayo",
+                    "ventas": 250
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Junio",
+                    "ventas": 643
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Julio",
+                    "ventas": 890
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Agosto",
+                    "ventas": 437
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Septiembre",
+                    "ventas": 490
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Octubre",
+                    "ventas": 230
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Noviembre",
+                    "ventas": 900
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Diciembre",
+                    "ventas": 1400
+                }
+            ]
+        },
+        {
+            "Figurines": [
+                {
+                    "producto": "Figurin",
+                    "Mes": "Marzo",
+                    "ventas": 50
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Abril",
+                    "ventas": 70
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Mayo",
+                    "ventas": 2
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Junio",
+                    "ventas": 43
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Julio",
+                    "ventas": 90
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Agosto",
+                    "ventas": 32
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Septiembre",
+                    "ventas": 8
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Octubre",
+                    "ventas": 42
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Noviembre",
+                    "ventas": 95
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Diciembre",
+                    "ventas": 130
+                }
+            ]
+        }
+    ]
+}
