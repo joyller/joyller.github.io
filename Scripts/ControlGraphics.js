@@ -59,6 +59,6 @@ function drawChart() {
                    'height':300};
 
     // Instantiate and draw our chart, passing in some options.
-    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+    var chart = new google.visualization.PieChart(document.getElementById('tabla1'));
     chart.draw(data, options);
 }
