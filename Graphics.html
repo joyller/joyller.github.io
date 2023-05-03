@@ -17,6 +17,7 @@
             const datapoint = await response.json();
 
             console.log(datapoint);
+            return datapoint;
         };
 
         fetchData().then(datapoint => {
