@@ -46,15 +46,12 @@ function drawChart() {
     // Create the data table.
     var data = new google.visualization.DataTable();
     data.addColumn('date', 'Mes');
-    data.addColumn('string', 'Producto');
-    data.addColumn('number', 'Ventas');
+    data.addColumn('number', 'Ventas de figurines');
+    data.addColumn('number', 'Ventas de videojuegos');
     data.addRows([
-      [new Date(2020, 3), 'Videojuego', 700],
-      [new Date(2020, 3), 'Figurin',    50],
-      [new Date(2020, 4), 'Videojuego', 430],
-      [new Date(2020, 4), 'Figurin',    70],
-      [new Date(2020, 5), 'Videojuego', 250],
-      [new Date(2020, 5), 'Figurin',    2],
+      [new Date(2020, 3), 700, 50],
+      [new Date(2020, 4), 430, 70],
+      [new Date(2020, 5), 250, 20],
     ]);
 
     // Set chart options
