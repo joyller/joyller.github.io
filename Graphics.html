@@ -19,6 +19,14 @@
             console.log(datapoint);
         };
 
+        fetchData().then(datapoint => {
+            const ListProducto = datapoint.Reporte.tipoProducto.map(
+                function(index){
+                    return index.producto;
+                })
+                console.log(ListProducto);
+        });
+
         // Load the Visualization API and the corechart package.
         google.charts.load('current', { 'packages': ['corechart'] });
 
