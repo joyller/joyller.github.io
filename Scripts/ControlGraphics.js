@@ -46,15 +46,16 @@ function drawChart() {
     // Create the data table.
     var data = new google.visualization.DataTable();
     data.addColumn('date', 'Mes');
-    data.addColumn('number', 'Ventas de figurines');
     data.addColumn('number', 'Ventas de videojuegos');
+    data.addColumn('number', 'Ventas de figurines');
+	data.addColumn('number', 'Ventas de snacks');
 	
     data.addRows([
-      [new Date(2020, 3), 700, 50],
-      [new Date(2020, 4), 430, 70],
-      [new Date(2020, 5), 250, 20],
-      [new Date(2020, 6), 643, 43],
-      [new Date(2020, 7), 890, 90],
+      [new Date(2020, 3), 70, 50,],
+      [new Date(2020, 4), 43, 27,],
+      [new Date(2020, 5), 50, 20,],
+      [new Date(2020, 6), 64, 43,],
+      [new Date(2020, 7), 89, 70,],
 
     ]);
 
@@ -63,16 +64,16 @@ function drawChart() {
         chart: {
           title: 'Ventas del año 2020-2021'
         },
-        width: 1200,
-        height: 800,
+        width: 800,
+        height: 500,
         series: {
           // Gives each series an axis name that matches the Y-axis below.
           0: {axis: 'Ventas'}
-        },
+	},
         axes: {
           // Adds labels to each axis; they don't have to match the axis names.
           y: {
-            Ventas: {label: 'Ventas (dolares)'}
+            Ventas: {label: 'Ventas (cantidad)'}
           }
         }
       };
