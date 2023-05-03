@@ -67,11 +67,7 @@ function drawChart() {
 		subtitle: 'Ventas por cantidad año 2020-2021'
         },
         width: 800,
-        height: 500,
-        series: {
-          // Gives each series an axis name that matches the Y-axis below.
-          0: {axis: 'Ventas'}
-	}
+        height: 500
       };
       
     // Instantiate and draw our chart, passing in some options.
