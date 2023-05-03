@@ -42,14 +42,25 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
 
     // Create the data table.
-    var data = new google.visualization.DataTable();
-    data.addColumn('string', 'Producto');
-    data.addColumn('number', 'ventas');
+    var tablareal = new google.visualization.DataTable();
+    tablareal.addColumn('string', 'Producto');
+    tablareal.addColumn('number', 'ventas');
     
     for (let x = 0; x < ListProducto.length; x++) {
-      data.addRows([ListProducto[x],ListVentas[x]]);
-        
+        tablareal.addRows([ListProducto[x],ListVentas[x]]);
     }
+
+    var prueba = new google.visualization.DataTable();
+    prueba.addColumn('string', 'Topping');
+    prueba.addColumn('number', 'Slices');
+    prueba.addRows([
+      ['Mushrooms', 3],
+      ['Onions', 1],
+      ['Olives', 1],
+      ['Zucchini', 1],
+      ['Pepperoni', 2]
+    ]);
+
 
     // Set chart options
     var options = {
