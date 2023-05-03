@@ -49,7 +49,7 @@ function drawChart() {
     data.addColumn('number', 'Ventas de figurines');
     data.addColumn('number', 'Ventas de videojuegos');
     
-    for (var i = 0; i < (archdatos.length/2); i++) {
+    for (var i = 0; i < 20; i++) {
       console.log(x);}
     
     data.addRows([
