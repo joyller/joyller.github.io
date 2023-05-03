@@ -38,12 +38,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   .then(response => response.json())
   .then(Datos => {
 
-    Datos.forEach(Opcion => {
-      data.addRows([
-      [new Date(Opcion.anio[Opcion], Opcion.Mes[Opcion]), Opcion.ventas[Opcion], Opcion.ventas[Opcion*2]],
 
-    ]);
-    })
     
 google.charts.load('current', { 'packages': ['line', 'corechart'] });
 
@@ -59,7 +54,13 @@ function drawChart() {
     data.addColumn('number', 'Ventas de figurines');
     data.addColumn('number', 'Ventas de videojuegos');
     
-    
+        Datos.forEach(Opcion => {
+      data.addRows([
+      [new Date(Opcion.anio[Opcion], Opcion.Mes[Opcion]), Opcion.ventas[Opcion], Opcion.ventas[Opcion*2]],
+
+    ]);
+    })
+	
     data.addRows([
       [new Date(2020, 3), 700, 50],
       [new Date(2020, 4), 430, 70],
