@@ -56,6 +56,9 @@ function drawChart() {
       [new Date(2020, 3), 700, 50],
       [new Date(2020, 4), 430, 70],
       [new Date(2020, 5), 250, 20],
+      [new Date(2020, 6), 643, 43],
+      [new Date(2020, 7), 890, 90]
+
     ]);
 
     // Set chart options
