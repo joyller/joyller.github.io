@@ -40,8 +40,11 @@ google.charts.load('current', { 'packages': ['line', 'corechart'] });
 google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
+    
+    const url = 'https://joyller.github.io/datafile/Ventas.json';
+    const response = await fetch(url);
 
-     fetchData();
+    const archdatos = await response.json();
     
     var chartDiv = document.getElementById('tabla1');
     
@@ -53,7 +56,7 @@ function drawChart() {
     
     for (var i = 0; i < (datapoint.length/2); i++) {
         data.addRows([
-      [new Date(datapoint.anio[x], datapoint.Mes[x]), datapoint.ventas[x], datapoint.ventas[x+10]]]);
+      [new Date(archdatos.anio[x], archdatos.Mes[x]), archdatos.ventas[x], archdatos.ventas[x+10]]]);
     }
     
     data.addRows([
