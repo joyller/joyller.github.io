@@ -46,11 +46,12 @@ function drawChart() {
     data.addColumn('string', 'Topping');
     data.addColumn('number', 'Slices');
     data.addRows([
-      ['Mushrooms', 3],
-      ['Onions', 1],
-      ['Olives', 1],
-      ['Zucchini', 1],
-      ['Pepperoni', 2]
+      ['Videojuego', 700],
+      ['Figurin', 50],
+      ['Videojuego', 430],
+      ['Figurin', 70],
+      ['Videojuego', 250],
+      ['Figurin', 2],
     ]);
 
     // Set chart options
