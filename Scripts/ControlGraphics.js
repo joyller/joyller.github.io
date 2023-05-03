@@ -30,6 +30,8 @@ fetchData().then(datapoint => {
         })
 
     console.log(ListProducto);
-
+    console.log(ListMes);
+    console.log(ListVentas);
+    console.log(ListAnio);
 });
 
