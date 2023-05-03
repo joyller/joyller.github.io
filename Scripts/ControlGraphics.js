@@ -42,9 +42,9 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
     
     const url = 'https://joyller.github.io/datafile/Ventas.json';
-    const response = await fetch(url);
+    const response = fetch(url);
 
-    const archdatos = await response.json();
+    const archdatos = response.json();
     
     var chartDiv = document.getElementById('tabla1');
     
