@@ -21,7 +21,7 @@
         };
 
         fetchData().then(datapoint => {
-            const ListProducto = datapoint.Reporte[0].tipoProducto[0].map(
+            const ListProducto = datapoint.Reporte[0].tipoProducto.map(
                 function(index){
                     return index.producto;
                 })
