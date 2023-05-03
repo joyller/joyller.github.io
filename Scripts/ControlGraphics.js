@@ -43,19 +43,20 @@ function drawChart() {
 
     // Create the data table.
     var data = new google.visualization.DataTable();
-    data.addColumn('string', 'Topping');
-    data.addColumn('number', 'Slices');
+    data.addColumn('string', 'Producto');
+    data.addColumn('number', 'Ventas');
+    data.addColumn('string', 'Mes');
     data.addRows([
-      ['Videojuego', 700],
-      ['Figurin', 50],
-      ['Videojuego', 430],
-      ['Figurin', 70],
-      ['Videojuego', 250],
-      ['Figurin', 2],
+      ['Videojuego', 700, "Marzo"],
+      ['Figurin', 50, "Marzo"],
+      ['Videojuego', 430, "Abril"],
+      ['Figurin', 70, "Abril"],
+      ['Videojuego', 250, "Mayo"],
+      ['Figurin', 2, "Mayo"],
     ]);
 
     // Set chart options
-    var options = {'title':'How Much Pizza I Ate Last Night',
+    var options = {'title':'Ventas de mercancia de tienda de videojuegos',
                    'width':400,
                    'height':300};
 
