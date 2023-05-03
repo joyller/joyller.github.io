@@ -51,11 +51,11 @@ function drawChart() {
 	data.addColumn('number', 'Ventas de snacks');
 	
     data.addRows([
-      [new Date(2020, 3), 70, 50,],
-      [new Date(2020, 4), 43, 27,],
-      [new Date(2020, 5), 50, 20,],
-      [new Date(2020, 6), 64, 43,],
-      [new Date(2020, 7), 89, 70,],
+      [new Date(2020, 3), 70, 50,89],
+      [new Date(2020, 4), 43, 27,55],
+      [new Date(2020, 5), 50, 20,78],
+      [new Date(2020, 6), 64, 43,53],
+      [new Date(2020, 7), 89, 70,143],
 
     ]);
 
