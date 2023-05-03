@@ -66,8 +66,9 @@ function drawChart() {
                   'axes': {
           // Adds labels to each axis; they don't have to match the axis names.
                     y: {
-                        Ventas: {label: 'Ventas'},
-                    };
+                        'Ventas': {label: 'Ventas'},
+                    }
+                  };
 
     // Instantiate and draw our chart, passing in some options.
     var chart = new google.visualization.PieChart(document.getElementById('tabla1'));
