@@ -41,20 +41,11 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
 
-    fetchData();
     // Create the data table.
-    var tablareal = new google.visualization.DataTable();
-    tablareal.addColumn('string', 'Producto');
-    tablareal.addColumn('number', 'ventas');
-    
-    /*for (var x = 0; x < 19; x++) {
-        tablareal.addRows([datapoint.Reporte[0].tipoProducto.producto[x],datapoint.Reporte[0].tipoProducto.ventas[x]]);
-    }*/
-
-    var prueba = new google.visualization.DataTable();
-    prueba.addColumn('string', 'Topping');
-    prueba.addColumn('number', 'Slices');
-    prueba.addRows([
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Topping');
+    data.addColumn('number', 'Slices');
+    data.addRows([
       ['Mushrooms', 3],
       ['Onions', 1],
       ['Olives', 1],
@@ -62,15 +53,12 @@ function drawChart() {
       ['Pepperoni', 2]
     ]);
 
-
     // Set chart options
-    var options = {
-        'title': 'How Much Pizza I Ate Last Night',
-        'width': 400,
-        'height': 300
-    };
+    var options = {'title':'How Much Pizza I Ate Last Night',
+                   'width':400,
+                   'height':300};
 
     // Instantiate and draw our chart, passing in some options.
-    var chart = new google.visualization.PieChart(document.getElementById('tabla1'));
+    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
     chart.draw(data, options);
 }
