@@ -47,9 +47,9 @@ function drawChart() {
     tablareal.addColumn('string', 'Producto');
     tablareal.addColumn('number', 'ventas');
     
-    for (var x = 0; x < 19; x++) {
+    /*for (var x = 0; x < 19; x++) {
         tablareal.addRows([datapoint.Reporte[0].tipoProducto.producto[x],datapoint.Reporte[0].tipoProducto.ventas[x]]);
-    }
+    }*/
 
     var prueba = new google.visualization.DataTable();
     prueba.addColumn('string', 'Topping');
