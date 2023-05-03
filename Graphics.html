@@ -9,6 +9,15 @@
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
 
+    async function fetchData(){
+        const url = 'https://joyller.github.io/datafile/Ventas.json';
+        const response = await fetch(url);
+
+        const datapoint = await response.json();
+
+        console.log(datapoint);
+    };
+
   // Load the Visualization API and the corechart package.
   google.charts.load('current', {'packages':['corechart']});
 
@@ -51,8 +60,5 @@
 
 <body>
     <div id="chart_div"></div>
-
-    <button></button>
-
 </body>
 </html>		
