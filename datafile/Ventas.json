@@ -2,121 +2,121 @@
 
                 {
                     "producto": "Videojuego",
-                    "Mes": "Marzo",
+                    "Mes": 3,
                     "ventas": 700,
                     "anio": 2020
                 },
                 {
                     "producto": "Videojuego",
-                    "Mes": "Abril",
+                    "Mes": 4,
                     "ventas": 430,
                     "anio": 2020
                 },
                 {
                     "producto": "Videojuego",
-                    "Mes": "Mayo",
+                    "Mes": 5,
                     "ventas": 250,
                     "anio": 2020
                 },
                 {
                     "producto": "Videojuego",
-                    "Mes": "Junio",
+                    "Mes": 6,
                     "ventas": 643,
                     "anio": 2020
                 },
                 {
                     "producto": "Videojuego",
-                    "Mes": "Julio",
+                    "Mes": 7,
                     "ventas": 890,
                     "anio": 2020
                 },
                 {
                     "producto": "Videojuego",
-                    "Mes": "Agosto",
+                    "Mes": 8,
                     "ventas": 437,
                     "anio": 2020
                 },
                 {
                     "producto": "Videojuego",
-                    "Mes": "Septiembre",
+                    "Mes": 9,
                     "ventas": 490,
                     "anio": 2020
                 },
                 {
                     "producto": "Videojuego",
-                    "Mes": "Octubre",
+                    "Mes": 10,
                     "ventas": 230,
                     "anio": 2020
                 },
                 {
                     "producto": "Videojuego",
-                    "Mes": "Noviembre",
+                    "Mes": 11,
                     "ventas": 900,
                     "anio": 2020
                 },
                 {
                     "producto": "Videojuego",
-                    "Mes": "Diciembre",
+                    "Mes": 12,
                     "ventas": 1400,
                     "anio": 2020
                 },
                 {
                     "producto": "Figurin",
-                    "Mes": "Marzo",
+                    "Mes": 3,
                     "ventas": 50,
                     "anio": 2020
                 },
                 {
                     "producto": "Figurin",
-                    "Mes": "Abril",
+                    "Mes": 4,
                     "ventas": 70,
                     "anio": 2020
                 },
                 {
                     "producto": "Figurin",
-                    "Mes": "Mayo",
+                    "Mes": 5,
                     "ventas": 2,
                     "anio": 2020
                 },
                 {
                     "producto": "Figurin",
-                    "Mes": "Junio",
+                    "Mes": 6,
                     "ventas": 43,
                     "anio": 2020
                 },
                 {
                     "producto": "Figurin",
-                    "Mes": "Julio",
+                    "Mes": 7,
                     "ventas": 90,
                     "anio": 2020
                 },
                 {
                     "producto": "Figurin",
-                    "Mes": "Agosto",
+                    "Mes": 8,
                     "ventas": 32,
                     "anio": 2020
                 },
                 {
                     "producto": "Figurin",
-                    "Mes": "Septiembre",
+                    "Mes": 9,
                     "ventas": 8,
                     "anio": 2020
                 },
                 {
                     "producto": "Figurin",
-                    "Mes": "Octubre",
+                    "Mes": 10,
                     "ventas": 42,
                     "anio": 2020
                 },
                 {
                     "producto": "Figurin",
-                    "Mes": "Noviembre",
+                    "Mes": 11,
                     "ventas": 95,
                     "anio": 2020
                 },
                 {
                     "producto": "Figurin",
-                    "Mes": "Diciembre",
+                    "Mes": 12,
                     "ventas": 130,
                     "anio": 2020
                 }
