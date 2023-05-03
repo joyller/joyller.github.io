@@ -49,20 +49,21 @@ function drawChart() {
     data.addColumn('number', 'Ventas de videojuegos');
     data.addColumn('number', 'Ventas de figurines');
 	data.addColumn('number', 'Ventas de snacks');
+	data.addColumn('number', 'Ventas de Cartas');
 	
     data.addRows([
-      [new Date(2020, 3), 70, 50,89],
-      [new Date(2020, 4), 43, 27,55],
-      [new Date(2020, 5), 50, 20,78],
-      [new Date(2020, 6), 64, 43,53],
-      [new Date(2020, 7), 89, 70,143],
+      [new Date(2020, 3), 70, 50,89,153],
+      [new Date(2020, 4), 43, 27,55,208],
+      [new Date(2020, 5), 50, 20,78,120],
+      [new Date(2020, 6), 64, 43,53,180],
+      [new Date(2020, 7), 89, 70,143,355],
 
     ]);
 
     // Set chart options
           var options = {
         chart: {
-          title: 'Ventas del año 2020-2021'
+          title: 'Tienda de juegos Alleux Reporte de Ventas por cantidadaño 2020-2021'
         },
         width: 800,
         height: 500,
