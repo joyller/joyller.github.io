@@ -9,22 +9,22 @@ async function fetchData() {
 };
 
 fetchData().then(datapoint => {
-    const ListProducto = datapoint.Reporte[0].tipoProducto.map(
+    const ListProducto = datapoint.map(
         function (index) {
             return index.producto;
         })
 
-    const ListMes = datapoint.Reporte[0].tipoProducto.map(
+    const ListMes = datapoint.map(
         function (index) {
             return index.Mes;
         })
 
-    const ListVentas = datapoint.Reporte[0].tipoProducto.map(
+    const ListVentas = datapoint.map(
         function (index) {
             return index.ventas;
         })
 
-    const ListAnio = datapoint.Reporte[0].tipoProducto.map(
+    const ListAnio = datapoint.map(
         function (index) {
             return index.anio;
         })
