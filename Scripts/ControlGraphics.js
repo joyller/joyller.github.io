@@ -10,8 +10,26 @@ async function fetchData() {
 
 fetchData().then(datapoint => {
     const ListProducto = datapoint.Reporte[0].tipoProducto.map(
-        function(index){
+        function (index) {
             return index.producto;
         })
-        console.log(ListProducto);
+
+    const ListMes = datapoint.Reporte[0].tipoProducto.map(
+        function (index) {
+            return index.Mes;
+        })
+
+    const ListVentas = datapoint.Reporte[0].tipoProducto.map(
+        function (index) {
+            return index.Ventas;
+        })
+
+    const ListAnio = datapoint.Reporte[0].tipoProducto.map(
+        function (index) {
+            return index.Anio;
+        })
+        
+    console.log(ListProducto);
+
 });
+
