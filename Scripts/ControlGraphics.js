@@ -8,7 +8,7 @@ async function fetchData() {
     return datapoint;
 };
 
-/*fetchData().then(datapoint => {
+fetchData().then(datapoint => {
     const ListProducto = datapoint.map(
         function (index) {
             return index.producto;
@@ -33,13 +33,8 @@ async function fetchData() {
     console.log(ListMes);
     console.log(ListVentas);
     console.log(ListAnio);
-});*/
-fetch('https://joyller.github.io/datafile/Menu.json')
-  .then(response => response.json())
-  .then(Datos => {
+});
 
-
-    
 google.charts.load('current', { 'packages': ['line', 'corechart'] });
 
 google.charts.setOnLoadCallback(drawChart);
@@ -53,13 +48,6 @@ function drawChart() {
     data.addColumn('date', 'Mes');
     data.addColumn('number', 'Ventas de figurines');
     data.addColumn('number', 'Ventas de videojuegos');
-    
-        Datos.forEach(Opcion => {
-      data.addRows([
-      [new Date(Opcion.anio[Opcion], Opcion.Mes[Opcion]), Opcion.ventas[Opcion], Opcion.ventas[Opcion*2]],
-
-    ]);
-    })
 	
     data.addRows([
       [new Date(2020, 3), 700, 50],
