@@ -40,12 +40,7 @@ google.charts.load('current', { 'packages': ['line', 'corechart'] });
 google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
-    
-    const url = 'https://joyller.github.io/datafile/Ventas.json';
-    const response = fetch(url);
-
-    const archdatos = response.json();
-    
+      
     var chartDiv = document.getElementById('tabla1');
     
     // Create the data table.
@@ -55,9 +50,7 @@ function drawChart() {
     data.addColumn('number', 'Ventas de videojuegos');
     
     for (var i = 0; i < (archdatos.length/2); i++) {
-        data.addRows([
-      [new Date(archdatos.anio[x], archdatos.Mes[x]), archdatos.ventas[x], archdatos.ventas[x+10]]]);
-    }
+      console.log(x);}
     
     data.addRows([
       [new Date(2020, 3), 700, 50],
