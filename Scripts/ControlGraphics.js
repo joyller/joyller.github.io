@@ -81,6 +81,3 @@ function drawChart() {
     var chart = new google.charts.Line(document.getElementById('tabla1'));
     chart.draw(data, options);
 }
-
-  })
-  .catch(error => console.error(error));
