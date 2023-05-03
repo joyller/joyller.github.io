@@ -46,8 +46,8 @@ function drawChart() {
     data.addColumn('string', 'Producto');
     data.addColumn('number', 'ventas');
     
-    for (let index = 0; index < ListProducto.length; index++) {
-      data.addRows([ListProducto[index],ListVentas[index]]);
+    for (let x = 0; x < ListProducto.length; x++) {
+      data.addRows([ListProducto[x],ListVentas[x]]);
         
     }
 
