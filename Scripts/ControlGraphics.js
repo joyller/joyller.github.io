@@ -41,6 +41,8 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
 
+     fetchData();
+    
     var chartDiv = document.getElementById('tabla1');
     
     // Create the data table.
