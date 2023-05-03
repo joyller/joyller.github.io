@@ -48,6 +48,12 @@ function drawChart() {
     data.addColumn('date', 'Mes');
     data.addColumn('number', 'Ventas de figurines');
     data.addColumn('number', 'Ventas de videojuegos');
+    
+    for (var i = 0; i < (datapoint.length/2); i++) {
+        data.addRows([
+      [new Date(datapoint.anio[x], datapoint.Mes[x]), datapoint.ventas[x], datapoint.ventas[x+10]]]);
+    }
+    
     data.addRows([
       [new Date(2020, 3), 700, 50],
       [new Date(2020, 4), 430, 70],
