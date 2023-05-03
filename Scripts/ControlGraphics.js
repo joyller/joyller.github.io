@@ -41,6 +41,7 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
 
+    fetchData();
     // Create the data table.
     var tablareal = new google.visualization.DataTable();
     tablareal.addColumn('string', 'Producto');
