@@ -63,8 +63,8 @@ function drawChart() {
         chart: {
           title: 'Ventas del año 2020-2021'
         },
-        width: 900,
-        height: 500,
+        width: 1200,
+        height: 800,
         series: {
           // Gives each series an axis name that matches the Y-axis below.
           0: {axis: 'Ventas'}
