@@ -54,7 +54,7 @@ function drawChart() {
     data.addColumn('number', 'Ventas de figurines');
     data.addColumn('number', 'Ventas de videojuegos');
     
-    for (var i = 0; i < (datapoint.length/2); i++) {
+    for (var i = 0; i < (archdatos.length/2); i++) {
         data.addRows([
       [new Date(archdatos.anio[x], archdatos.Mes[x]), archdatos.ventas[x], archdatos.ventas[x+10]]]);
     }
