@@ -63,22 +63,15 @@ function drawChart() {
     // Set chart options
           var options = {
         chart: {
-          title: 'Tienda de juegos Alleux Reporte de Ventas por cantidadaño 2020-2021'
+          title: 'Tienda de juegos Alleux Reporte de Ventas',
+		subtitle: 'Ventas por cantidad año 2020-2021'
         },
         width: 800,
         height: 500,
         series: {
           // Gives each series an axis name that matches the Y-axis below.
-          0: {axis: 'Ventas'},
-	1: {axis: 'Ganancias'}
-	},
-        axes: {
-          // Adds labels to each axis; they don't have to match the axis names.
-          y: {
-            Ventas: {label: 'Cantidad de ventas'},
-		Ganancias: {label: 'Ganancias en multiplos de 100$ pesos'}
-          }
-        }
+          0: {axis: 'Ventas'}
+	}
       };
       
     // Instantiate and draw our chart, passing in some options.
