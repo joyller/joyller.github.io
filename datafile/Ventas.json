@@ -109,5 +109,70 @@
                 }
             ]
         }
+    ],
+    "Year": 2021,
+    "Reporte": [
+        {
+            "Videojuegos": [
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Enero",
+                    "ventas": 700
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Febrero",
+                    "ventas": 700
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Marzo",
+                    "ventas": 700
+                },{
+                    "producto": "Videojuego",
+                    "Mes": "Marzo",
+                    "ventas": 700
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Abril",
+                    "ventas": 430
+                },
+                {
+                    "producto": "Videojuego",
+                    "Mes": "Mayo",
+                    "ventas": 250
+                }
+            ]
+        },
+        {
+            "Figurines": [
+                {
+                    "producto": "Figurin",
+                    "Mes": "Enero",
+                    "ventas": 50
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Febrero",
+                    "ventas": 50
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Marzo",
+                    "ventas": 50
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Abril",
+                    "ventas": 70
+                },
+                {
+                    "producto": "Figurin",
+                    "Mes": "Mayo",
+                    "ventas": 2
+                }
+            ]
+        }
     ]
 }
