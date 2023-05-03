@@ -1,7 +1,5 @@
-{
-    "Reporte": [
-        {
-            "tipoProducto": [
+[
+
                 {
                     "producto": "Videojuego",
                     "Mes": "Marzo",
@@ -122,7 +120,4 @@
                     "ventas": 130,
                     "anio": 2020
                 }
-            ]
-        }
-    ]
-}
+]
