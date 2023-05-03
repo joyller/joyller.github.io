@@ -35,7 +35,7 @@ fetchData().then(datapoint => {
     console.log(ListAnio);
 });
 
-google.charts.load('current', { 'packages': ['corechart'] });
+google.charts.load('current', { 'packages': ['line', 'corechart'] });
 
 google.charts.setOnLoadCallback(drawChart);
 
