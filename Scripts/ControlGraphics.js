@@ -50,7 +50,7 @@ function drawChart() {
     data.addColumn('number', 'Ventas de videojuegos');
     
     for (var i = 0; i < 20; i++) {
-      console.log(x);}
+      console.log(i);}
     
     data.addRows([
       [new Date(2020, 3), 700, 50],
