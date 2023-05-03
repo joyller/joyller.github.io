@@ -73,4 +73,7 @@ function drawChart() {
     // Instantiate and draw our chart, passing in some options.
     var chart = new google.charts.Line(document.getElementById('tabla1'));
     chart.draw(data, options);
+	
+	var chart = new google.visualization.PieChart(document.getElementById('tabla2'));
+    chart.draw(data, options);
 }
