@@ -41,18 +41,20 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
 
+    var chartDiv = document.getElementById('tabla1');
+    
     // Create the data table.
     var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Mes');
     data.addColumn('string', 'Producto');
     data.addColumn('number', 'Ventas');
-    data.addColumn('date', 'Mes');
     data.addRows([
-      ['Videojuego', 700, new Date(2020,3)],
-      ['Figurin', 50, new Date(2020,3)],
-      ['Videojuego', 430, new Date(2020,4)],
-      ['Figurin', 70, new Date(2020,4)],
-      ['Videojuego', 250, new Date(2020,5)],
-      ['Figurin', 2, new Date(2020,5)],
+      [new Date(2020, 3), 'Videojuego', 700],
+      [new Date(2020, 3), 'Figurin',    50],
+      [new Date(2020, 4), 'Videojuego', 430],
+      [new Date(2020, 4), 'Figurin',    70],
+      [new Date(2020, 5), 'Videojuego', 250],
+      [new Date(2020, 5), 'Figurin',    2],
     ]);
 
     // Set chart options
@@ -75,6 +77,6 @@ function drawChart() {
       };
       
     // Instantiate and draw our chart, passing in some options.
-    var chart = new google.visualization.PieChart(document.getElementById('tabla1'));
+    var chart = new google.charts.Line(document.getElementById(chartDiv));
     chart.draw(data, options);
 }
