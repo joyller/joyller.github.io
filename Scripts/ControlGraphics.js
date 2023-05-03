@@ -56,21 +56,24 @@ function drawChart() {
     ]);
 
     // Set chart options
-    var options = {'title':'Ventas de mercancia de tienda de videojuegos',
-                   'width':400,
-                   'height':300,
-                   'series':{
-                    // Gives each series an axis name that matches the Y-axis below.
-                            0: {axis: 'Ventas'}
-                  },
-                  'axes': {
+          var options = {
+        chart: {
+          title: 'Ventas del año 2020-2021'
+        },
+        width: 900,
+        height: 500,
+        series: {
+          // Gives each series an axis name that matches the Y-axis below.
+          0: {axis: 'Ventas'}
+        },
+        axes: {
           // Adds labels to each axis; they don't have to match the axis names.
-                    y: {
-                        'Ventas': {label: 'Ventas'}
-                    }
-                  }
-               };
-
+          y: {
+            Ventas: {label: 'Ventas (dolares)'}
+          }
+        }
+      };
+      
     // Instantiate and draw our chart, passing in some options.
     var chart = new google.visualization.PieChart(document.getElementById('tabla1'));
     chart.draw(data, options);
