@@ -63,16 +63,13 @@ function drawChart() {
     var data2 = new google.visualization.DataTable();
     data2.addColumn('string', 'producto')
     data2.addColumn('date', 'Mes');
-    data2.addColumn('number', 'Ventas de videojuegos');
-    data2.addColumn('number', 'Ventas de figurines');
-	data2.addColumn('number', 'Ventas de snacks');
-	data2.addColumn('number', 'Ventas de Cartas');
+	data2.addColumn('number', 'Cant. Vendidas');
 	
     data2.addRows([
-      ["Videojuegos", new Date(2020, 3), 316],
-      ["Figurines", new Date(2020, 4), 278],
-      ["Snacks", new Date(2020, 5), 418],
-      ["Cartas", new Date(2020, 6), 1016],
+        ["Videojuegos", new Date(2020, 3), 316],
+        ["Figurines", new Date(2020, 4), 278],
+        ["Snacks", new Date(2020, 5), 418],
+        ["Cartas", new Date(2020, 6), 1016],
     ]);
 
     // Set chart options
