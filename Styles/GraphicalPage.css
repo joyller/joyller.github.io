@@ -1,0 +1,36 @@
+h1
+{
+    color: #ffffff;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(31, 56, 102);
+    text-align: center;
+}
+
+body
+{
+    background-color:rgb(31, 56, 102);
+}
+
+label
+{
+    color: rgb(31, 56, 102);
+    margin: auto;
+    font-size: medium;    
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.CajaForm{
+    margin: 3% auto;
+    background-color: rgb(255, 230, 209);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+}
+
+.tabla1{
+    background-color: rgba(245, 235, 227, 0.849);
+}
