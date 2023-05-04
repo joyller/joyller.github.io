@@ -69,12 +69,10 @@ function drawChart() {
 	data2.addColumn('number', 'Ventas de Cartas');
 	
     data2.addRows([
-      ["Videojuegos", new Date(2020, 3), 70, 50,89,153],
-      ["Figurines", new Date(2020, 4), 43, 27,55,208],
-      ["Snacks", new Date(2020, 5), 50, 20,78,120],
-      ["Cartas", new Date(2020, 6), 64, 43,53,180],
-      ["Videojuegos", new Date(2020, 7), 89, 70,143,355],
-
+      ["Videojuegos", new Date(2020, 3), 316],
+      ["Figurines", new Date(2020, 4), 278],
+      ["Snacks", new Date(2020, 5), 418],
+      ["Cartas", new Date(2020, 6), 1016],
     ]);
 
     // Set chart options
