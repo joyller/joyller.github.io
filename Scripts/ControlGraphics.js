@@ -92,5 +92,5 @@ function drawChart() {
     chart.draw(data, options);
 	
 	var chart = new google.visualization.PieChart(document.getElementById('tabla2'));
-    chart.draw(data, options);
+    chart.draw(data2, options);
 }
