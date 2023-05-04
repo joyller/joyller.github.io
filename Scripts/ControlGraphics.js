@@ -60,6 +60,23 @@ function drawChart() {
 
     ]);
 
+    var data2 = new google.visualization.DataTable();
+    data2.addColumn('string', 'producto')
+    data2.addColumn('date', 'Mes');
+    data2.addColumn('number', 'Ventas de videojuegos');
+    data2.addColumn('number', 'Ventas de figurines');
+	data2.addColumn('number', 'Ventas de snacks');
+	data2.addColumn('number', 'Ventas de Cartas');
+	
+    data2.addRows([
+      ["Videojuegos", new Date(2020, 3), 70, 50,89,153],
+      ["Figurines", new Date(2020, 4), 43, 27,55,208],
+      ["Snacks", new Date(2020, 5), 50, 20,78,120],
+      ["Cartas", new Date(2020, 6), 64, 43,53,180],
+      ["Videojuegos", new Date(2020, 7), 89, 70,143,355],
+
+    ]);
+
     // Set chart options
           var options = {
         chart: {
