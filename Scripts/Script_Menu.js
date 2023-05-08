@@ -1,4 +1,4 @@
-fetch(datafile/Menu.json )
+fetch(`https://joyller.github.io/datafile/Menu.json`)
   .then(response => response.json())
   .then(Menu => {
 
