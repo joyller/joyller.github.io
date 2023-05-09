@@ -1,8 +1,8 @@
-fetch(`https://joyller.github.io/datafile/Menu.json`)
+fetch('https://joyller.github.io/datafile/Menu.json')
   .then(response => response.json())
   .then(DatosMenu => {
 
-    const contMenu = document.getElementById("Menuhtml"); // recibir el nav del menu
+    const contMenu = document.getElementById("MenuNav"); // recibir el nav del menu
     contMenu.appendChild(creadorMenu(DatosMenu));
 
     DatosMenu.forEach(Opcion => { // ver los datos
@@ -21,6 +21,6 @@ function creadorMenu(MenuData){
     const parrafo = document.createElement("p");
 
     parrafo.appendChild(document.createTextNode(MenuData[caso].descripcion));*/
-    console.log("haha!");
+    console.log(caso.descripcion[caso]);
   })
 }
