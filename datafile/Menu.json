@@ -2,27 +2,32 @@
   {
     "identificador": 1,
     "descripcion": "Entradas",
-    "url": "#"
+    "url": "#",
+    "padre": null
   },
   {
     "identificador": 2,
     "descripcion": "Plato fuerte",
-    "url": "#"
+    "url": "#",
+    "padre": null
   },
   {
     "identificador": 3,
     "descripcion": "Bebidas",
-    "url": "#"
+    "url": "#",
+    "padre": null
   },
   {
     "identificador": 4,
     "descripcion": "Postres",
-    "url": "#"
+    "url": "#",
+    "padre": null
   },
   {
     "identificador": 5,
     "descripcion": "Carnes",
-    "url": "#"
+    "url": "#",
+    "padre": null
   },
   {
     "padre": 1,
