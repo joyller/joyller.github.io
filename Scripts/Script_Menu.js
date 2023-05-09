@@ -3,12 +3,12 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   .then(DatosMenu => {
 
     const menuItems = new Map();
-    for (const item of data) {
+    for (const item of DatosMenu) {
       menuItems.set(item.ID, item);
     }
 
     const menuElement = document.getElementById('menu');
-    for (const item of data) {
+    for (const item of DatosMenu) {
       if (!item.father) {
         const liElement = document.createElement('li');
         const aElement = document.createElement('a');
