@@ -19,7 +19,7 @@ function createMenu(parentId, menu) {
 fetch('https://joyller.github.io/datafile/Menu.json')  
 .then(response => response.json())
   .then(data => {
-    const menuElement = document.getElementById('menu');
+    const menuElement = document.getElementById('MenuNav');
     const menu = createMenu(null, data);
     menuElement.appendChild(menu);
   })
