@@ -14,23 +14,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       aElement.textContent = item.descripcion;
       liElement.appendChild(aElement);
       menuElement.appendChild(liElement);
-    } else {
-      const liElement = document.createElement('li');
-      const aElement = document.createElement('a');
-      aElement.textContent = item.descripcion;
-      liElement.appendChild(aElement);
-      const parent = menuItems.get(item.padre);
-      const parentLiElement = menuElement.querySelector(`[data-id="${parent.identificador}"]`);
-      if (parentLiElement) {
-        const ulElement = parentLiElement.querySelector('ul');
-        if (!ulElement) {
-          const newUlElement = document.createElement('ul');
-          parentLiElement.appendChild(newUlElement);
-          ulElement = newUlElement;
-        }
-        ulElement.appendChild(liElement);
-      }
-    }
+    } 
   }
 })
 .catch(error => {
