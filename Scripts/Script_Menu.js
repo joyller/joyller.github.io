@@ -6,7 +6,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
     menuItems.set(item.identificador, item);
   }
 
-  const menuElement = document.getElementById('menu');
+  const menuElement = document.getElementById('MenuNav');
   for (const item of data) {
     if (!item.padre) {
       const liElement = document.createElement('li');
