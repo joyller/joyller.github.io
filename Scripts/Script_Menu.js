@@ -16,10 +16,11 @@ fetch(`https://joyller.github.io/datafile/Menu.json`)
 function creadorMenu(MenuData){
   const pad = document.createElement("ul");
   MenuData.forEach(caso => {
-    const lista = document.createElement("li");
+    /*const lista = document.createElement("li");
     const cont = document.createElement("ul");
     const parrafo = document.createElement("p");
 
-    parrafo.appendChild(document.createTextNode(MenuData[caso].descripcion));
+    parrafo.appendChild(document.createTextNode(MenuData[caso].descripcion));*/
+    console.log("haha!");
   })
 }
