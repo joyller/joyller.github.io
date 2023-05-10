@@ -23,6 +23,17 @@ fetch('https://joyller.github.io/datafile/Menu.json')
           console.log(DatosMenu[x].descripcion);
           console.log(DatosMenu[x].padre);
         }
+        if(DatosMenu[x].padre == DatosMenu[y].identificador){
+          lista.textContent = DatosMenu[x].descripcion;
+
+          Menu.appendChild(lista);
+
+          lista = document.createElement('li');
+          lista.createElement = DatosMenu[x].descripcion;
+
+          const menu = document.querySelector('#Menu');
+          Menu.appendChild(lista);
+        }
       }
     }
   })
