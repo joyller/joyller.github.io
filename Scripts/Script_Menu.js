@@ -3,8 +3,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   .then(DatosMenu => {
 
     var contenedor = document.getElementById("Menu");
-    var lista = document.createElement("ul");
-
+    var lista = document.createElement("li");
 
     DatosMenu.forEach(Opcion => { // ver los datos
 
