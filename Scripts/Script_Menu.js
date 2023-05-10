@@ -5,22 +5,24 @@ fetch('https://joyller.github.io/datafile/Menu.json')
     var contenedor = document.getElementById("Menu");
     var lista = document.createElement("li");
 
-    for(var x = 0 ; x < DatosMenu.length ; x++){
-      for(var y = 0 ; y < DatosMenu.length ; y++){
-        console.log(x);
-      /*lista.textContent = Opcion.descripcion;
+    for (var x = 0; x < DatosMenu.length; x++) {
+      for (var y = 0; y < DatosMenu.length; y++) {
+        if (DatosMenu.padre === null) {
+          console.log(x);
+          lista.textContent = DatosMenu.descripcion;
 
-      Menu.appendChild(lista);
+          Menu.appendChild(lista);
 
-      lista = document.createElement('li');
-      lista.createElement = Opcion.descripcion;
+          lista = document.createElement('li');
+          lista.createElement = DatosMenu.descripcion;
 
-      const menu = document.querySelector('#Menu');
-      Menu.appendChild(lista);
+          const menu = document.querySelector('#Menu');
+          Menu.appendChild(lista);
 
-      console.log(Opcion.identificador);
-      console.log(Opcion.descripcion);
-      console.log(Opcion.padre);*/
+          console.log(DatosMenu.identificador);
+          console.log(DatosMenu.descripcion);
+          console.log(DatosMenu.padre);
+        }
       }
     }
   })
