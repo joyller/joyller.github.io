@@ -12,8 +12,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
       Menu.appendChild(lista);
 
       lista = document.createElement('li');
-
-      lista.createElement("li").Opcion.descripcion;
+      lista.createElement = Opcion.descripcion;
 
       const menu = document.querySelector('#Menu');
       Menu.appendChild(li);
