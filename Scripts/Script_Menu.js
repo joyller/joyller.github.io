@@ -6,23 +6,23 @@ fetch('https://joyller.github.io/datafile/Menu.json')
     var lista = document.createElement("li");
 
     for (var x = 0; x < DatosMenu.length; x++) {
+      if (DatosMenu[x].padre === null) {
+        console.log(x);
+        lista.textContent = DatosMenu[x].descripcion;
+
+        Menu.appendChild(lista);
+
+        lista = document.createElement('li');
+        lista.createElement = DatosMenu[x].descripcion;
+
+        const menu = document.querySelector('#Menu');
+        Menu.appendChild(lista);
+
+        console.log(DatosMenu[x].identificador);
+        console.log(DatosMenu[x].descripcion);
+        console.log(DatosMenu[x].padre);
+      }
       for (var y = 0; y < DatosMenu.length; y++) {
-        if (DatosMenu[x].padre === null) {
-          console.log(x);
-          lista.textContent = DatosMenu[x].descripcion;
-
-          Menu.appendChild(lista);
-
-          lista = document.createElement('li');
-          lista.createElement = DatosMenu[x].descripcion;
-
-          const menu = document.querySelector('#Menu');
-          Menu.appendChild(lista);
-
-          console.log(DatosMenu[x].identificador);
-          console.log(DatosMenu[x].descripcion);
-          console.log(DatosMenu[x].padre);
-        }
         if(DatosMenu[x].padre == DatosMenu[y].identificador){
           lista.textContent = DatosMenu[x].descripcion;
 
