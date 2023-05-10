@@ -11,9 +11,10 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
   let contenedor = document.createElement("ul");
   
-  function crearMenu(DatosMenu, contenedor){
-    DatosMenu.forEach(caso =>{
-      objeto = DatosMenu[caso];
+  function crearMenu(DatosMenu, contenedor)
+  {
+    for(x = 0 ; x < DatosMenu.length; x++)
+      objeto = DatosMenu[x];
       var li = document.createElement("li");
       if(objeto.padre != null){
         var a = document.createElement("a");
@@ -21,8 +22,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
         a.href = objeto.url;
         li.appendChild(a);
         contenedor.appendChild(li)
-      }
-    })
+    }
 
     return contenedor;
   }
