@@ -11,7 +11,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
   let contenedor = document.createElement("ul");
   
-  function obj(DatosMenu, contenedor){
+  function crearMenu(DatosMenu, contenedor){
     DatosMenu.forEach(caso =>{
       objeto = DatosMenu[caso];
       var li = document.createElement("li");
@@ -26,3 +26,8 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
     return contenedor;
   }
+
+  contenedor = crearMenu(DatosMenu, contenedor);
+
+let lisNaveg = document.querySelector("lista");
+lisNaveg.appendChild(contenedor);
