@@ -13,16 +13,17 @@ fetch('https://joyller.github.io/datafile/Menu.json')
   
   function crearMenu(DatosMenu, contenedor)
   {
-    for(x = 0 ; x < DatosMenu.length; x++)
-      objeto = DatosMenu[x];
+    for(x = 0 ; x < DatosMenu.length; x++){
+      var objeto = DatosMenu[x];
       var li = document.createElement("li");
-      if(objeto.padre != null){
+      if(objeto.padre === null){
         var a = document.createElement("a");
         a.innerHTML = objeto.descripcion;
         a.href = objeto.url;
         li.appendChild(a);
         contenedor.appendChild(li)
     }
+  }
 
     return contenedor;
   }
