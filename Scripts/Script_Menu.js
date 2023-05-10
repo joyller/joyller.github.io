@@ -7,7 +7,7 @@ fetch('https://joyller.github.io/datafile/Menu.json')
 
     for (var x = 0; x < DatosMenu.length; x++) {
       for (var y = 0; y < DatosMenu.length; y++) {
-        if (DatosMenu[x].padre === null) {
+        if (DatosMenu[y].padre === null) {
           console.log(y);
           lista.textContent = DatosMenu[x].descripcion;
 
