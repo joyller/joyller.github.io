@@ -1,6 +1,6 @@
 function ajax(){
     const http = new XMLHttpRequest();
-    const url = 'https://joyller.github.io';
+    const url = 'index.html';
 
     http.onreadystatechange = function(){
         if(this.readyState == 4 && this.status == 200){
