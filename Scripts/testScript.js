@@ -1,18 +1,17 @@
-function ajax(){
-    const http = new XMLHttpRequest();
-    const url = "https://joyller.github.io";
+(function(){
+    var button = document.querySelector("button");
+    var contdiv = document.getElementById("pagweb");
 
-    http.onreadystatechange = function(){
-        if(this.readyState == 4 && this.status == 200){
-            console.log(this.responseText);
-            document.getElementById("req").innerHTML = this.responseText;
+    button.addEventListener("click", cargarpagweb,true);
+
+    function cargarpagweb(e) {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function(){
+            if(xhr.status == 200){
+                contdiv.innerHTML = xhr.responseText;
+            }
         }
+        xhr.open("get", "index.html", true);
+        xhr.send();
     }
-
-    http.open("GET", url);
-    http.send();
-}
-
-document.getElementById("llevar").addEventListener("click", function(){
-    ajax();
-});
+})();
