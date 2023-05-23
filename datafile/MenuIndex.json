@@ -1,0 +1,42 @@
+[
+  {
+    "Nombre": "Biografia Plain",
+    "url": "Biografia.html"
+  },
+  {
+    "Nombre": "Lista de Etiquetas",
+    "url": "102_Etiquetas.html"
+  },
+  {
+    "Nombre": "Menu de banco",
+    "url": "Menu_Banco.HTML"
+  },
+  {
+    "Nombre": "Verificador de Cedula",
+    "url": "Modulo_10.html"
+  },
+  {
+    "Nombre": "Menu dinamico JSON",
+    "url": "MenuJSON.html"
+  },
+  {
+    "Nombre": "Formulario Medico",
+    "url": "FormMedico.html"
+  },
+  {
+    "Nombre": "Codigo QR",
+    "url": "CodigoQR.html"
+  },
+  {
+    "Nombre": "Galeria de graficos",
+    "url": "Graphics.html"
+  },
+  {
+    "Nombre": "Formulario base de datos",
+    "url": "CRUD/index.php"
+  },
+  {
+    "Nombre": "Web Service",
+    "url": "WebService/index.html"
+  }
+]
