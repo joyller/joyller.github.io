@@ -34,9 +34,5 @@
   {
     "Nombre": "Formulario base de datos",
     "url": "CRUD/index.php"
-  },
-  {
-    "Nombre": "Web Service",
-    "url": "WebService/index.html"
   }
 ]
