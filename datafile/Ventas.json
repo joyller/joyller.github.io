@@ -3,120 +3,140 @@
         "producto": "Videojuego",
         "Mes": 3,
         "ventas": 700,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Videojuego",
         "Mes": 4,
         "ventas": 430,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Videojuego",
         "Mes": 5,
         "ventas": 250,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Videojuego",
         "Mes": 6,
         "ventas": 643,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Videojuego",
         "Mes": 7,
         "ventas": 890,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Videojuego",
         "Mes": 8,
         "ventas": 437,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Videojuego",
         "Mes": 9,
         "ventas": 490,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Videojuego",
         "Mes": 10,
         "ventas": 230,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Videojuego",
         "Mes": 11,
         "ventas": 900,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Videojuego",
         "Mes": 12,
         "ventas": 1400,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Figurin",
         "Mes": 3,
         "ventas": 500,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Figurin",
         "Mes": 4,
         "ventas": 700,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Figurin",
         "Mes": 5,
         "ventas": 20,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Figurin",
         "Mes": 6,
         "ventas": 430,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Figurin",
         "Mes": 7,
         "ventas": 900,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Figurin",
         "Mes": 8,
         "ventas": 320,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Figurin",
         "Mes": 9,
         "ventas": 80,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Figurin",
         "Mes": 10,
         "ventas": 420,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Figurin",
         "Mes": 11,
         "ventas": 950,
+        "dia": 28,
         "anio": 2022
     },
     {
         "producto": "Figurin",
         "Mes": 12,
         "ventas": 130,
+        "dia": 28,
         "anio": 2022
     }
 ]
