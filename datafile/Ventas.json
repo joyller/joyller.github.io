@@ -1,123 +1,122 @@
 [
-
-                {
-                    "producto": "Videojuego",
-                    "Mes": 3,
-                    "ventas": 700,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Videojuego",
-                    "Mes": 4,
-                    "ventas": 430,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Videojuego",
-                    "Mes": 5,
-                    "ventas": 250,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Videojuego",
-                    "Mes": 6,
-                    "ventas": 643,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Videojuego",
-                    "Mes": 7,
-                    "ventas": 890,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Videojuego",
-                    "Mes": 8,
-                    "ventas": 437,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Videojuego",
-                    "Mes": 9,
-                    "ventas": 490,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Videojuego",
-                    "Mes": 10,
-                    "ventas": 230,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Videojuego",
-                    "Mes": 11,
-                    "ventas": 900,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Videojuego",
-                    "Mes": 12,
-                    "ventas": 1400,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Figurin",
-                    "Mes": 3,
-                    "ventas": 50,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Figurin",
-                    "Mes": 4,
-                    "ventas": 70,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Figurin",
-                    "Mes": 5,
-                    "ventas": 2,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Figurin",
-                    "Mes": 6,
-                    "ventas": 43,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Figurin",
-                    "Mes": 7,
-                    "ventas": 90,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Figurin",
-                    "Mes": 8,
-                    "ventas": 32,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Figurin",
-                    "Mes": 9,
-                    "ventas": 8,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Figurin",
-                    "Mes": 10,
-                    "ventas": 42,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Figurin",
-                    "Mes": 11,
-                    "ventas": 95,
-                    "anio": 2020
-                },
-                {
-                    "producto": "Figurin",
-                    "Mes": 12,
-                    "ventas": 130,
-                    "anio": 2020
-                }
+    {
+        "producto": "Videojuego",
+        "Mes": 3,
+        "ventas": 700,
+        "anio": 2022
+    },
+    {
+        "producto": "Videojuego",
+        "Mes": 4,
+        "ventas": 430,
+        "anio": 2022
+    },
+    {
+        "producto": "Videojuego",
+        "Mes": 5,
+        "ventas": 250,
+        "anio": 2022
+    },
+    {
+        "producto": "Videojuego",
+        "Mes": 6,
+        "ventas": 643,
+        "anio": 2022
+    },
+    {
+        "producto": "Videojuego",
+        "Mes": 7,
+        "ventas": 890,
+        "anio": 2022
+    },
+    {
+        "producto": "Videojuego",
+        "Mes": 8,
+        "ventas": 437,
+        "anio": 2022
+    },
+    {
+        "producto": "Videojuego",
+        "Mes": 9,
+        "ventas": 490,
+        "anio": 2022
+    },
+    {
+        "producto": "Videojuego",
+        "Mes": 10,
+        "ventas": 230,
+        "anio": 2022
+    },
+    {
+        "producto": "Videojuego",
+        "Mes": 11,
+        "ventas": 900,
+        "anio": 2022
+    },
+    {
+        "producto": "Videojuego",
+        "Mes": 12,
+        "ventas": 1400,
+        "anio": 2022
+    },
+    {
+        "producto": "Figurin",
+        "Mes": 3,
+        "ventas": 500,
+        "anio": 2022
+    },
+    {
+        "producto": "Figurin",
+        "Mes": 4,
+        "ventas": 700,
+        "anio": 2022
+    },
+    {
+        "producto": "Figurin",
+        "Mes": 5,
+        "ventas": 20,
+        "anio": 2022
+    },
+    {
+        "producto": "Figurin",
+        "Mes": 6,
+        "ventas": 430,
+        "anio": 2022
+    },
+    {
+        "producto": "Figurin",
+        "Mes": 7,
+        "ventas": 900,
+        "anio": 2022
+    },
+    {
+        "producto": "Figurin",
+        "Mes": 8,
+        "ventas": 320,
+        "anio": 2022
+    },
+    {
+        "producto": "Figurin",
+        "Mes": 9,
+        "ventas": 80,
+        "anio": 2022
+    },
+    {
+        "producto": "Figurin",
+        "Mes": 10,
+        "ventas": 420,
+        "anio": 2022
+    },
+    {
+        "producto": "Figurin",
+        "Mes": 11,
+        "ventas": 950,
+        "anio": 2022
+    },
+    {
+        "producto": "Figurin",
+        "Mes": 12,
+        "ventas": 130,
+        "anio": 2022
+    }
 ]
