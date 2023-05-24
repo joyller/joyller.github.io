@@ -1,147 +1,29 @@
-[
-  {
-    "identificador": 1,
-    "descripcion": "Entradas",
-    "url": "#",
-    "padre": null
+{
+  "Menu del dia": {
+    "Entradas": {
+      "Tostones": "75",
+      "Aros de cebolla": "95",
+      "Papas fritas": "100"
+    }
   },
-  {
-    "identificador": 2,
-    "descripcion": "Plato fuerte",
-    "url": "#",
-    "padre": null
+  "Plato Fuerte": {
+    "Pasta pesto": "250",
+    "Bandera dominicana": "150",
+    "Mangu encebollado": "175"
   },
-  {
-    "identificador": 3,
-    "descripcion": "Bebidas",
-    "url": "#",
-    "padre": null
+  "Carnes": {
+    "Albondigas": "275",
+    "salmon al vapor": "355",
+    "filete de ternera": "430"
   },
-  {
-    "identificador": 4,
-    "descripcion": "Postres",
-    "url": "#",
-    "padre": null
+  "Bebidas": {
+    "Agua": "45",
+    "Jugo": "85",
+    "Cerveza": "150"
   },
-  {
-    "identificador": 5,
-    "descripcion": "Carnes",
-    "url": "#",
-    "padre": null
-  },
-  {
-    "padre": 1,
-    "identificador": 6,
-    "descripcion": "Tostones",
-    "url": "images/tostones.jpg"
-  },
-  {
-    "padre": 1,
-    "identificador": 7,
-    "descripcion": "Aros de cebolla",
-    "url": "images/cebolla.jpg"
-  },
-  {
-    "padre": 1,
-    "identificador": 8,
-    "descripcion": "Papas fritas",
-    "url": "images/papas.jpg"
-  },
-  {
-    "padre": 2,
-    "identificador": 9,
-    "descripcion": "Pasta pesto",
-    "url": "images/pesto.jpeg"
-  },
-  {
-    "padre": 2,
-    "identificador": 10,
-    "descripcion": "Bandera dominicana",
-    "url": "images/bandera.jpg"
-  },
-  {
-    "padre": 2,
-    "identificador": 11,
-    "descripcion": "Mangu encebollado",
-    "url": "images/mangu.jpg"
-  },
-  {
-    "padre": 3,
-    "identificador": 12,
-    "descripcion": "Agua",
-    "url": "images/agua.jpg"
-  },
-  {
-    "padre": 3,
-    "identificador": 13,
-    "descripcion": "Jugo",
-    "url": "images/jugo.jpg"
-  },
-  {
-    "padre": 3,
-    "identificador": 14,
-    "descripcion": "Cerveza",
-    "url": "images/cerveza.jpeg"
-  },
-  {
-    "padre": 4,
-    "identificador": 15,
-    "descripcion": "Brownies",
-    "url": "images/brownies.jpg"
-  },
-  {
-    "padre": 4,
-    "identificador": 16,
-    "descripcion": "3 leches",
-    "url": "images/tresleches.jpg"
-  },
-  {
-    "padre": 4,
-    "identificador": 17,
-    "descripcion": "Cheesecake",
-    "url": "images/cheesecake.jpg"
-  },
-  {
-    "padre": 5,
-    "identificador": 18,
-    "descripcion": "Albondigas",
-    "url": "images/albondigas.jpg"
-  },
-  {
-    "padre": 5,
-    "identificador": 19,
-    "descripcion": "salmon al vapor",
-    "url": "images/salmon.jpg"
-  },
-  {
-    "padre": 5,
-    "identificador": 20,
-    "descripcion": "filete de ternera",
-    "url": "images/Filete.jpg"
-  },
-  {
-    "padre": 6,
-    "identificador": 21,
-    "descripcion": "75"
-  },
-  {
-    "padre": 7,
-    "identificador": 22,
-    "descripcion": "100"
-  },
-  {
-    "padre": 8,
-    "identificador": 23,
-    "descripcion": "100"
-  },
-  {
-    "padre": 9,
-    "identificador": 24,
-    "descripcion": "200"
-  },
-  {
-    "padre": 10,
-    "identificador": 25,
-    "descripcion": "175"
+  "Postres": {
+    "Brownies": "175",
+    "3 leches": "295",
+    "Cheesecake": "400"
   }
-]
+}
