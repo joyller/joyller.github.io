@@ -4,8 +4,7 @@
       "Tostones": "75",
       "Aros de cebolla": "95",
       "Papas fritas": "100"
-    }
-  },
+    },
   "Plato Fuerte": {
     "Pasta pesto": "250",
     "Bandera dominicana": "150",
@@ -25,5 +24,6 @@
     "Brownies": "175",
     "3 leches": "295",
     "Cheesecake": "400"
+  }
   }
 }
