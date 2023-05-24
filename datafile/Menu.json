@@ -5,25 +5,25 @@
       "Aros de cebolla": "95",
       "Papas fritas": "100"
     },
-  "Plato Fuerte": {
-    "Pasta pesto": "250",
-    "Bandera dominicana": "150",
-    "Mangu encebollado": "175"
-  },
-  "Carnes": {
-    "Albondigas": "275",
-    "salmon al vapor": "355",
-    "filete de ternera": "430"
-  },
-  "Bebidas": {
-    "Agua": "45",
-    "Jugo": "85",
-    "Cerveza": "150"
-  },
-  "Postres": {
-    "Brownies": "175",
-    "3 leches": "295",
-    "Cheesecake": "400"
-  }
+    "Plato Fuerte": {
+      "Pasta pesto": "250",
+      "Bandera dominicana": "150",
+      "Mangu encebollado": "175"
+    },
+    "Carnes": {
+      "Albondigas": "275",
+      "salmon al vapor": "355",
+      "filete de ternera": "430"
+    },
+    "Bebidas": {
+      "Agua": "45",
+      "Jugo": "85",
+      "Cerveza": "150"
+    },
+    "Postres": {
+      "Brownies": "175",
+      "3 leches": "295",
+      "Cheesecake": "400"
+    }
   }
 }
